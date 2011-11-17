@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Duncan Brigginshaw</LastAuthor>
+  <Created>2001-11-07T15:46:09Z</Created>
+  <LastSaved>2006-04-19T10:38:40Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5595</WindowHeight>
+  <WindowWidth>12735</WindowWidth>
+  <WindowTopX>5445</WindowTopX>
+  <WindowTopY>1440</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Arial" ss:Color="#0000FF" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Config">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63">
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="57.75"/>
+   <Column ss:StyleID="s63" ss:Width="168"/>
+   <Column ss:StyleID="s63" ss:Width="322.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="73.5"/>
+   <Row ss:StyleID="s64">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">category</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">option</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">value</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">property</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Axe</Data></Cell>
+    <Cell><Data ss:Type="String">Tool</Data></Cell>
+    <Cell><Data ss:Type="String">RFT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RFT</Data></Cell>
+    <Cell><Data ss:Type="String">MAXIMUM_FIND_OBJECT_TIME</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RFT</Data></Cell>
+    <Cell><Data ss:Type="String">MAXIMUM_WAIT_FOR_EXISTENCE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">WEBSITE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Siebel.Login</Data></Cell>
+    <Cell ss:StyleID="s69" ss:HRef="http://192.168.1.201:7780/marketing_enu/start.swe?SWECmd=AutoOn"><Data
+      ss:Type="String">http://192.168.1.201:7780/marketing_enu/start.swe?SWECmd=AutoOn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">WEBSITE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Google.Search</Data></Cell>
+    <Cell ss:StyleID="s69" ss:HRef="http://www.google.com/"><Data ss:Type="String">http://www.google.com</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object_coverage>
+<project>TestAxeProject</project>
+<config file="C:\AXE_Projects\TestAxeProject\config\RFT.BuildConfig.xml" name="RFT.BuildConfig"/>
+<testsuite>debug</testsuite>
+<object_count>4</object_count>
+<object mapfile="ObjectMap.rftdef" system="False" name="Login" count="1" class="Html.HtmlDocument"/>
+<object mapfile="ObjectMap.rftdef" system="False" name="Login.imglogin" count="1" class="Html.IMG"/>
+<object mapfile="ObjectMap.rftdef" system="False" name="Login.txtPassword" count="1" class="Html.INPUT.password"/>
+<object mapfile="ObjectMap.rftdef" system="False" name="Login.txtUserName" count="1" class="Html.INPUT.text"/>
+</object_coverage>

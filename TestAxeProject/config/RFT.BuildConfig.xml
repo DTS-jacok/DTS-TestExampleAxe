@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Samuel Warwick</LastAuthor>
+  <Created>2001-11-07T15:46:09Z</Created>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5460</WindowHeight>
+  <WindowWidth>12585</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>90</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Config">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="141"/>
+   <Column ss:StyleID="s62" ss:Width="327.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="102"/>
+   <Column ss:StyleID="s62" ss:Width="45"/>
+   <Row ss:StyleID="s63">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">option</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">value</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">property</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">property</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TOOL</Data></Cell>
+    <Cell><Data ss:Type="String">RFT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ACTIONMAP</Data></Cell>
+    <Cell><Data ss:Type="String">Java</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ACTIONMAP</Data></Cell>
+    <Cell><Data ss:Type="String">RFT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ACTIONMAP</Data></Cell>
+    <Cell><Data ss:Type="String">RFTNative</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ACTIONMAP</Data></Cell>
+    <Cell><Data ss:Type="String">TestAxeProject</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OBJECTMAP</Data></Cell>
+    <Cell><Data ss:Type="String">C:\RFT_Workspace\Test_Project\resources\ObjectMap\ObjectMap.rftdef</Data></Cell>
+    <Cell><Data ss:Type="String">name=map</Data><Comment ss:Author="Sam Warwick"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Sam Warwick:</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000">&#10;Only needed for RFT native object map.</Font></ss:Data></Comment></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">TOOLPROJECTDIR</Data></Cell>
+    <Cell><Data ss:Type="String">C:\RFT_Workspace\Test_Project</Data><Comment
+      ss:Author="Sam Warwick"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+         html:Face="Tahoma" html:Size="8" html:Color="#000000">Sam Warwick:</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000">&#10;This can also be a relative path (recommended).</Font></ss:Data></Comment></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">TOOLARGUMENTS</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">/javaarguments:&quot;-rt.bring_up_logviewer false&quot;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>15</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

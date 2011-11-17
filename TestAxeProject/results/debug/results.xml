@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<testsuite>
+  <name>TestAxeProject</name>
+  <build>
+    <name>debug</name>
+    <id>
+    </id>
+    <config file="C:\AXE_Projects\TestAxeProject\config\RFT.BuildConfig.xml" name="RFT" />
+    <buildtimestamp>2011/11/16 02:47:24 PM</buildtimestamp>
+    <run_master>
+      <test>
+        <index>1</index>
+        <id>Test1</id>
+        <description>My Test Description logon</description>
+        <result>NotRun</result>
+      </test>
+      <testcount>1</testcount>
+      <passcount>0</passcount>
+      <failcount>0</failcount>
+      <notruncount>1</notruncount>
+    </run_master>
+  </build>
+</testsuite>

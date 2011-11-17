@@ -6,9 +6,9 @@
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <LastAuthor>Duncan Brigginshaw</LastAuthor>
+  <LastAuthor>Jaco</LastAuthor>
   <Created>2001-11-07T15:46:09Z</Created>
-  <LastSaved>2006-04-19T10:38:40Z</LastSaved>
+  <LastSaved>2011-11-17T07:59:58Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -65,6 +65,18 @@
    <Borders/>
    <Protection/>
   </Style>
+  <Style ss:ID="s74">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s76" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+   <Protection/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="Config">
   <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="6" x:FullColumns="1"
@@ -102,8 +114,9 @@
    </Row>
    <Row>
     <Cell ss:StyleID="s67"><Data ss:Type="String">WEBSITE</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Google.Search</Data></Cell>
-    <Cell ss:StyleID="s69" ss:HRef="http://www.google.com/"><Data ss:Type="String">http://www.google.com</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Google.Home</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.google.co.za/"><Data
+      ss:Type="String">http://www.google.co.za</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -117,8 +130,8 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>7</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>2</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

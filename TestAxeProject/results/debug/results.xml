@@ -6,18 +6,156 @@
     <id>
     </id>
     <config file="C:\AXE_Projects\TestAxeProject\config\RFT.BuildConfig.xml" name="RFT" />
-    <buildtimestamp>2011/11/16 02:47:24 PM</buildtimestamp>
+    <buildtimestamp>2011/11/17 12:27:19 PM</buildtimestamp>
     <run_master>
       <test>
         <index>1</index>
         <id>Test1</id>
         <description>My Test Description logon</description>
-        <result>NotRun</result>
+        <result>Pass</result>
+        <success>True</success>
+        <start>2011/11/17 12:27:35 PM</start>
+        <finish>2011/11/17 12:27:43 PM</finish>
+        <time>8.2272151</time>
+        <run>run1</run>
+        <test_index>1</test_index>
       </test>
-      <testcount>1</testcount>
-      <passcount>0</passcount>
+      <test>
+        <index>2</index>
+        <id>Test2</id>
+        <description>
+        </description>
+        <result>Pass</result>
+        <success>True</success>
+        <start>2011/11/17 12:27:47 PM</start>
+        <finish>2011/11/17 12:27:47 PM</finish>
+        <time>0.4550006</time>
+        <run>run1</run>
+        <test_index>2</test_index>
+      </test>
+      <testcount>2</testcount>
+      <passcount>2</passcount>
       <failcount>0</failcount>
-      <notruncount>1</notruncount>
+      <notruncount>0</notruncount>
     </run_master>
+    <run>
+      <name>run1</name>
+      <start>2011/11/17 12:27:35 PM</start>
+      <finish>2011/11/17 12:27:47 PM</finish>
+      <testcount>2</testcount>
+      <passcount>2</passcount>
+      <failcount>0</failcount>
+      <success>true</success>
+      <test>
+        <id>Test1</id>
+        <execution_id>
+        </execution_id>
+        <table name="Tests" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml" />
+        <description><![CDATA[My Test Description logon]]></description>
+        <start>2011/11/17 12:27:35 PM</start>
+        <basestate>
+          <index>1</index>
+          <action>Home.siebel</action>
+          <start>2011/11/17 12:27:35 PM</start>
+          <success>True</success>
+          <result>0</result>
+          <finish>2011/11/17 12:27:41 PM</finish>
+          <time>6.271211</time>
+        </basestate>
+        <subtest>
+          <index>1</index>
+          <id>Login01</id>
+          <table name="Login" file="Subtests" />
+          <description><![CDATA[Login with admin user]]></description>
+          <start>2011/11/17 12:27:41 PM</start>
+          <step>
+            <index>1</index>
+            <object><![CDATA[[]Login]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/11/17 12:27:41 PM</start>
+            <finish>2011/11/17 12:27:42 PM</finish>
+            <time>0.6708012</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>2</index>
+            <object><![CDATA[txtUserName]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[sadmin]]></data>
+            <start>2011/11/17 12:27:42 PM</start>
+            <finish>2011/11/17 12:27:42 PM</finish>
+            <time>0.4900012</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>3</index>
+            <object><![CDATA[txtPassword]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[sadmin]]></data>
+            <start>2011/11/17 12:27:42 PM</start>
+            <finish>2011/11/17 12:27:43 PM</finish>
+            <time>0.4340012</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>4</index>
+            <object><![CDATA[imglogin]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/11/17 12:27:43 PM</start>
+            <finish>2011/11/17 12:27:43 PM</finish>
+            <time>0.3000004</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <finish>2011/11/17 12:27:43 PM</finish>
+          <time>1.925404</time>
+          <result>Pass</result>
+          <success>True</success>
+          <testcount>4</testcount>
+          <passcount>4</passcount>
+          <failcount>0</failcount>
+        </subtest>
+        <finish>2011/11/17 12:27:43 PM</finish>
+        <time>8.2272151</time>
+        <result>Pass</result>
+        <success>True</success>
+        <testcount>1</testcount>
+        <passcount>1</passcount>
+        <failcount>0</failcount>
+        <index>1</index>
+      </test>
+      <test>
+        <id>Test2</id>
+        <execution_id>
+        </execution_id>
+        <table name="Login" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml" />
+        <description><![CDATA[]]></description>
+        <start>2011/11/17 12:27:47 PM</start>
+        <basestate>
+          <index>1</index>
+          <action>Google.Home</action>
+          <start>2011/11/17 12:27:47 PM</start>
+          <info><![CDATA[[2011/11/17 12:27:47] Found browser http://192.168.1.201:7780/marketing_enu/start.swe?SWECmd=Login&SWEPL=1&SWETS=1321525663318]]></info>
+          <info><![CDATA[[2011/11/17 12:27:47] Navigating to http://www.google.co.za]]></info>
+          <success>True</success>
+          <result>0</result>
+          <finish>2011/11/17 12:27:47 PM</finish>
+          <time>0.4400006</time>
+        </basestate>
+        <finish>2011/11/17 12:27:47 PM</finish>
+        <time>0.4550006</time>
+        <result>Pass</result>
+        <success>True</success>
+        <testcount>0</testcount>
+        <passcount>0</passcount>
+        <failcount>0</failcount>
+        <index>2</index>
+      </test>
+    </run>
   </build>
 </testsuite>

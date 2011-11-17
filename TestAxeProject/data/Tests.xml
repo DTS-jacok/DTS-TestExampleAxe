@@ -50,6 +50,12 @@
   <Style ss:ID="s68">
    <Font ss:FontName="Arial" x:Family="Swiss"/>
   </Style>
+  <Style ss:ID="s70" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+   <Protection/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="Tests">
   <Table ss:ExpandedColumnCount="40" ss:ExpandedRowCount="3" x:FullColumns="1"
@@ -60,7 +66,7 @@
    <Column ss:Width="78.75" ss:Span="1"/>
    <Column ss:Index="6" ss:Width="46.5"/>
    <Column ss:Width="97.5"/>
-   <Column ss:Width="26.25"/>
+   <Column ss:Width="69.75"/>
    <Column ss:Width="43.5"/>
    <Column ss:Width="14.25"/>
    <Column ss:Width="43.5"/>
@@ -144,9 +150,9 @@
     <Cell><Data ss:Type="String">Login01</Data></Cell>
    </Row>
    <Row>
-    <Cell ss:StyleID="s68"/>
-    <Cell ss:StyleID="s68"/>
-    <Cell ss:Index="4" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Test2</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s70" ss:HRef="http://home.siebel/"><Data
+      ss:Type="String">Google.Home</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -178,7 +184,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

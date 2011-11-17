@@ -3,14 +3,14 @@ Axe Build Log
 
 Axe Version: 3.2.0.186
 
-2011/11/16 02:47:24 PM
+2011/11/17 12:27:19 PM
 
 Test project:  C:\AXE_Projects\TestAxeProject\TestAxeProject.tpj
 Test Suite:    debug
 Configuration: RFT
 Workbook:      Tests
 Worksheet:     Tests
-Tests:         1 test(s)
+Tests:         2 test(s)
 
 --------------------
 
@@ -29,14 +29,16 @@ INFO: ActionMap value overridden -- ._TESTPREFIX.0
 WARNING: Action does not have documentation -- HTML.IMG.SET.0
 WARNING: Action does not have documentation -- HTML.SPAN.SET.0
 WARNING: Action does not have documentation -- HTML.BUTTON.SET.0
-WARNING: Action does not have documentation -- .BASESTATE.GOOGLE.SEARCH.0
-WARNING: Action does not have documentation -- .BASESTATE.GOOGLELINK.MYID.0
+WARNING: Action does not have documentation -- .BASESTATE.GOOGLE.HOME.0
 
 Test:     Test1 (Workbook: C:\AXE_Projects\TestAxeProject\data\Tests.xml Worksheet: Tests)
 Sub-test: Login - Login01 (Workbook: Subtests Worksheet: Login)
+
+Test:     Test2 (Workbook: C:\AXE_Projects\TestAxeProject\data\Tests.xml Worksheet: Login)
+WARNING: Test does not contain any subtests
 Build completed OK
 Errors: 0 Warnings: 5 Informational: 7
-1 test(s) built successfully
-2011/11/16 02:47:24 PM
+2 test(s) built successfully
+2011/11/17 12:27:19 PM
 
 End

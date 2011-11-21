@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Build>
+  <AxeVersion>3.2.0.186</AxeVersion>
+  <Project>C:\AXE_Projects\WebServiceTest\WebServiceTest.tpj</Project>
+  <Time>2011/11/21 02:51:47 PM</Time>
+  <MachineName>JACO-PC</MachineName>
+  <Settings>
+    <BuildConfiguration>AxeHarness</BuildConfiguration>
+    <TestSuite>debug</TestSuite>
+    <Workbook>Tests</Workbook>
+    <Worksheet>Tests</Worksheet>
+    <Tests>1</Tests>
+  </Settings>
+  <Configuration>
+    <Tool>AxeHarness</Tool>
+    <ToolArguments />
+    <ToolProjectDir />
+    <ActionMap Name="AxeHarness" Path="C:\Program Files (x86)\Odin Technology\Axe\ActionMap\AxeHarness.ActionMap.xml" />
+    <ObjectMap Name="WebServiceTest" Path="C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml" />
+    <ScriptDir>C:\AXE_Projects\WebServiceTest\scripts\debug</ScriptDir>
+    <MapObjectReferences>False</MapObjectReferences>
+  </Configuration>
+</Build>

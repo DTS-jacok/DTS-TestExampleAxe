@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<test><projectname>FinQuote</projectname><configuration>RFT</configuration><buildtimestamp>2011/11/21 11:11:42 AM</buildtimestamp><id>Test</id><table name="Tests" file="C:/AXE_Projects/FinQuote/data/Tests.xml"/><resultfile>C:/AXE_Projects/FinQuote/results/debug/results.xml</resultfile><description>test</description> 
+<basestate><action>Fin.Home</action><description>
+Navigate to the Home page in the current web browser.
+</description></basestate>
+<subtest><id>Test1</id><table name="SetFinFields" file="Subtests"/><description></description> 
+<step type="Set"><object>[]FinQuoteHome</object><action>Set</action><data></data><description>
+Ensure the &quot;FinQuoteHome&quot; page is displayed in the Browser.
+</description></step>
+<step type="Set"><object>txtPurPrice</object><action>Set</action><data>200000</data><description>
+Enter the value &quot;200000&quot; into the &quot;txtPurPrice&quot; field.
+</description></step>
+<step type="Set"><object>txtValExtras</object><action>Set</action><data>1500</data><description>
+Enter the value &quot;1500&quot; into the &quot;txtValExtras&quot; field.
+</description></step>
+<step type="Set"><object>txtDeposit</object><action>Set</action><data>2000</data><description>
+Enter the value &quot;2000&quot; into the &quot;txtDeposit&quot; field.
+</description></step>
+<step type="Get"><object>txtFinAmount</object><action>get</action><data></data><description>
+Obtain the text currently displayed in the &quot;txtFinAmount&quot; field.
+</description></step>
+<step type="Val"><object>txtFinAmount</object><action>val.equal</action><data>201140.00</data><description>
+Check the obtained value matches the expected value
+</description></step>
+</subtest>
+<subtest><id>id01</id><table name="FinQuote" file="Subtests"/><description>Clear the form</description> 
+<step type="Set"><object>[]FinQuoteHome</object><action>Set</action><data></data><description>
+Ensure the &quot;FinQuoteHome&quot; page is displayed in the Browser.
+</description></step>
+<step type="Set"><object>btnclearForm</object><action>Set</action><data></data><description>
+Press the &quot;btnclearForm&quot; button.
+</description></step>
+<step type="Set"><object>btncalculatebutton</object><action>Set</action><data></data><description>
+Press the &quot;btncalculatebutton&quot; button.
+</description></step>
+<step type="Unknown"><object>msgErrorwindow</object><action>Exist</action><data></data><description>
+
+</description></step>
+<step type="Set"><object>btnOkButton</object><action>Set</action><data></data><description>
+
+</description></step>
+</subtest>
+<subtest><id>id02</id><table name="SetFinFields" file="Subtests"/><description>set focus</description> 
+<step type="Set"><object>[]FinQuoteHome</object><action>Set</action><data></data><description>
+Ensure the &quot;FinQuoteHome&quot; page is displayed in the Browser.
+</description></step>
+<step type="Set"><object>txtValExtras</object><action>Set</action><data></data><description>
+Enter the value &quot;&quot; into the &quot;txtValExtras&quot; field.
+</description></step>
+</subtest>
+</test>

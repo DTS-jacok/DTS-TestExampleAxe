@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Jaco</LastAuthor>
+  <Created>2001-04-09T15:03:06Z</Created>
+  <LastSaved>2011-11-21T06:02:41Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8835</WindowHeight>
+  <WindowWidth>15180</WindowWidth>
+  <WindowTopX>1245</WindowTopX>
+  <WindowTopY>1710</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="ActionMap">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="19" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Width="10.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="61.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="141"/>
+   <Column ss:AutoFitWidth="0" ss:Width="538.5"/>
+   <Column ss:Width="77.25"/>
+   <Column ss:Width="49.5"/>
+   <Row ss:StyleID="s62">
+    <Cell ss:Index="2"><Data ss:Type="String">class</Data></Cell>
+    <Cell><Data ss:Type="String">action</Data></Cell>
+    <Cell><Data ss:Type="String">command</Data></Cell>
+    <Cell><Data ss:Type="String">documentation</Data></Cell>
+    <Cell><Data ss:Type="String">comment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="234">
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">__testInit</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">package axe;&#10;import ObjectMap.ObjectMap;&#10;import resources.axe.%TESTID%Helper;&#10;import com.jacob.activeX.ActiveXComponent;&#10;import com.jacob.com.Variant;&#10;import com.jacob.com.Dispatch;&#10;import com.rational.test.ft.*;&#10;import com.rational.test.ft.object.interfaces.*;&#10;import com.rational.test.ft.object.interfaces.SAP.*;&#10;import com.rational.test.ft.object.interfaces.WPF.*;&#10;import com.rational.test.ft.object.interfaces.dojo.*;&#10;import com.rational.test.ft.object.interfaces.siebel.*;&#10;import com.rational.test.ft.object.interfaces.flex.*;&#10;import com.rational.test.ft.object.interfaces.generichtmlsubdomain.*;&#10;import com.rational.test.ft.script.*;&#10;import com.rational.test.ft.value.*;&#10;import com.rational.test.ft.vp.*;&#10;import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="65.25">
+    <Cell ss:Index="3" ss:StyleID="s63"><Data ss:Type="String">__testPrefix</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">public class %TESTID% extends %TESTID%Helper{&#10; public static void testMain(Object[] args){&#10;           ObjectMap map = new ObjectMap();         &#10;           axeInit(&quot;%^TESTPROJECT%&quot;, &quot;%TESTSUITE%&quot;);&#10;&#10;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">BASESTATE.Fin.Home</Data></Cell>
+    <Cell><Data ss:Type="String">browser = axeBrowserBasestate(Dispatch.call(axe, &quot;GetRunCategoryOption&quot;, &quot;WebSite&quot;, &quot;Fin.Home&quot;).toString())</Data></Cell>
+    <Cell><Data ss:Type="String">Navigate to the Home page in the current web browser.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">WinError</Data></Cell>
+    <Cell><Data ss:Type="String">Exist</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;@name&amp;.%WINDOW%_%OBJECT%().exists()</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">.PushButton</Data></Cell>
+    <Cell><Data ss:Type="String">Set</Data></Cell>
+    <Cell><Data ss:Type="String">&amp;@name&amp;.%WINDOW%_%OBJECT%().click()</Data></Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>R7C3:R7C4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

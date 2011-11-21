@@ -3,7 +3,7 @@ Axe Build Log
 
 Axe Version: 3.2.0.186
 
-2011/11/17 12:27:19 PM
+2011/11/18 11:11:35 AM
 
 Test project:  C:\AXE_Projects\TestAxeProject\TestAxeProject.tpj
 Test Suite:    debug
@@ -39,6 +39,6 @@ WARNING: Test does not contain any subtests
 Build completed OK
 Errors: 0 Warnings: 5 Informational: 7
 2 test(s) built successfully
-2011/11/17 12:27:19 PM
+2011/11/18 11:11:35 AM
 
 End

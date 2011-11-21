@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<configuration>
+    <assemblies>
+	
+    </assemblies>
+    <services>
+	<service name="WebServiceTest" url="" />
+	<service name="MobileFish" url="http://www.mobilefish.com/services/web_service/countries.php" />
+    </services>
+    <namespaces>
+	<namespace prefix="soap" uri="http://schemas.xmlsoap.org/soap/envelope/" />
+    </namespaces>
+    <connections>
+	
+    </connections>
+</configuration>

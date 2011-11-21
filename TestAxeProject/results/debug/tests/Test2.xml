@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<test><projectname>TestAxeProject</projectname><configuration>RFT</configuration><buildtimestamp>2011/11/17 12:27:19 PM</buildtimestamp><id>Test2</id><table name="Login" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestAxeProject/results/debug/results.xml</resultfile><description></description> 
+<test><projectname>TestAxeProject</projectname><configuration>RFT</configuration><buildtimestamp>2011/11/18 11:11:35 AM</buildtimestamp><id>Test2</id><table name="Login" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestAxeProject/results/debug/results.xml</resultfile><description></description> 
 <basestate><action>Google.Home</action><description>
 
 </description></basestate>

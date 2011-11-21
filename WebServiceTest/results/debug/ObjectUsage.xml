@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<object_coverage>
+<project>WebServiceTest</project>
+<config file="C:\AXE_Projects\WebServiceTest\config\AxeHarness.BuildConfig.xml" name="AxeHarness.BuildConfig"/>
+<testsuite>debug</testsuite>
+<object_count>6</object_count>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana" count="3" class="WsOperation"/>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.countrynameResponse" count="2" class="WsOutParameter"/>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.ianacode" count="1" class="WsInParameter"/>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.ianacodeResponse" count="2" class="WsOutParameter"/>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.latitudeResponse" count="2" class="WsOutParameter"/>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.longitudeResponse" count="2" class="WsOutParameter"/>
+</object_coverage>

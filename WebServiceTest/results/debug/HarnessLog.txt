@@ -1,0 +1,73 @@
+AxeHarness Run Log
+==================
+
+AxeHarness Version: 3.2.4134.4397
+Date:               2011/11/21 02:51:47 PM
+
+----- Options -----
+Log file:           C:\AXE_Projects\WebServiceTest\results\debug\HarnessLog.txt
+Configuration file: C:\AXE_Projects\WebServiceTest\HarnessConfig.xml
+LocalDataFile:      C:\AXE_Projects\WebServiceTest\results\debug\localdata.xml
+Dependency check:   True
+Iterations:         1
+
+----- Running Test: C:\AXE_Projects\WebServiceTest\scripts\debug\Test1.xml -----
+action: LoadFile
+Checking result from step
+action: InitialiseWsOperation
+Checking result from step
+action: SetWsInParameter
+Checking result from step
+action: InvokeWsOperation
+SOAP Request
+URL: http://www.mobilefish.com/services/web_service/countries.php
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soapenv:countryInfoByIana soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <ianacode xsi:type="xsd:string">za</ianacode>
+      </soapenv:countryInfoByIana>
+   </soapenv:Body>
+</soapenv:Envelope>
+SOAP Response
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:countryInfoByIanaResponse>
+<return>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<countryname xsi:type="xsd:string">South Africa</countryname>
+<latitude xsi:type="xsd:float">-30.559483</latitude>
+<longitude xsi:type="xsd:float">22.937506</longitude></return></SOAP-ENV:countryInfoByIanaResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+Add namespace soap=http://schemas.xmlsoap.org/soap/envelope/
+Checking result from step
+action: GetWsOutParameter
+Checking result from step
+action: ValidateEqual
+Pass
+action: GetWsOutParameter
+Checking result from step
+action: ValidateEqual
+Pass
+action: GetWsOutParameter
+Checking result from step
+action: ValidateEqual
+Pass
+action: GetWsOutParameter
+Checking result from step
+action: ValidateEqual
+Pass
+Pass
+-------------------
+
+Test run complete
+Total: 1  Passed: 1  Failed: 0  Not-run: 0

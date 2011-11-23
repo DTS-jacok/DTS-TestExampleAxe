@@ -6,9 +6,9 @@
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <LastAuthor>Sam Warwick</LastAuthor>
+  <LastAuthor>Jaco</LastAuthor>
   <Created>2001-04-17T15:13:30Z</Created>
-  <LastSaved>2005-07-08T09:55:10Z</LastSaved>
+  <LastSaved>2011-11-22T07:37:52Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -60,16 +60,24 @@
    <Interior/>
    <Protection/>
   </Style>
+  <Style ss:ID="s70">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="ObjectMap">
-  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="7" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="18" x:FullColumns="1"
    x:FullRows="1">
-   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="160.5"/>
+   <Column ss:StyleID="s63" ss:Width="189.75"/>
    <Column ss:StyleID="s63" ss:Width="84.75"/>
    <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="62.25"/>
    <Column ss:Width="83.25"/>
    <Column ss:Width="282"/>
-   <Column ss:Width="67.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="157.5"/>
    <Row ss:StyleID="s65">
     <Cell ss:StyleID="s64"><Data ss:Type="String">name</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">class</Data></Cell>
@@ -110,6 +118,59 @@
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
     <Cell ss:Index="6"><Data ss:Type="String">//longitude</Data></Cell>
    </Row>
+   <Row ss:Index="9">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana</Data></Cell>
+    <Cell><Data ss:Type="String">WsOperation</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">MobileFish</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">regionsInfoByIana</Data></Cell>
+    <Cell ss:StyleID="s69" ss:HRef="http://www.mobilefish.com/services/web_service/countries.php"><Data
+      ss:Type="String">http://www.mobilefish.com/services/web_service/countries.php</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ianacode</Data></Cell>
+    <Cell><Data ss:Type="String">WsInParameter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.regionnameResponse</Data></Cell>
+    <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//regionname</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.latitudeResponse</Data></Cell>
+    <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">//latitude</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.longitudeResponse</Data></Cell>
+    <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">//longitude</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ListResponse</Data></Cell>
+    <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//allregionslist</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ListResponseItem_2</Data></Cell>
+    <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item[2]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ListResponseItem_2_Code</Data></Cell>
+    <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item[2]/ianacode</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ListResponseItems</Data></Cell>
+    <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ListResponseRegion</Data></Cell>
+    <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item/regionname</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <Print>
@@ -129,8 +190,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>13</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

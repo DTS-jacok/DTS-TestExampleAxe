@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Axe Results Summary</title>  
+<script type="text/javascript">
+<!--   
+	function applyXSLT()
+	{
+	    var objXML;
+	    var objXSLT;
+	    var objxsltTemplate;
+	    var objxsltProcessor;
+		var transformResults;
+
+		try
+		{ 
+			if(window.ActiveXObject)
+			{
+				objXML = new ActiveXObject("MSXML2.DOMDocument");
+				objXML.async = false;
+				objXML.validateOnParse = false;
+		   
+				objXSLT = new ActiveXObject("MSXML2.FreeThreadedDOMDocument");
+				objXSLT.async = false;
+				objXSLT.validateOnParse = false;
+		    
+				//Load XML and XSLT documents
+				objXML.load("ProjectSummary.xml");
+				objXSLT.load("ProjectSummary.xsl");
+				 
+				objxsltTemplate = new ActiveXObject("MSXML2.XSLTemplate");
+				objxsltTemplate.stylesheet = objXSLT;
+				objxsltProcessor = objxsltTemplate.createProcessor();
+				objxsltProcessor.input = objXML;
+				objxsltProcessor.transform();
+				
+				transformResults = objxsltProcessor.output;
+			}
+			else if (document.implementation && document.implementation.createDocument)
+			{
+				var xmlhttp = new window.XMLHttpRequest();
+				xmlhttp.open("GET", "ProjectSummary.xml", false);
+				xmlhttp.send(null);
+				objXML = xmlhttp.responseXML.documentElement;
+			
+				xmlhttp = new window.XMLHttpRequest();
+				xmlhttp.open("GET", "ProjectSummary.xsl", false);
+				xmlhttp.send(null);
+				objXSLT = xmlhttp.responseXML.documentElement;
+				
+				objxsltProcessor = new XSLTProcessor();
+				objxsltProcessor.importStylesheet(objXSLT);
+
+				transformResults = new XMLSerializer().serializeToString(objxsltProcessor.transformToDocument(objXML).firstChild);
+			}
+		   
+		}catch(e)
+		{
+			//error handling
+			document.write("XSLT Error: " + e.message + "<br/>");
+		}
+		
+		return transformResults;
+	}
+	
+	function OpenSummary()
+	{
+		resultdiv.innerHTML = applyXSLT();
+	}
+	
+//-->
+</script>
+
+<link type="text/css" rel="stylesheet" href="axe.css"/>
+
+</head>
+<body class="main" onLoad="OpenSummary()">
+<div id="resultdiv"></div>
+<p class="copyright">Axe Test Automation Platform - <a href="http://www.odintech.com">Odin Technology</a> - <a href="http://www.odintech.com">www.odintech.com</a></p>
+</body>
+</html>

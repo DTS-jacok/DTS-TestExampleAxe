@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectSettings>
+  <Settings>
+    <Suite>debug</Suite>
+    <BuildConfiguration>AxeHarness</BuildConfiguration>
+    <Workbook>Tests</Workbook>
+    <Worksheet>Tests</Worksheet>
+    <Tests>
+      <Test>Test2</Test>
+    </Tests>
+    <BuildFromTestList>False</BuildFromTestList>
+    <TestList>%PROJECTDIR%\testlist.xml</TestList>
+    <BuildFromRunList>False</BuildFromRunList>
+    <RunConfiguration />
+    <RunName />
+    <RunTests>
+      <Test>Test2</Test>
+    </RunTests>
+    <InvokeOnly>False</InvokeOnly>
+    <NoQuit>False</NoQuit>
+    <CheckDependency>True</CheckDependency>
+  </Settings>
+</ProjectSettings>

@@ -6,25 +6,151 @@
     <id>
     </id>
     <config file="C:\AXE_Projects\TestAxeProject\config\RFT.BuildConfig.xml" name="RFT" />
-    <buildtimestamp>2011/11/18 11:11:35 AM</buildtimestamp>
+    <buildtimestamp>2011/11/23 02:24:04 PM</buildtimestamp>
     <run_master>
       <test>
         <index>1</index>
         <id>Test1</id>
         <description>My Test Description logon</description>
-        <result>NotRun</result>
+        <result>Pass</result>
+        <success>True</success>
+        <start>2011/11/23 02:24:10 PM</start>
+        <finish>2011/11/23 02:24:22 PM</finish>
+        <time>11.2120166</time>
+        <run>run1</run>
+        <test_index>1</test_index>
       </test>
-      <test>
-        <index>2</index>
-        <id>Test2</id>
-        <description>
-        </description>
-        <result>NotRun</result>
-      </test>
-      <testcount>2</testcount>
-      <passcount>0</passcount>
+      <testcount>1</testcount>
+      <passcount>1</passcount>
       <failcount>0</failcount>
-      <notruncount>2</notruncount>
+      <notruncount>0</notruncount>
     </run_master>
+    <run>
+      <name>run1</name>
+      <start>2011/11/23 02:24:10 PM</start>
+      <finish>2011/11/23 02:24:22 PM</finish>
+      <testcount>1</testcount>
+      <passcount>1</passcount>
+      <failcount>0</failcount>
+      <success>true</success>
+      <test>
+        <id>Test1</id>
+        <execution_id>
+        </execution_id>
+        <table name="Tests" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml" />
+        <description><![CDATA[My Test Description logon]]></description>
+        <start>2011/11/23 02:24:10 PM</start>
+        <basestate>
+          <index>1</index>
+          <action>Home.siebel</action>
+          <start>2011/11/23 02:24:10 PM</start>
+          <info><![CDATA[[2011/11/23 14:24:11] Found browser http://192.168.1.201:7780/marketing_enu/start.swe?SWECmd=Logoff&SWETS=1322051038041&SWEPreLd=1&SWEClearLC=1]]></info>
+          <info><![CDATA[[2011/11/23 14:24:11] Navigating to http://192.168.1.201:7780/marketing_enu/start.swe?SWECmd=AutoOn]]></info>
+          <success>True</success>
+          <result>0</result>
+          <finish>2011/11/23 02:24:11 PM</finish>
+          <time>0.715001</time>
+        </basestate>
+        <subtest>
+          <index>1</index>
+          <id>Login01</id>
+          <table name="sblLogin" file="Subtests" />
+          <description><![CDATA[Login with admin user]]></description>
+          <start>2011/11/23 02:24:11 PM</start>
+          <step>
+            <index>1</index>
+            <object><![CDATA[[]sblLogin]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/11/23 02:24:11 PM</start>
+            <finish>2011/11/23 02:24:13 PM</finish>
+            <time>1.5300021</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>2</index>
+            <object><![CDATA[txtUserName]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[sadmin]]></data>
+            <start>2011/11/23 02:24:13 PM</start>
+            <finish>2011/11/23 02:24:14 PM</finish>
+            <time>0.9940019</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>3</index>
+            <object><![CDATA[txtPassword]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[sadmin]]></data>
+            <start>2011/11/23 02:24:14 PM</start>
+            <finish>2011/11/23 02:24:14 PM</finish>
+            <time>0.4380011</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>4</index>
+            <object><![CDATA[imglogin]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/11/23 02:24:14 PM</start>
+            <finish>2011/11/23 02:24:14 PM</finish>
+            <time>0.3050004</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>5</index>
+            <object><![CDATA[imglogin]]></object>
+            <action><![CDATA[sleep(5)]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/11/23 02:24:14 PM</start>
+            <finish>2011/11/23 02:24:19 PM</finish>
+            <time>5.005007</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>6</index>
+            <object><![CDATA[[]sblLoginPageTabList]]></object>
+            <action><![CDATA[Set2]]></action>
+            <data><![CDATA[Marketing Plans Screen]]></data>
+            <start>2011/11/23 02:24:19 PM</start>
+            <finish>2011/11/23 02:24:20 PM</finish>
+            <time>0.4150006</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>7</index>
+            <object><![CDATA[[]sblLoginPageTabList]]></object>
+            <action><![CDATA[Set(Marketing Calendar Screen)]]></action>
+            <data><![CDATA[Marketing Plans Screen]]></data>
+            <start>2011/11/23 02:24:20 PM</start>
+            <finish>2011/11/23 02:24:21 PM</finish>
+            <time>1.7450025</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <finish>2011/11/23 02:24:21 PM</finish>
+          <time>10.4620156</time>
+          <result>Pass</result>
+          <success>True</success>
+          <testcount>7</testcount>
+          <passcount>7</passcount>
+          <failcount>0</failcount>
+        </subtest>
+        <finish>2011/11/23 02:24:22 PM</finish>
+        <time>11.2120166</time>
+        <result>Pass</result>
+        <success>True</success>
+        <testcount>1</testcount>
+        <passcount>1</passcount>
+        <failcount>0</failcount>
+        <index>1</index>
+      </test>
+    </run>
   </build>
 </testsuite>

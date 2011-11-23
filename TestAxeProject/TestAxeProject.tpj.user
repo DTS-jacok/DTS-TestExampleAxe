@@ -7,7 +7,6 @@
     <Worksheet>Tests</Worksheet>
     <Tests>
       <Test>Test1</Test>
-      <Test>Test2</Test>
     </Tests>
     <BuildFromTestList>False</BuildFromTestList>
     <TestList>%PROJECTDIR%\testlist.xml</TestList>
@@ -16,7 +15,6 @@
     <RunName />
     <RunTests>
       <Test>Test1</Test>
-      <Test>Test2</Test>
     </RunTests>
     <InvokeOnly>False</InvokeOnly>
     <NoQuit>False</NoQuit>

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<test><projectname>TestAxeProject</projectname><configuration>RFT</configuration><buildtimestamp>2011/11/18 11:11:35 AM</buildtimestamp><id>Test1</id><table name="Tests" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestAxeProject/results/debug/results.xml</resultfile><description>My Test Description logon</description> 
+<test><projectname>TestAxeProject</projectname><configuration>RFT</configuration><buildtimestamp>2011/11/23 02:24:04 PM</buildtimestamp><id>Test1</id><table name="Tests" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestAxeProject/results/debug/results.xml</resultfile><description>My Test Description logon</description> 
 <basestate><action>Home.siebel</action><description>
 Navigate to the Home page in the current web browser.
 </description></basestate>
-<subtest><id>Login01</id><table name="Login" file="Subtests"/><description>Login with admin user</description> 
-<step type="Set"><object>[]Login</object><action>Set</action><data></data><description>
-Ensure the &quot;Login&quot; page is displayed in the Browser.
+<subtest><id>Login01</id><table name="sblLogin" file="Subtests"/><description>Login with admin user</description> 
+<step type="Set"><object>[]sblLogin</object><action>Set</action><data></data><description>
+Ensure the &quot;sblLogin&quot; page is displayed in the Browser.
 </description></step>
 <step type="Set"><object>txtUserName</object><action>Set</action><data>sadmin</data><description>
 Enter the value &quot;sadmin&quot; into the &quot;txtUserName&quot; field.
@@ -14,6 +14,15 @@ Enter the value &quot;sadmin&quot; into the &quot;txtUserName&quot; field.
 Enter the value &quot;sadmin&quot; into the &quot;txtPassword&quot; password field.
 </description></step>
 <step type="Set"><object>imglogin</object><action>Set</action><data></data><description>
+
+</description></step>
+<step type="Unknown"><object>imglogin</object><action>sleep(5)</action><data></data><description>
+
+</description></step>
+<step type="Unknown"><object>[]sblLoginPageTabList</object><action>Set2</action><data>Marketing Plans Screen</data><description>
+
+</description></step>
+<step type="Set"><object>[]sblLoginPageTabList</object><action>Set(Marketing Calendar Screen)</action><data>Marketing Plans Screen</data><description>
 
 </description></step>
 </subtest>

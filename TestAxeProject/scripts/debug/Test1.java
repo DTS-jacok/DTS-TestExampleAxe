@@ -41,22 +41,34 @@ public class Test1 extends Test1Helper
 				Dispatch.call(axe, "BasestateEnd", 0, "", "");
 
 // 
-// Subtests:Login Login01
-				Dispatch.call(axe, "SubtestBegin", "Login01", "Login with admin user", "Subtests", "Login");
-				Dispatch.call(axe, "StepBegin", "[]Login", "Set", "");  Dispatch.put(axe, "ResultCode", 0);
-				map.Login().find().unregister();
+// Subtests:sblLogin Login01
+				Dispatch.call(axe, "SubtestBegin", "Login01", "Login with admin user", "Subtests", "sblLogin");
+				Dispatch.call(axe, "StepBegin", "[]sblLogin", "Set", "");  Dispatch.put(axe, "ResultCode", 0);
+				map.sblLogin().find().unregister();
 				axeStepEnd();
 
 				Dispatch.call(axe, "StepBegin", "txtUserName", "Set", "sadmin");  Dispatch.put(axe, "ResultCode", 0);
-				map.Login_txtUserName().setText("sadmin");
+				map.sblLogin_txtUserName().setText("sadmin");
 				axeStepEnd();
 
 				Dispatch.call(axe, "StepBegin", "txtPassword", "Set", "sadmin");  Dispatch.put(axe, "ResultCode", 0);
-				map.Login_txtPassword().setText("sadmin");
+				map.sblLogin_txtPassword().setText("sadmin");
 				axeStepEnd();
 
 				Dispatch.call(axe, "StepBegin", "imglogin", "Set", "");  Dispatch.put(axe, "ResultCode", 0);
-				map.Login_imglogin().click();
+				map.sblLogin_imglogin().click();
+				axeStepEnd();
+
+				Dispatch.call(axe, "StepBegin", "imglogin", "sleep(5)", "");  Dispatch.put(axe, "ResultCode", 0);
+				sleep(5);
+				axeStepEnd();
+
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set2", "Marketing Plans Screen");  Dispatch.put(axe, "ResultCode", 0);
+				map.sblLoginPageTabList().gotoScreen("Marketing Plans Screen");
+				axeStepEnd();
+
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set(Marketing Calendar Screen)", "Marketing Plans Screen");  Dispatch.put(axe, "ResultCode", 0);
+				map.sblLoginPageTabList().gotoScreen("Marketing Calendar Screen");
 				axeStepEnd();
 
 				axeSubtestEnd();

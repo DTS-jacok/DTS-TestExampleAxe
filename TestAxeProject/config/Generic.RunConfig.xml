@@ -65,21 +65,9 @@
    <Borders/>
    <Protection/>
   </Style>
-  <Style ss:ID="s74">
-   <Borders/>
-   <Font ss:FontName="Arial" x:Family="Swiss"/>
-   <Interior/>
-  </Style>
-  <Style ss:ID="s76" ss:Parent="s62">
-   <Alignment ss:Vertical="Bottom"/>
-   <Borders/>
-   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#0000FF"
-    ss:Underline="Single"/>
-   <Protection/>
-  </Style>
  </Styles>
  <Worksheet ss:Name="Config">
-  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="6" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="5" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s63">
    <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="57.75"/>
    <Column ss:StyleID="s63" ss:Width="168"/>
@@ -112,12 +100,6 @@
     <Cell ss:StyleID="s69" ss:HRef="http://192.168.1.201:7780/marketing_enu/start.swe?SWECmd=AutoOn"><Data
       ss:Type="String">http://192.168.1.201:7780/marketing_enu/start.swe?SWECmd=AutoOn</Data></Cell>
    </Row>
-   <Row>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">WEBSITE</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">Google.Home</Data></Cell>
-    <Cell ss:StyleID="s76" ss:HRef="http://www.google.co.za/"><Data
-      ss:Type="String">http://www.google.co.za</Data></Cell>
-   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <Print>
@@ -130,7 +112,7 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>21</ActiveRow>
+     <ActiveRow>14</ActiveRow>
      <ActiveCol>2</ActiveCol>
     </Pane>
    </Panes>

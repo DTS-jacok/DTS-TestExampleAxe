@@ -56,7 +56,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="ActionMap">
-  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="10" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="11" x:FullColumns="1"
    x:FullRows="1">
    <Column ss:Width="10.5"/>
    <Column ss:AutoFitWidth="0" ss:Width="64.5"/>
@@ -82,7 +82,8 @@
    <Row>
     <Cell ss:Index="2"><Data ss:Type="String">Html.IMG</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">Set</Data></Cell>
-    <Cell><Data ss:Type="String">&amp;@name&amp;.%WINDOW%_%OBJECT%().click()</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="mailto:&amp;@name&amp;.%WINDOW%_%OBJECT%().click()"><Data
+      ss:Type="String">&amp;@name&amp;.%WINDOW%_%OBJECT%().click()</Data></Cell>
    </Row>
    <Row>
     <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">Html.SPAN</Data></Cell>
@@ -97,16 +98,26 @@
       ss:Type="String">&amp;@name&amp;.%WINDOW%().exists()</Data></Cell>
    </Row>
    <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">SiebPageTabs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Set(PAGETAB)</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="mailto:&amp;@name&amp;.%WINDOW%().gotoScreen(&quot;%PARAM1%&quot;)"><Data
+      ss:Type="String">&amp;@name&amp;.%WINDOW%().gotoScreen(&quot;%PARAM1%&quot;)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">SiebPageTabs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Set2</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="mailto:&amp;@name&amp;.%WINDOW%().gotoScreen(&quot;%DATA%&quot;)"><Data
+      ss:Type="String">&amp;@name&amp;.%WINDOW%().gotoScreen(&quot;%DATA%&quot;)</Data></Cell>
+   </Row>
+   <Row>
     <Cell ss:Index="3"><Data ss:Type="String">BASESTATE.Home.siebel</Data></Cell>
     <Cell><Data ss:Type="String">browser = axeBrowserBasestate(Dispatch.call(axe, &quot;GetRunCategoryOption&quot;, &quot;WebSite&quot;, &quot;Siebel.Login&quot;).toString())</Data></Cell>
     <Cell><Data ss:Type="String">Navigate to the Home page in the current web browser.</Data></Cell>
    </Row>
    <Row>
-    <Cell ss:Index="3"><Data ss:Type="String">BASESTATE.Google.Home</Data></Cell>
-    <Cell><Data ss:Type="String">browser = axeBrowserBasestate(Dispatch.call(axe, &quot;GetRunCategoryOption&quot;, &quot;WebSite&quot;, &quot;Google.Home&quot;).toString())</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="5"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s64"><Data ss:Type="String">sleep(seconds)</Data></Cell>
+    <Cell><Data ss:Type="String">sleep(%PARAM1%)</Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
    </Row>
    <Row>
     <Cell ss:Index="3"><Data ss:Type="String"> </Data></Cell>
@@ -126,7 +137,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>8</ActiveRow>
+     <ActiveRow>10</ActiveRow>
      <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>

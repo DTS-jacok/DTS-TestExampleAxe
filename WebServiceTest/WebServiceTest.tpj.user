@@ -6,6 +6,7 @@
     <Workbook>Tests</Workbook>
     <Worksheet>Tests</Worksheet>
     <Tests>
+      <Test>Test1</Test>
       <Test>Test2</Test>
     </Tests>
     <BuildFromTestList>False</BuildFromTestList>
@@ -14,6 +15,7 @@
     <RunConfiguration />
     <RunName />
     <RunTests>
+      <Test>Test1</Test>
       <Test>Test2</Test>
     </RunTests>
     <InvokeOnly>False</InvokeOnly>

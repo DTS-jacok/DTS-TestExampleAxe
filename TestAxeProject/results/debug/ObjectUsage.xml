@@ -4,9 +4,9 @@
 <config file="C:\AXE_Projects\TestAxeProject\config\RFT.BuildConfig.xml" name="RFT.BuildConfig"/>
 <testsuite>debug</testsuite>
 <object_count>5</object_count>
-<object mapfile="ObjectMap.rftdef" system="False" name="Login" count="1" class="Html.HtmlDocument"/>
-<object mapfile="ObjectMap.rftdef" system="False" name="Login.imglogin" count="1" class="Html.IMG"/>
-<object mapfile="ObjectMap.rftdef" system="False" name="Login.txtPassword" count="1" class="Html.INPUT.password"/>
-<object mapfile="ObjectMap.rftdef" system="False" name="Login.txtUserName" count="1" class="Html.INPUT.text"/>
-<object mapfile="ObjectMap.rftdef" system="False" name="WestBank.logo" count="0" class="Html.IMG"/>
+<object mapfile="ObjectMap.rftdef" system="False" name="sblLogin" count="1" class="Html.HtmlDocument"/>
+<object mapfile="ObjectMap.rftdef" system="False" name="sblLogin.imglogin" count="2" class="Html.IMG"/>
+<object mapfile="ObjectMap.rftdef" system="False" name="sblLogin.txtPassword" count="1" class="Html.INPUT.password"/>
+<object mapfile="ObjectMap.rftdef" system="False" name="sblLogin.txtUserName" count="1" class="Html.INPUT.text"/>
+<object mapfile="ObjectMap.rftdef" system="False" name="sblLoginPageTabList" count="2" class="SiebPageTabs"/>
 </object_coverage>

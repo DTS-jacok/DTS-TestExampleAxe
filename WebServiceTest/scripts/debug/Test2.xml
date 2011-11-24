@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <test>
-<id>Test2</id><execution_id></execution_id><table name="countryInfoByIana" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><description><![CDATA[Get a multi return from regions]]></description>
+<id>Test2</id><execution_id></execution_id><table name="Tests" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><description><![CDATA[Get a multi return from regions]]></description>
 <subtest><id>Test02</id><table name="regionsInfoByIana" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><description><![CDATA[Multi returns]]></description> 
 <step><object>[]regionsInfoByIana</object><action>load.file(regionsInfoByIana.xml)</action><data><![CDATA[]]></data>
 <command action="LoadFile" filename="regionsInfoByIana.xml" />
@@ -23,6 +23,13 @@
 </step>
 <step check="true" />
 <step><object>ListResponse</object><action>val</action><data><![CDATA[]]></data>
+<command action="ValidateEqual"><![CDATA[""]]></command>
+</step>
+<step><object>ListResponseCount</object><action>get</action><data><![CDATA[]]></data>
+<command action="GetWsOutParameter" parameter="ListResponseCount" xpath="//allregionslist/item" />
+</step>
+<step check="true" />
+<step><object>ListResponseCount</object><action>val</action><data><![CDATA[]]></data>
 <command action="ValidateEqual"><![CDATA[""]]></command>
 </step>
 <step><object>ListResponseItem_2</object><action>get</action><data><![CDATA[]]></data>

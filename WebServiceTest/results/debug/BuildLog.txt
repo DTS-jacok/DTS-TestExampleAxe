@@ -1,30 +1,27 @@
 Axe Build Log
 =============
 
-Axe Version: 3.2.0.186
+Axe Version: 3.3.0.340
 
-2011/11/23 10:33:25 AM
+2011/11/24 09:35:15 AM
 
 Test project:  C:\AXE_Projects\WebServiceTest\WebServiceTest.tpj
 Test Suite:    debug
 Configuration: AxeHarness
 Workbook:      Tests
 Worksheet:     Tests
-Tests:         2 test(s)
+Tests:         1 test(s)
 
 --------------------
 
 ObjectMap load C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml
 ActionMap load C:\Program Files (x86)\Odin Technology\Axe\ActionMap\AxeHarness.ActionMap.xml
 
-Test:     Test1 (Workbook: C:\AXE_Projects\WebServiceTest\data\Tests.xml Worksheet: Tests)
-Sub-test: countryInfoByIana - Test01 (Workbook: C:\AXE_Projects\WebServiceTest\data\Tests.xml Worksheet: countryInfoByIana)
-
-Test:     Test2 (Workbook: C:\AXE_Projects\WebServiceTest\data\Tests.xml Worksheet: countryInfoByIana)
+Test:     Test2 (Workbook: C:\AXE_Projects\WebServiceTest\data\Tests.xml Worksheet: Tests)
 Sub-test: regionsInfoByIana - Test02 (Workbook: C:\AXE_Projects\WebServiceTest\data\Tests.xml Worksheet: regionsInfoByIana)
 Build completed OK
 Errors: 0 Warnings: 0 Informational: 0
-2 test(s) built successfully
-2011/11/23 10:33:25 AM
+1 test(s) built successfully
+2011/11/24 09:35:15 AM
 
 End

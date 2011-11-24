@@ -63,12 +63,72 @@ public class Test1 extends Test1Helper
 				sleep(5);
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set2", "Marketing Plans Screen");  Dispatch.put(axe, "ResultCode", 0);
+				axeSubtestEnd();
+// 
+// Subtests:sblLoginPageTabList doSel1
+				Dispatch.call(axe, "SubtestBegin", "doSel1", "Marketing Calendar Screen", "Subtests", "sblLoginPageTabList");
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "sleep(3)", "Marketing Calendar Screen");  Dispatch.put(axe, "ResultCode", 0);
+				sleep(3);
+				axeStepEnd();
+
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set2", "Marketing Calendar Screen");  Dispatch.put(axe, "ResultCode", 0);
+				map.sblLoginPageTabList().gotoScreen("Marketing Calendar Screen");
+				axeStepEnd();
+
+				axeSubtestEnd();
+// 
+// Subtests:sblLoginPageTabList doSel2
+				Dispatch.call(axe, "SubtestBegin", "doSel2", "Marketing Plans Screen", "Subtests", "sblLoginPageTabList");
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set(Marketing Plans Screen)", "");  Dispatch.put(axe, "ResultCode", 0);
 				map.sblLoginPageTabList().gotoScreen("Marketing Plans Screen");
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set(Marketing Calendar Screen)", "Marketing Plans Screen");  Dispatch.put(axe, "ResultCode", 0);
-				map.sblLoginPageTabList().gotoScreen("Marketing Calendar Screen");
+				axeSubtestEnd();
+// 
+// Subtests:sblLoginPageTabList doSel3
+				Dispatch.call(axe, "SubtestBegin", "doSel3", "Program Screen", "Subtests", "sblLoginPageTabList");
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "sleep(3)", "Program Screen");  Dispatch.put(axe, "ResultCode", 0);
+				sleep(3);
+				axeStepEnd();
+
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set2", "Program Screen");  Dispatch.put(axe, "ResultCode", 0);
+				map.sblLoginPageTabList().gotoScreen("Program Screen");
+				axeStepEnd();
+
+				axeSubtestEnd();
+// 
+// Subtests:sblLoginPageTabList doSel4
+				Dispatch.call(axe, "SubtestBegin", "doSel4", "Campaign Administration Screen", "Subtests", "sblLoginPageTabList");
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "sleep(3)", "Campaign Administration Screen");  Dispatch.put(axe, "ResultCode", 0);
+				sleep(3);
+				axeStepEnd();
+
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set2", "Campaign Administration Screen");  Dispatch.put(axe, "ResultCode", 0);
+				map.sblLoginPageTabList().gotoScreen("Campaign Administration Screen");
+				axeStepEnd();
+
+				axeSubtestEnd();
+// 
+// Subtests:sblLoginPageTabList doSel5
+				Dispatch.call(axe, "SubtestBegin", "doSel5", "Marketing Segment Screen", "Subtests", "sblLoginPageTabList");
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "sleep(3)", "Marketing Segment Screen");  Dispatch.put(axe, "ResultCode", 0);
+				sleep(3);
+				axeStepEnd();
+
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set2", "Marketing Segment Screen");  Dispatch.put(axe, "ResultCode", 0);
+				map.sblLoginPageTabList().gotoScreen("Marketing Segment Screen");
+				axeStepEnd();
+
+				axeSubtestEnd();
+// 
+// Subtests:sblLoginPageTabList doSel6
+				Dispatch.call(axe, "SubtestBegin", "doSel6", "Offer Screen", "Subtests", "sblLoginPageTabList");
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "sleep(3)", "Offer Screen");  Dispatch.put(axe, "ResultCode", 0);
+				sleep(3);
+				axeStepEnd();
+
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set2", "Offer Screen");  Dispatch.put(axe, "ResultCode", 0);
+				map.sblLoginPageTabList().gotoScreen("Offer Screen");
 				axeStepEnd();
 
 				axeSubtestEnd();

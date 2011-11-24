@@ -1,9 +1,9 @@
 Axe Build Log
 =============
 
-Axe Version: 3.2.0.186
+Axe Version: 3.3.0.340
 
-2011/11/23 02:24:04 PM
+2011/11/24 09:30:17 AM
 
 Test project:  C:\AXE_Projects\TestAxeProject\TestAxeProject.tpj
 Test Suite:    debug
@@ -17,15 +17,15 @@ Tests:         1 test(s)
 ObjectMap load C:\RFT_Workspace\Test_Project\resources\ObjectMap\ObjectMap.rftdef
 ActionMap load C:\Program Files (x86)\Odin Technology\Axe\ActionMap\Java.ActionMap.xml
 ActionMap load C:\Program Files (x86)\Odin Technology\Axe\ActionMap\RFT.ActionMap.xml
-INFO: ActionMap value overridden -- ._TESTINIT.0
-INFO: ActionMap value overridden -- ._TESTPREFIX.0
-INFO: ActionMap value overridden -- ._TESTSTEPEND.1
-INFO: ActionMap value overridden -- ._TESTSUBTESTEND.1
-INFO: ActionMap value overridden -- ._TESTEND.1
+INFO: Action value overridden -- ._TESTINIT.0
+INFO: Action value overridden -- ._TESTPREFIX.0
+INFO: Action value overridden -- ._TESTSTEPEND.1
+INFO: Action value overridden -- ._TESTSUBTESTEND.1
+INFO: Action value overridden -- ._TESTEND.1
 ActionMap load C:\Program Files (x86)\Odin Technology\Axe\ActionMap\RFTNative.ActionMap.xml
 ActionMap load C:\AXE_Projects\TestAxeProject\ActionMap\TestAxeProject.ActionMap.xml
-INFO: ActionMap value overridden -- ._TESTINIT.0
-INFO: ActionMap value overridden -- ._TESTPREFIX.0
+INFO: Action value overridden -- ._TESTINIT.0
+INFO: Action value overridden -- ._TESTPREFIX.0
 WARNING: Action does not have documentation -- HTML.IMG.SET.0
 WARNING: Action does not have documentation -- HTML.SPAN.SET.0
 WARNING: Action does not have documentation -- HTML.BUTTON.SET.0
@@ -35,9 +35,15 @@ WARNING: Action does not have documentation -- .SLEEP.1
 
 Test:     Test1 (Workbook: C:\AXE_Projects\TestAxeProject\data\Tests.xml Worksheet: Tests)
 Sub-test: sblLogin - Login01 (Workbook: Subtests Worksheet: sblLogin)
+Sub-test: sblLoginPageTabList - doSel1 (Workbook: Subtests Worksheet: sblLoginPageTabList)
+Sub-test: sblLoginPageTabList - doSel2 (Workbook: Subtests Worksheet: sblLoginPageTabList)
+Sub-test: sblLoginPageTabList - doSel3 (Workbook: Subtests Worksheet: sblLoginPageTabList)
+Sub-test: sblLoginPageTabList - doSel4 (Workbook: Subtests Worksheet: sblLoginPageTabList)
+Sub-test: sblLoginPageTabList - doSel5 (Workbook: Subtests Worksheet: sblLoginPageTabList)
+Sub-test: sblLoginPageTabList - doSel6 (Workbook: Subtests Worksheet: sblLoginPageTabList)
 Build completed OK
 Errors: 0 Warnings: 6 Informational: 7
 1 test(s) built successfully
-2011/11/23 02:24:04 PM
+2011/11/24 09:30:17 AM
 
 End

@@ -8,7 +8,7 @@
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <LastAuthor>Jaco</LastAuthor>
   <Created>2001-10-30T13:34:24Z</Created>
-  <LastSaved>2011-11-16T08:25:53Z</LastSaved>
+  <LastSaved>2011-11-24T04:55:47Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -20,7 +20,7 @@
   <WindowWidth>16845</WindowWidth>
   <WindowTopX>855</WindowTopX>
   <WindowTopY>-15</WindowTopY>
-  <ActiveSheet>1</ActiveSheet>
+  <ActiveSheet>2</ActiveSheet>
   <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -34,7 +34,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m62176768">
+  <Style ss:ID="m63799968">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -43,7 +43,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m62176788">
+  <Style ss:ID="m63799988">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -52,7 +52,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m62176808">
+  <Style ss:ID="m63800008">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -61,7 +61,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m62176828">
+  <Style ss:ID="m63800028">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -70,7 +70,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m62176848">
+  <Style ss:ID="m63800048">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -79,7 +79,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m62176868">
+  <Style ss:ID="m63800068">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -88,7 +88,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m62176564">
+  <Style ss:ID="m63799764">
    <Alignment ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -97,7 +97,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m62176584">
+  <Style ss:ID="m63799784">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -106,7 +106,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m62176604">
+  <Style ss:ID="m63799804">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -115,7 +115,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m62176624">
+  <Style ss:ID="m63799824">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -124,7 +124,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m62176644">
+  <Style ss:ID="m63799844">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -133,7 +133,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m75014164">
+  <Style ss:ID="m63800436">
    <Alignment ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -141,7 +141,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m75014184">
+  <Style ss:ID="m63800456">
    <Alignment ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -150,7 +150,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m75014204">
+  <Style ss:ID="m63800476">
    <Alignment ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -159,7 +159,7 @@
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m75014224">
+  <Style ss:ID="m63800496">
    <Alignment ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -167,6 +167,14 @@
    </Borders>
    <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
    <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m163152564">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
   </Style>
   <Style ss:ID="s62">
    <Borders>
@@ -291,6 +299,40 @@
    <Font ss:FontName="Arial" x:Family="Swiss"/>
    <Interior/>
   </Style>
+  <Style ss:ID="s103">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s111">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s126">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s127">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s128">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="MySubTest">
   <Table ss:ExpandedColumnCount="23" ss:ExpandedRowCount="7" x:FullColumns="1"
@@ -319,18 +361,18 @@
    <Column ss:StyleID="s62" ss:Width="27"/>
    <Row ss:StyleID="s67">
     <Cell ss:MergeDown="1" ss:StyleID="s70"><Data ss:Type="String">id</Data></Cell>
-    <Cell ss:MergeDown="1" ss:StyleID="m62176564"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m63799764"><Data ss:Type="String">description</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">[]Window</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m62176584"><Data ss:Type="String">Object1</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m62176604"><Data ss:Type="String">Object2</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m62176624"><Data ss:Type="String">Object3</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m62176644"><Data ss:Type="String">Object4</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m62176768"><Data ss:Type="String">Object5</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m62176788"><Data ss:Type="String">Object6</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m62176808"><Data ss:Type="String">Object7</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m62176828"><Data ss:Type="String">Object8</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m62176848"><Data ss:Type="String">Object9</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m62176868"><Data ss:Type="String">Object10</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63799784"><Data ss:Type="String">Object1</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63799804"><Data ss:Type="String">Object2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63799824"><Data ss:Type="String">Object3</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63799844"><Data ss:Type="String">Object4</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63799968"><Data ss:Type="String">Object5</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63799988"><Data ss:Type="String">Object6</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63800008"><Data ss:Type="String">Object7</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63800028"><Data ss:Type="String">Object8</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63800048"><Data ss:Type="String">Object9</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63800068"><Data ss:Type="String">Object10</Data></Cell>
    </Row>
    <Row ss:StyleID="s79">
     <Cell ss:Index="3" ss:StyleID="s80"><Data ss:Type="String">action</Data></Cell>
@@ -416,7 +458,7 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="sblLogin">
-  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="3" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
    x:FullRows="1">
    <Column ss:Width="39"/>
    <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="94.5"/>
@@ -426,17 +468,13 @@
    <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="55.5"/>
    <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="55.5"/>
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="55.5"/>
-   <Column ss:StyleID="s84" ss:Width="171"/>
-   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="86.25"/>
    <Row ss:StyleID="s67">
     <Cell ss:MergeDown="1" ss:StyleID="s87"><Data ss:Type="String">id</Data></Cell>
-    <Cell ss:MergeDown="1" ss:StyleID="m75014164"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m63800436"><Data ss:Type="String">description</Data></Cell>
     <Cell ss:StyleID="s89"><Data ss:Type="String">[]sblLogin</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m75014184"><Data ss:Type="String">txtUserName</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m75014204"><Data ss:Type="String">txtPassword</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m75014224"><Data ss:Type="String">imglogin</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">[]sblLoginPageTabList</Data></Cell>
-    <Cell ss:StyleID="s74"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63800456"><Data ss:Type="String">txtUserName</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63800476"><Data ss:Type="String">txtPassword</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m63800496"><Data ss:Type="String">imglogin</Data></Cell>
    </Row>
    <Row ss:StyleID="s79">
     <Cell ss:Index="3" ss:StyleID="s94"><Data ss:Type="String">action</Data></Cell>
@@ -446,8 +484,6 @@
     <Cell ss:StyleID="s81"><Data ss:Type="String">data</Data></Cell>
     <Cell ss:StyleID="s95"><Data ss:Type="String">action</Data></Cell>
     <Cell ss:StyleID="s82"><Data ss:Type="String">data</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">action</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">data</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s96"><Data ss:Type="String">Login01</Data></Cell>
@@ -458,8 +494,82 @@
     <Cell ss:StyleID="s98"><Data ss:Type="String">Set</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">sadmin</Data></Cell>
     <Cell ss:StyleID="s98"><Data ss:Type="String">Set;sleep(5)</Data></Cell>
-    <Cell ss:Index="10" ss:StyleID="s98"><Data ss:Type="String">Set2;Set(Marketing Calendar Screen)</Data></Cell>
-    <Cell><Data ss:Type="String">Marketing Plans Screen</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>42</TabColorIndex>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="sblLoginPageTabList">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="156"/>
+   <Column ss:StyleID="s126" ss:AutoFitWidth="0" ss:Width="148.5"/>
+   <Column ss:Width="150.75"/>
+   <Row ss:StyleID="s67">
+    <Cell ss:MergeDown="1" ss:StyleID="s111"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m163152564"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:StyleID="s127"><Data ss:Type="String">[]sblLoginPageTabList</Data></Cell>
+    <Cell ss:StyleID="s128"/>
+   </Row>
+   <Row ss:StyleID="s103">
+    <Cell ss:Index="3" ss:StyleID="s128"><Data ss:Type="String">action</Data></Cell>
+    <Cell ss:StyleID="s128"><Data ss:Type="String">data</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">doSel1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marketing Calendar Screen</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">sleep(3);Set2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marketing Calendar Screen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">doSel2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">Marketing Plans Screen</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Set(Marketing Plans Screen)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">doSel3</Data></Cell>
+    <Cell><Data ss:Type="String">Program Screen</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">sleep(3);Set2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Program Screen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">doSel4</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign Administration Screen</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">sleep(3);Set2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Campaign Administration Screen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">doSel5</Data></Cell>
+    <Cell><Data ss:Type="String">Marketing Segment Screen</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">sleep(3);Set2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Marketing Segment Screen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">doSel6</Data></Cell>
+    <Cell><Data ss:Type="String">Offer Screen</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">sleep(3);Set2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Offer Screen</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -479,7 +589,7 @@
     <Pane>
      <Number>3</Number>
      <ActiveRow>11</ActiveRow>
-     <ActiveCol>10</ActiveCol>
+     <ActiveCol>2</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

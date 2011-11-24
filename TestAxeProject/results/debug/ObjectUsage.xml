@@ -8,5 +8,5 @@
 <object mapfile="ObjectMap.rftdef" system="False" name="sblLogin.imglogin" count="2" class="Html.IMG"/>
 <object mapfile="ObjectMap.rftdef" system="False" name="sblLogin.txtPassword" count="1" class="Html.INPUT.password"/>
 <object mapfile="ObjectMap.rftdef" system="False" name="sblLogin.txtUserName" count="1" class="Html.INPUT.text"/>
-<object mapfile="ObjectMap.rftdef" system="False" name="sblLoginPageTabList" count="2" class="SiebPageTabs"/>
+<object mapfile="ObjectMap.rftdef" system="False" name="sblLoginPageTabList" count="11" class="SiebPageTabs"/>
 </object_coverage>

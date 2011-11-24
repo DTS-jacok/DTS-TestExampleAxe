@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<subtest_coverage>
+<project>TestAxeProject</project>
+<config file="C:\AXE_Projects\TestAxeProject\config\RFT.BuildConfig.xml" name="RFT.BuildConfig"/>
+<testsuite>debug</testsuite>
+<subtest><name>Subtests:sblLogin:Login01</name><count>1</count></subtest>
+<subtest><name>Subtests:sblLoginPageTabList:doSel1</name><count>1</count></subtest>
+<subtest><name>Subtests:sblLoginPageTabList:doSel2</name><count>1</count></subtest>
+<subtest><name>Subtests:sblLoginPageTabList:doSel3</name><count>1</count></subtest>
+<subtest><name>Subtests:sblLoginPageTabList:doSel4</name><count>1</count></subtest>
+<subtest><name>Subtests:sblLoginPageTabList:doSel5</name><count>1</count></subtest>
+<subtest><name>Subtests:sblLoginPageTabList:doSel6</name><count>1</count></subtest>
+</subtest_coverage>

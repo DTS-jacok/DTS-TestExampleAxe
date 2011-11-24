@@ -4,7 +4,6 @@
   <Option Name="RunConfiguration" Value="" />
   <Option Name="RunName" Value="" />
   <Tests>
-    <Test>Test1</Test>
     <Test>Test2</Test>
   </Tests>
 </RunSettings>

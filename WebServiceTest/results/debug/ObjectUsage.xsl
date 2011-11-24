@@ -3,8 +3,8 @@
 <!--
 ############################## Axe Object Usage transform ############################################################### 
 #
-#	Copyright:	(c)Copyright 2004-2009 Odin Technology Ltd. All Rights Reserved.
-#	Version:	v2.0 rev 1
+#	Copyright:	(c)Copyright 2004-2011 Odin Technology Ltd. All Rights Reserved.
+#	Version:	v3.3 rev 0
 #	Contact:	www.odintech.com
 #
 ########################################################################################################################## -->
@@ -13,18 +13,24 @@
 <xsl:template match="object_coverage">
  <div>
 <div class="mainheading">Axe Object Usage Statistics</div>
-
-	<xsl:if test="$showsys = 'True'">
-<form>
-<input type="button" onclick="resultdiv.innerHTML = applyXSLT('False','')" value="Suppress System Maps"/>
-</form>
-	</xsl:if>
-	<xsl:if test="$showsys = 'False'">
-<form>
-<input type="button" onclick="resultdiv.innerHTML = applyXSLT('True','');" value="Show All"/>
-</form>
-	</xsl:if>
-
+<div class="subpanel">
+	<table class="summary">
+    <tr>		
+		<td class="value"><a href="actionusage.html">Action Usage</a></td>
+		<td class="value"><a href="subtestusage.html">Subtest Usage</a></td>
+		<td>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</td>
+		<td>	
+			<xsl:if test="$showsys = 'True'">
+				<input type="button" onclick="resultdiv.innerHTML = applyXSLT('False','')" value="Suppress System Maps"/>	
+			</xsl:if>
+			<xsl:if test="$showsys = 'False'">		
+				<input type="button" onclick="resultdiv.innerHTML = applyXSLT('True','');" value="Show All"/>	
+			</xsl:if>
+		</td>		
+    </tr>
+	</table>	
+</div>
+		
 <div class="subpanel">
   <table class="summary">
     <tr>
@@ -42,7 +48,6 @@
   </table>						
 </div>
     
-
 <div class="subpanel">
   <table class="summary">
     <tr>
@@ -222,7 +227,6 @@
 
   </table>
 </div>
-
 
 </div>
 </xsl:template>

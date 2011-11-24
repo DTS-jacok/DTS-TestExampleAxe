@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<test><projectname>WebServiceTest</projectname><configuration>AxeHarness</configuration><buildtimestamp>2011/11/23 10:33:25 AM</buildtimestamp><id>Test2</id><table name="countryInfoByIana" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><resultfile>C:/AXE_Projects/WebServiceTest/results/debug/results.xml</resultfile><description>Get a multi return from regions</description> 
+<test><projectname>WebServiceTest</projectname><configuration>AxeHarness</configuration><buildtimestamp>2011/11/24 09:35:15 AM</buildtimestamp><id>Test2</id><table name="Tests" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><resultfile>C:/AXE_Projects/WebServiceTest/results/debug/results.xml</resultfile><description>Get a multi return from regions</description> 
 <subtest><id>Test02</id><table name="regionsInfoByIana" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><description>Multi returns</description> 
 <step type="Load"><object>[]regionsInfoByIana</object><action>load.file(regionsInfoByIana.xml)</action><data></data><description>
 Load contents of file regionsInfoByIana.xml
@@ -17,6 +17,12 @@ Invoke the &quot;regionsInfoByIana&quot; web service
 Get the &quot;ListResponse&quot; response node, xpath=//allregionslist
 </description></step>
 <step type="Val"><object>ListResponse</object><action>val</action><data></data><description>
+Check the obtained value matches the expected value
+</description></step>
+<step type="Get"><object>ListResponseCount</object><action>get</action><data></data><description>
+Get the &quot;ListResponseCount&quot; response node, xpath=//allregionslist/item
+</description></step>
+<step type="Val"><object>ListResponseCount</object><action>val</action><data></data><description>
 Check the obtained value matches the expected value
 </description></step>
 <step type="Get"><object>ListResponseItem_2</object><action>get</action><data></data><description>

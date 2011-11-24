@@ -1,4 +1,3 @@
 <driver testsuite="debug">
-<test id="Test1">Test1.xml</test>
 <test id="Test2">Test2.xml</test>
 </driver>

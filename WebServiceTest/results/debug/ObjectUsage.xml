@@ -3,17 +3,18 @@
 <project>WebServiceTest</project>
 <config file="C:\AXE_Projects\WebServiceTest\config\AxeHarness.BuildConfig.xml" name="AxeHarness.BuildConfig"/>
 <testsuite>debug</testsuite>
-<object_count>16</object_count>
-<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana" count="3" class="WsOperation"/>
-<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.countrynameResponse" count="2" class="WsOutParameter"/>
-<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.ianacode" count="1" class="WsInParameter"/>
-<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.ianacodeResponse" count="2" class="WsOutParameter"/>
-<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.latitudeResponse" count="2" class="WsOutParameter"/>
-<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.longitudeResponse" count="2" class="WsOutParameter"/>
+<object_count>17</object_count>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana" count="0" class="WsOperation"/>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.countrynameResponse" count="0" class="WsOutParameter"/>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.ianacode" count="0" class="WsInParameter"/>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.ianacodeResponse" count="0" class="WsOutParameter"/>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.latitudeResponse" count="0" class="WsOutParameter"/>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="countryInfoByIana.longitudeResponse" count="0" class="WsOutParameter"/>
 <object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="regionsInfoByIana" count="3" class="WsOperation"/>
 <object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="regionsInfoByIana.ianacode" count="1" class="WsInParameter"/>
 <object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="regionsInfoByIana.latitudeResponse" count="0" class="WsOutParameter"/>
 <object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponse" count="2" class="WsOutParameter"/>
+<object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseCount" count="2" class="WsOutParameter"/>
 <object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseItem_2" count="2" class="WsOutParameter"/>
 <object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseItem_2_Code" count="2" class="WsOutParameter"/>
 <object mapfile="WebServiceTest.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseItems" count="2" class="WsOutParameter"/>

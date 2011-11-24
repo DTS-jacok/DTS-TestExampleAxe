@@ -48,11 +48,12 @@
 							</a>	
 						</xsl:if>
 						<xsl:if test="$type = 'Run'">
-							<a href="documentation.html">View Documentation</a>
+							<a href="documentation.html">Test Documentation</a>
 						</xsl:if>
 					</td>
-					<td class="value">
-					<a href="objectusage.html">View Object Usage</a></td>
+					<td class="value"><a href="objectusage.html">Object Usage</a></td>
+					<td class="value"><a href="actionusage.html">Action Usage</a></td>
+					<td class="value"><a href="subtestusage.html">Subtest Usage</a></td>
 					<xsl:if test="$type = 'Run'">
 						<td class="value">
 							<a href="timers.html">Transaction Timers</a>

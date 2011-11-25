@@ -6,7 +6,7 @@
     <id>
     </id>
     <config file="C:\AXE_Projects\TestAxeProject\config\RFT.BuildConfig.xml" name="RFT" />
-    <buildtimestamp>2011/11/25 07:11:31 AM</buildtimestamp>
+    <buildtimestamp>2011/11/25 09:18:04 AM</buildtimestamp>
     <run_master>
       <test>
         <index>1</index>
@@ -14,11 +14,11 @@
         <description>My Test Description logon</description>
         <result>Pass</result>
         <success>True</success>
-        <start>2011/11/25 07:11:41 AM</start>
-        <finish>2011/11/25 07:12:14 AM</finish>
-        <time>33.1738975</time>
+        <start>2011/11/25 09:18:58 AM</start>
+        <finish>2011/11/25 09:19:24 AM</finish>
+        <time>26.1304946</time>
         <run>run1</run>
-        <test_index>1</test_index>
+        <test_index>2</test_index>
       </test>
       <testcount>1</testcount>
       <passcount>1</passcount>
@@ -27,42 +27,42 @@
     </run_master>
     <run>
       <name>run1</name>
-      <start>2011/11/25 07:11:41 AM</start>
-      <finish>2011/11/25 07:12:14 AM</finish>
-      <testcount>1</testcount>
+      <start>2011/11/25 09:18:11 AM</start>
+      <finish>2011/11/25 09:19:24 AM</finish>
+      <testcount>2</testcount>
       <passcount>1</passcount>
-      <failcount>0</failcount>
-      <success>true</success>
+      <failcount>1</failcount>
+      <success>false</success>
       <test>
         <id>Test1</id>
         <execution_id>
         </execution_id>
         <table name="Tests" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml" />
         <description><![CDATA[My Test Description logon]]></description>
-        <start>2011/11/25 07:11:41 AM</start>
+        <start>2011/11/25 09:18:11 AM</start>
         <basestate>
           <index>1</index>
           <action>Home.siebel</action>
-          <start>2011/11/25 07:11:41 AM</start>
+          <start>2011/11/25 09:18:11 AM</start>
           <success>True</success>
           <result>0</result>
-          <finish>2011/11/25 07:11:47 AM</finish>
-          <time>6.2453572</time>
+          <finish>2011/11/25 09:18:18 AM</finish>
+          <time>6.2953601</time>
         </basestate>
         <subtest>
           <index>1</index>
           <id>Login01</id>
           <table name="sblLogin" file="Subtests" />
           <description><![CDATA[Login with admin user]]></description>
-          <start>2011/11/25 07:11:47 AM</start>
+          <start>2011/11/25 09:18:18 AM</start>
           <step>
             <index>1</index>
             <object><![CDATA[[]sblLogin]]></object>
             <action><![CDATA[Set]]></action>
             <data><![CDATA[]]></data>
-            <start>2011/11/25 07:11:47 AM</start>
-            <finish>2011/11/25 07:11:47 AM</finish>
-            <time>0.401023</time>
+            <start>2011/11/25 09:18:18 AM</start>
+            <finish>2011/11/25 09:18:18 AM</finish>
+            <time>0.2490143</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -71,9 +71,9 @@
             <object><![CDATA[txtUserName]]></object>
             <action><![CDATA[Set]]></action>
             <data><![CDATA[sadmin]]></data>
-            <start>2011/11/25 07:11:47 AM</start>
-            <finish>2011/11/25 07:11:48 AM</finish>
-            <time>0.4310247</time>
+            <start>2011/11/25 09:18:18 AM</start>
+            <finish>2011/11/25 09:18:18 AM</finish>
+            <time>0.4560261</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -82,9 +82,9 @@
             <object><![CDATA[txtPassword]]></object>
             <action><![CDATA[Set]]></action>
             <data><![CDATA[sadmin]]></data>
-            <start>2011/11/25 07:11:48 AM</start>
-            <finish>2011/11/25 07:11:48 AM</finish>
-            <time>0.3970227</time>
+            <start>2011/11/25 09:18:18 AM</start>
+            <finish>2011/11/25 09:18:19 AM</finish>
+            <time>0.4210241</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -93,9 +93,9 @@
             <object><![CDATA[imglogin]]></object>
             <action><![CDATA[Set]]></action>
             <data><![CDATA[]]></data>
-            <start>2011/11/25 07:11:48 AM</start>
-            <finish>2011/11/25 07:11:48 AM</finish>
-            <time>0.2890165</time>
+            <start>2011/11/25 09:18:19 AM</start>
+            <finish>2011/11/25 09:18:19 AM</finish>
+            <time>0.3420196</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -104,14 +104,14 @@
             <object><![CDATA[imglogin]]></object>
             <action><![CDATA[sleep(5)]]></action>
             <data><![CDATA[]]></data>
-            <start>2011/11/25 07:11:48 AM</start>
-            <finish>2011/11/25 07:11:53 AM</finish>
-            <time>5.000286</time>
+            <start>2011/11/25 09:18:19 AM</start>
+            <finish>2011/11/25 09:18:24 AM</finish>
+            <time>5.0032862</time>
             <result>0</result>
             <success>True</success>
           </step>
-          <finish>2011/11/25 07:11:53 AM</finish>
-          <time>6.5343738</time>
+          <finish>2011/11/25 09:18:24 AM</finish>
+          <time>6.4893712</time>
           <result>Pass</result>
           <success>True</success>
           <testcount>5</testcount>
@@ -123,15 +123,15 @@
           <id>doSel1</id>
           <table name="sblLoginPageTabList" file="Subtests" />
           <description><![CDATA[Marketing Calendar Screen]]></description>
-          <start>2011/11/25 07:11:54 AM</start>
+          <start>2011/11/25 09:18:24 AM</start>
           <step>
             <index>1</index>
             <object><![CDATA[[]sblLoginPageTabList]]></object>
             <action><![CDATA[sleep(3)]]></action>
             <data><![CDATA[Marketing Calendar Screen]]></data>
-            <start>2011/11/25 07:11:54 AM</start>
-            <finish>2011/11/25 07:11:57 AM</finish>
-            <time>3.0011716</time>
+            <start>2011/11/25 09:18:24 AM</start>
+            <finish>2011/11/25 09:18:27 AM</finish>
+            <time>3.0031717</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -140,14 +140,150 @@
             <object><![CDATA[[]sblLoginPageTabList]]></object>
             <action><![CDATA[Set2]]></action>
             <data><![CDATA[Marketing Calendar Screen]]></data>
-            <start>2011/11/25 07:11:57 AM</start>
-            <finish>2011/11/25 07:11:59 AM</finish>
-            <time>2.0651181</time>
+            <start>2011/11/25 09:18:27 AM</start>
+            <info><![CDATA[Object reference not set to an instance of an object.]]></info>
+            <finish>2011/11/25 09:18:27 AM</finish>
+            <time>0.297017</time>
+            <result>1</result>
+            <success>False</success>
+            <error_no>1</error_no>
+            <error_msg><![CDATA[]]></error_msg>
+          </step>
+          <finish>2011/11/25 09:18:27 AM</finish>
+          <time>3.3131895</time>
+          <result>Aborted</result>
+          <success>False</success>
+          <testcount>2</testcount>
+          <passcount>1</passcount>
+          <failcount>1</failcount>
+        </subtest>
+        <finish>2011/11/25 09:18:27 AM</finish>
+        <time>16.2209278</time>
+        <result>Aborted</result>
+        <success>False</success>
+        <testcount>2</testcount>
+        <passcount>1</passcount>
+        <failcount>1</failcount>
+        <image subtest_index="2" step_index="2">images/Test1_Abort.jpg</image>
+        <index>1</index>
+      </test>
+      <test>
+        <id>Test1</id>
+        <execution_id>
+        </execution_id>
+        <table name="Tests" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml" />
+        <description><![CDATA[My Test Description logon]]></description>
+        <start>2011/11/25 09:18:58 AM</start>
+        <basestate>
+          <index>1</index>
+          <action>Home.siebel</action>
+          <start>2011/11/25 09:18:58 AM</start>
+          <info><![CDATA[[2011/11/25 09:18:58] Found browser http://192.168.1.201:7780/marketing_enu/start.swe?SWECmd=AutoOn&_sn=j1kwIHNjlbT.S4Pq5OpBatEuqtxT2Phxj3vvkj-5FouFuGyehTO3mqDYIPCQnIgQ&SWEHo=192.168.1.201&SWETS=1322198731]]></info>
+          <info><![CDATA[[2011/11/25 09:18:58] Navigating to http://192.168.1.201:7780/marketing_enu/start.swe?SWECmd=AutoOn]]></info>
+          <success>True</success>
+          <result>0</result>
+          <finish>2011/11/25 09:18:58 AM</finish>
+          <time>0.0850048</time>
+        </basestate>
+        <subtest>
+          <index>1</index>
+          <id>Login01</id>
+          <table name="sblLogin" file="Subtests" />
+          <description><![CDATA[Login with admin user]]></description>
+          <start>2011/11/25 09:18:58 AM</start>
+          <step>
+            <index>1</index>
+            <object><![CDATA[[]sblLogin]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/11/25 09:18:58 AM</start>
+            <finish>2011/11/25 09:18:58 AM</finish>
+            <time>0.2180125</time>
             <result>0</result>
             <success>True</success>
           </step>
-          <finish>2011/11/25 07:11:59 AM</finish>
-          <time>5.0972916</time>
+          <step>
+            <index>2</index>
+            <object><![CDATA[txtUserName]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[sadmin]]></data>
+            <start>2011/11/25 09:18:58 AM</start>
+            <finish>2011/11/25 09:18:59 AM</finish>
+            <time>0.9510544</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>3</index>
+            <object><![CDATA[txtPassword]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[sadmin]]></data>
+            <start>2011/11/25 09:18:59 AM</start>
+            <finish>2011/11/25 09:19:00 AM</finish>
+            <time>0.401023</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>4</index>
+            <object><![CDATA[imglogin]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/11/25 09:19:00 AM</start>
+            <finish>2011/11/25 09:19:00 AM</finish>
+            <time>0.296017</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>5</index>
+            <object><![CDATA[imglogin]]></object>
+            <action><![CDATA[sleep(5)]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/11/25 09:19:00 AM</start>
+            <finish>2011/11/25 09:19:05 AM</finish>
+            <time>5.0042863</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <finish>2011/11/25 09:19:05 AM</finish>
+          <time>6.888394</time>
+          <result>Pass</result>
+          <success>True</success>
+          <testcount>5</testcount>
+          <passcount>5</passcount>
+          <failcount>0</failcount>
+        </subtest>
+        <subtest>
+          <index>2</index>
+          <id>doSel1</id>
+          <table name="sblLoginPageTabList" file="Subtests" />
+          <description><![CDATA[Marketing Calendar Screen]]></description>
+          <start>2011/11/25 09:19:05 AM</start>
+          <step>
+            <index>1</index>
+            <object><![CDATA[[]sblLoginPageTabList]]></object>
+            <action><![CDATA[sleep(3)]]></action>
+            <data><![CDATA[Marketing Calendar Screen]]></data>
+            <start>2011/11/25 09:19:05 AM</start>
+            <finish>2011/11/25 09:19:08 AM</finish>
+            <time>3.0021717</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>2</index>
+            <object><![CDATA[[]sblLoginPageTabList]]></object>
+            <action><![CDATA[Set2]]></action>
+            <data><![CDATA[Marketing Calendar Screen]]></data>
+            <start>2011/11/25 09:19:08 AM</start>
+            <finish>2011/11/25 09:19:10 AM</finish>
+            <time>1.9561119</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <finish>2011/11/25 09:19:10 AM</finish>
+          <time>4.9762846</time>
           <result>Pass</result>
           <success>True</success>
           <testcount>2</testcount>
@@ -159,20 +295,20 @@
           <id>doSel2</id>
           <table name="sblLoginPageTabList" file="Subtests" />
           <description><![CDATA[Marketing Plans Screen]]></description>
-          <start>2011/11/25 07:11:59 AM</start>
+          <start>2011/11/25 09:19:10 AM</start>
           <step>
             <index>1</index>
             <object><![CDATA[[]sblLoginPageTabList]]></object>
             <action><![CDATA[Set(Marketing Plans Screen)]]></action>
             <data><![CDATA[]]></data>
-            <start>2011/11/25 07:11:59 AM</start>
-            <finish>2011/11/25 07:11:59 AM</finish>
-            <time>0.4470256</time>
+            <start>2011/11/25 09:19:10 AM</start>
+            <finish>2011/11/25 09:19:11 AM</finish>
+            <time>0.3660209</time>
             <result>0</result>
             <success>True</success>
           </step>
-          <finish>2011/11/25 07:11:59 AM</finish>
-          <time>0.4570261</time>
+          <finish>2011/11/25 09:19:11 AM</finish>
+          <time>0.3720213</time>
           <result>Pass</result>
           <success>True</success>
           <testcount>1</testcount>
@@ -184,14 +320,14 @@
           <id>doSel3</id>
           <table name="sblLoginPageTabList" file="Subtests" />
           <description><![CDATA[Program Screen]]></description>
-          <start>2011/11/25 07:11:59 AM</start>
+          <start>2011/11/25 09:19:11 AM</start>
           <step>
             <index>1</index>
             <object><![CDATA[[]sblLoginPageTabList]]></object>
             <action><![CDATA[sleep(3)]]></action>
             <data><![CDATA[Program Screen]]></data>
-            <start>2011/11/25 07:11:59 AM</start>
-            <finish>2011/11/25 07:12:02 AM</finish>
+            <start>2011/11/25 09:19:11 AM</start>
+            <finish>2011/11/25 09:19:14 AM</finish>
             <time>3.0021717</time>
             <result>0</result>
             <success>True</success>
@@ -201,14 +337,14 @@
             <object><![CDATA[[]sblLoginPageTabList]]></object>
             <action><![CDATA[Set2]]></action>
             <data><![CDATA[Program Screen]]></data>
-            <start>2011/11/25 07:12:02 AM</start>
-            <finish>2011/11/25 07:12:03 AM</finish>
-            <time>0.4170239</time>
+            <start>2011/11/25 09:19:14 AM</start>
+            <finish>2011/11/25 09:19:14 AM</finish>
+            <time>0.3970227</time>
             <result>0</result>
             <success>True</success>
           </step>
-          <finish>2011/11/25 07:12:03 AM</finish>
-          <time>3.4341964</time>
+          <finish>2011/11/25 09:19:14 AM</finish>
+          <time>3.410195</time>
           <result>Pass</result>
           <success>True</success>
           <testcount>2</testcount>
@@ -220,15 +356,15 @@
           <id>doSel4</id>
           <table name="sblLoginPageTabList" file="Subtests" />
           <description><![CDATA[Campaign Administration Screen]]></description>
-          <start>2011/11/25 07:12:03 AM</start>
+          <start>2011/11/25 09:19:14 AM</start>
           <step>
             <index>1</index>
             <object><![CDATA[[]sblLoginPageTabList]]></object>
             <action><![CDATA[sleep(3)]]></action>
             <data><![CDATA[Campaign Administration Screen]]></data>
-            <start>2011/11/25 07:12:03 AM</start>
-            <finish>2011/11/25 07:12:06 AM</finish>
-            <time>3.0021717</time>
+            <start>2011/11/25 09:19:14 AM</start>
+            <finish>2011/11/25 09:19:17 AM</finish>
+            <time>3.0061719</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -237,14 +373,14 @@
             <object><![CDATA[[]sblLoginPageTabList]]></object>
             <action><![CDATA[Set2]]></action>
             <data><![CDATA[Campaign Administration Screen]]></data>
-            <start>2011/11/25 07:12:06 AM</start>
-            <finish>2011/11/25 07:12:06 AM</finish>
-            <time>0.7110406</time>
+            <start>2011/11/25 09:19:17 AM</start>
+            <finish>2011/11/25 09:19:17 AM</finish>
+            <time>0.419024</time>
             <result>0</result>
             <success>True</success>
           </step>
-          <finish>2011/11/25 07:12:07 AM</finish>
-          <time>3.7282133</time>
+          <finish>2011/11/25 09:19:17 AM</finish>
+          <time>3.4421969</time>
           <result>Pass</result>
           <success>True</success>
           <testcount>2</testcount>
@@ -256,15 +392,15 @@
           <id>doSel5</id>
           <table name="sblLoginPageTabList" file="Subtests" />
           <description><![CDATA[Marketing Segment Screen]]></description>
-          <start>2011/11/25 07:12:07 AM</start>
+          <start>2011/11/25 09:19:17 AM</start>
           <step>
             <index>1</index>
             <object><![CDATA[[]sblLoginPageTabList]]></object>
             <action><![CDATA[sleep(3)]]></action>
             <data><![CDATA[Marketing Segment Screen]]></data>
-            <start>2011/11/25 07:12:07 AM</start>
-            <finish>2011/11/25 07:12:10 AM</finish>
-            <time>3.0011716</time>
+            <start>2011/11/25 09:19:17 AM</start>
+            <finish>2011/11/25 09:19:20 AM</finish>
+            <time>3.0031718</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -273,14 +409,14 @@
             <object><![CDATA[[]sblLoginPageTabList]]></object>
             <action><![CDATA[Set2]]></action>
             <data><![CDATA[Marketing Segment Screen]]></data>
-            <start>2011/11/25 07:12:10 AM</start>
-            <finish>2011/11/25 07:12:10 AM</finish>
-            <time>0.5700326</time>
+            <start>2011/11/25 09:19:20 AM</start>
+            <finish>2011/11/25 09:19:21 AM</finish>
+            <time>0.384022</time>
             <result>0</result>
             <success>True</success>
           </step>
-          <finish>2011/11/25 07:12:10 AM</finish>
-          <time>3.5822049</time>
+          <finish>2011/11/25 09:19:21 AM</finish>
+          <time>3.4011945</time>
           <result>Pass</result>
           <success>True</success>
           <testcount>2</testcount>
@@ -292,15 +428,15 @@
           <id>doSel6</id>
           <table name="sblLoginPageTabList" file="Subtests" />
           <description><![CDATA[Offer Screen]]></description>
-          <start>2011/11/25 07:12:10 AM</start>
+          <start>2011/11/25 09:19:21 AM</start>
           <step>
             <index>1</index>
             <object><![CDATA[[]sblLoginPageTabList]]></object>
             <action><![CDATA[sleep(3)]]></action>
             <data><![CDATA[Offer Screen]]></data>
-            <start>2011/11/25 07:12:10 AM</start>
-            <finish>2011/11/25 07:12:13 AM</finish>
-            <time>3.0031717</time>
+            <start>2011/11/25 09:19:21 AM</start>
+            <finish>2011/11/25 09:19:24 AM</finish>
+            <time>3.0031718</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -309,28 +445,28 @@
             <object><![CDATA[[]sblLoginPageTabList]]></object>
             <action><![CDATA[Set2]]></action>
             <data><![CDATA[Offer Screen]]></data>
-            <start>2011/11/25 07:12:13 AM</start>
-            <finish>2011/11/25 07:12:14 AM</finish>
-            <time>0.613035</time>
+            <start>2011/11/25 09:19:24 AM</start>
+            <finish>2011/11/25 09:19:24 AM</finish>
+            <time>0.4130236</time>
             <result>0</result>
             <success>True</success>
           </step>
-          <finish>2011/11/25 07:12:14 AM</finish>
-          <time>3.6312077</time>
+          <finish>2011/11/25 09:19:24 AM</finish>
+          <time>3.427196</time>
           <result>Pass</result>
           <success>True</success>
           <testcount>2</testcount>
           <passcount>2</passcount>
           <failcount>0</failcount>
         </subtest>
-        <finish>2011/11/25 07:12:14 AM</finish>
-        <time>33.1738975</time>
+        <finish>2011/11/25 09:19:24 AM</finish>
+        <time>26.1304946</time>
         <result>Pass</result>
         <success>True</success>
         <testcount>7</testcount>
         <passcount>7</passcount>
         <failcount>0</failcount>
-        <index>1</index>
+        <index>2</index>
       </test>
     </run>
   </build>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<demo:ProductDetails xmlns:demo="http://www.odin.co.uk/samples">
+    <demo:Code>AB1200</demo:Code>
+    <demo:Cost demo:Currency="GBP">9.99</demo:Cost>
+    <demo:Description>Mouse mat</demo:Description>
+</demo:ProductDetails>

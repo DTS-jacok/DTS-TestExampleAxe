@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Build>
+  <AxeVersion>3.3.0.340</AxeVersion>
+  <Project>C:\AXE_Projects\HarnessDemo\HarnessDemo.tpj</Project>
+  <Time>2011/11/25 07:22:42 AM</Time>
+  <MachineName>JACO-PC</MachineName>
+  <UserName>Jaco</UserName>
+  <Settings>
+    <BuildConfiguration>Java</BuildConfiguration>
+    <TestSuite>debug</TestSuite>
+    <Workbook>WebServiceTests</Workbook>
+    <Worksheet>Tests</Worksheet>
+    <Tests>5</Tests>
+  </Settings>
+  <Configuration>
+    <Tool>Java</Tool>
+    <ToolArguments />
+    <ToolProjectDir />
+    <Encoding>Default</Encoding>
+    <DriverEncoding>Default</DriverEncoding>
+    <ActionMap Name="Java" Path="C:\Program Files (x86)\Odin Technology\Axe\ActionMap\Java.ActionMap.xml" />
+    <ActionMap Name="DemoJava" Path="C:\AXE_Projects\HarnessDemo\ActionMap\DemoJava.ActionMap.xml" />
+    <ObjectMap Name="DemoClass" Path="C:\AXE_Projects\HarnessDemo\ObjectMap\DemoClass.ObjectMap.xml" />
+    <ObjectMap Name="SystemClass" Path="C:\AXE_Projects\HarnessDemo\ObjectMap\SystemClass.ObjectMap.xml" />
+    <ObjectMap Name="DemoXML" Path="C:\AXE_Projects\HarnessDemo\ObjectMap\DemoXML.ObjectMap.xml" />
+    <ObjectMap Name="DemoService" Path="C:\AXE_Projects\HarnessDemo\ObjectMap\DemoService.ObjectMap.xml" />
+    <ObjectMap Name="DemoDB" Path="C:\AXE_Projects\HarnessDemo\ObjectMap\DemoDB.ObjectMap.xml" />
+    <ScriptDir>C:\AXE_Projects\HarnessDemo\scripts\debug</ScriptDir>
+    <MapObjectReferences>False</MapObjectReferences>
+  </Configuration>
+</Build>

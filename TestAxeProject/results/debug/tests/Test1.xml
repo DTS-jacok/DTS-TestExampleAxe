@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<test><projectname>TestAxeProject</projectname><configuration>RFT</configuration><buildtimestamp>2011/11/24 09:30:17 AM</buildtimestamp><id>Test1</id><table name="Tests" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestAxeProject/results/debug/results.xml</resultfile><description>My Test Description logon</description> 
+<test><projectname>TestAxeProject</projectname><configuration>RFT</configuration><buildtimestamp>2011/11/25 07:11:31 AM</buildtimestamp><id>Test1</id><table name="Tests" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestAxeProject/results/debug/results.xml</resultfile><description>My Test Description logon</description> 
 <basestate><action>Home.siebel</action><description>
 Navigate to the Home page in the current web browser.
 </description></basestate>

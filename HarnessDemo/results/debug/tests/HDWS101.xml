@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<test><projectname>HarnessDemo</projectname><configuration>Java</configuration><buildtimestamp>2011/11/25 07:22:42 AM</buildtimestamp><id>HDWS101</id><table name="Tests" file="C:/AXE_Projects/HarnessDemo/data/WebServiceTests.xml"/><resultfile>C:/AXE_Projects/HarnessDemo/results/debug/results.xml</resultfile><description>Simple web service with template</description> 
+<subtest><id>newUser1</id><table name="Register" file="C:/AXE_Projects/HarnessDemo/data/WebServiceTests.xml"/><description>Register new user</description> 
+<step type="Load"><object>[]Register</object><action>load.file(Register.xml)</action><data></data><description>
+Load contents of file Register.xml
+</description></step>
+<step type="Set"><object>[]Register</object><action>set</action><data></data><description>
+Set content of the &quot;Register&quot; SOAP request
+</description></step>
+<step type="Set"><object>Name</object><action>set</action><data>Fred Jones</data><description>
+Set the &quot;Name&quot; parameter to &quot;Fred Jones&quot;
+</description></step>
+<step type="Set"><object>DOB</object><action>set</action><data>15/07/1972</data><description>
+Set the &quot;DOB&quot; parameter to &quot;15/07/1972&quot;
+</description></step>
+<step type="Set"><object>Email</object><action>set</action><data>fjones@test.com</data><description>
+Set the &quot;Email&quot; parameter to &quot;fjones@test.com&quot;
+</description></step>
+<step type="Set"><object>Gender</object><action>set</action><data>Male</data><description>
+Set the &quot;Gender&quot; parameter to &quot;Male&quot;
+</description></step>
+<step type="Set"><object>Title</object><action>set</action><data>Mr</data><description>
+Set the &quot;Title&quot; parameter to &quot;Mr&quot;
+</description></step>
+<step type="Set"><object>MailingList</object><action>set</action><data>false</data><description>
+Set the &quot;MailingList&quot; parameter to &quot;false&quot;
+</description></step>
+<step type="Unknown"><object>[]Register</object><action>invoke</action><data></data><description>
+Invoke the &quot;Register&quot; web service
+</description></step>
+<step type="Get"><object>Result</object><action>get</action><data></data><description>
+Get the &quot;Result&quot; response node, xpath=//default:RegisterResult
+</description></step>
+<step type="Val"><object>Result</object><action>val</action><data>Fre150</data><description>
+Check the obtained value matches the expected value
+</description></step>
+</subtest>
+</test>

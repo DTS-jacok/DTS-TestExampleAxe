@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestProject>
+  <ProductVersion>3.3</ProductVersion>
+  <Name>HarnessDemo</Name>
+  <Description>Demonstrates AxeHarness SOA testing with Web Services, databases, classes and XML files.</Description>
+  <ApplicationType />
+  <ExcludeTestTables />
+  <TestSuiteNamingScheme>%WORKBOOK%.%WORKSHEET%.%BUILDCONFIG%.%RUNCONFIG%.%DATE%</TestSuiteNamingScheme>
+  <AxeManager>
+    <Options>
+      <Option name="AxeIdField" value="TS_USER_02" />
+      <Option name="CompactSteps" value="True" />
+      <Option name="TestPlanFolder" value="Subject\Axe Import" />
+      <Option name="UserFields" value="TS_USER_01=DB" />
+      <Option name="DefaultRunConfig" value="QTP" />
+    </Options>
+  </AxeManager>
+</TestProject>

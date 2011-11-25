@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<test><projectname>HarnessDemo</projectname><configuration>Java</configuration><buildtimestamp>2011/11/25 07:22:42 AM</buildtimestamp><id>HDWS002</id><table name="Tests" file="C:/AXE_Projects/HarnessDemo/data/WebServiceTests.xml"/><resultfile>C:/AXE_Projects/HarnessDemo/results/debug/results.xml</resultfile><description>Invalid web method argument</description> 
+<subtest><id>invalidArgument</id><table name="Add" file="C:/AXE_Projects/HarnessDemo/data/WebServiceTests.xml"/><description>Arguments must be numeric</description> 
+<step type="Set"><object>[]AddService</object><action>set</action><data></data><description>
+Set content of the &quot;AddService&quot; SOAP request
+</description></step>
+<step type="Set"><object>FirstNumber</object><action>set</action><data>one</data><description>
+Set the &quot;FirstNumber&quot; parameter to &quot;one&quot;
+</description></step>
+<step type="Set"><object>SecondNumber</object><action>set</action><data>two</data><description>
+Set the &quot;SecondNumber&quot; parameter to &quot;two&quot;
+</description></step>
+<step type="Unknown"><object>[]AddService</object><action>invoke</action><data></data><description>
+Invoke the &quot;AddService&quot; web service
+</description></step>
+<step type="Get"><object>SoapFault</object><action>get</action><data></data><description>
+Get the &quot;SoapFault&quot; response node, xpath=//soap:Fault
+</description></step>
+<step type="Val"><object>SoapFault</object><action>val.regexp</action><data>.*Input string was not in a correct format.*</data><description>
+Check the obtained value matches the expected regular expression
+</description></step>
+</subtest>
+</test>

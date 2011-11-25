@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Sam Warwick</LastAuthor>
+  <Created>2001-11-07T15:46:09Z</Created>
+  <LastSaved>2006-04-19T10:38:40Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5325</WindowHeight>
+  <WindowWidth>13695</WindowWidth>
+  <WindowTopX>1890</WindowTopX>
+  <WindowTopY>3675</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s71">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Config">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="16" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="57.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="79.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="566.25"/>
+   <Column ss:StyleID="s64" ss:Width="72.75"/>
+   <Row ss:StyleID="s65">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">category</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">option</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">value</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">property</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Axe</Data></Cell>
+    <Cell><Data ss:Type="String">Tool</Data></Cell>
+    <Cell><Data ss:Type="String">TestPartner</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Axe</Data></Cell>
+    <Cell><Data ss:Type="String">ToolArguments</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">/odbc &quot;DSN=TP_OdinPortal;Uid=Admin;Pwd=admin&quot; /toolargs &quot;-d TP_OdinPortal -u Admin -p admin -r Common&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Axe</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SaveScreen</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String" x:Ticked="1">false</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">assembly</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HarnessDemo</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">%TESTPROJECTDIR%\lib\HarnessDemo.dll</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">assembly</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Core</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">mscorlib</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">namespace</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">soap</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">http://schemas.xmlsoap.org/soap/envelope/</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">namespace</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">demo</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://www.odin.co.uk/samples</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">namespace</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">odin</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">http://www.odin.co.uk/webservices</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">connection</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HarnessDemo</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">DSN=HarnessDemo</Data></Cell>
+    <Cell><Data ss:Type="String">provider=ODBC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">#webservice</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HarnessDemo</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">http://localhost/HarnessDemo.asmx</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">webservice</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HarnessDemo</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">http://www.axesamples.com/HarnessDemo/HarnessDemo.asmx</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>16</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<testsuite>
+  <name>HarnessDemo</name>
+  <build>
+    <name>debug</name>
+    <id>
+    </id>
+    <config file="C:\AXE_Projects\HarnessDemo\config\Java.BuildConfig.xml" name="Java" />
+    <buildtimestamp>2011/11/25 07:22:42 AM</buildtimestamp>
+    <run_master>
+      <test>
+        <index>1</index>
+        <id>HDWS001</id>
+        <description>Simple web service without template</description>
+        <result>NotRun</result>
+      </test>
+      <test>
+        <index>2</index>
+        <id>HDWS002</id>
+        <description>Invalid web method argument</description>
+        <result>NotRun</result>
+      </test>
+      <test>
+        <index>3</index>
+        <id>HDWS101</id>
+        <description>Simple web service with template</description>
+        <result>NotRun</result>
+      </test>
+      <test>
+        <index>4</index>
+        <id>HDWS102</id>
+        <description>Simple web service with template</description>
+        <result>NotRun</result>
+      </test>
+      <test>
+        <index>5</index>
+        <id>HDWS201</id>
+        <description>Web service with multiple values in response</description>
+        <result>NotRun</result>
+      </test>
+      <testcount>5</testcount>
+      <passcount>0</passcount>
+      <failcount>0</failcount>
+      <notruncount>5</notruncount>
+    </run_master>
+  </build>
+</testsuite>

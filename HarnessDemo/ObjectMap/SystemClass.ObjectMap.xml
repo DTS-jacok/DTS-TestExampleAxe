@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Sam Warwick</LastAuthor>
+  <Created>2001-04-17T15:13:30Z</Created>
+  <LastSaved>2005-03-11T16:35:20Z</LastSaved>
+  <Version>11.6568</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9945</WindowHeight>
+  <WindowWidth>16830</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>1005</WindowTopY>
+  <RefModeR1C1/>
+  <AcceptLabelsInFormulas/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s22">
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="ObjectMap">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:StyleID="s21" ss:Width="99"/>
+   <Column ss:StyleID="s21" ss:Width="104.25"/>
+   <Column ss:Width="49.5"/>
+   <Column ss:Width="69"/>
+   <Column ss:Width="41.25"/>
+   <Column ss:Index="7" ss:Width="72"/>
+   <Row ss:StyleID="s23">
+    <Cell ss:StyleID="s22"><Data ss:Type="String">name</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">class</Data></Cell>
+    <Cell><Data ss:Type="String">assembly</Data></Cell>
+    <Cell><Data ss:Type="String">type</Data></Cell>
+    <Cell><Data ss:Type="String">method</Data></Cell>
+    <Cell><Data ss:Type="String">property</Data></Cell>
+    <Cell><Data ss:Type="String">xpath</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s25">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">String</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">ClsType</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Core</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">System.String</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">String.Value</Data></Cell>
+    <Cell><Data ss:Type="String">ClsTypeParameter</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">System.Char[]</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">String.Length</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ClsTypeProperty</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">System.Int32</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell><Data ss:Type="String">Length</Data></Cell>
+   </Row>
+   <Row ss:Index="6" ss:StyleID="s25">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">ToUpper</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">ClsMethod</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Core</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">System.String</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">ToUpper</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ToUpper.ReturnValue</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ClsMethodResult</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">System.String</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-3</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>7</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

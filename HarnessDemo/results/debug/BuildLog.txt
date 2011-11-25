@@ -1,0 +1,44 @@
+Axe Build Log
+=============
+
+Axe Version: 3.3.0.340
+
+2011/11/25 07:22:42 AM
+
+Test project:  C:\AXE_Projects\HarnessDemo\HarnessDemo.tpj
+Test Suite:    debug
+Configuration: Java
+Workbook:      WebServiceTests
+Worksheet:     Tests
+Tests:         5 test(s)
+
+--------------------
+
+ObjectMap load C:\AXE_Projects\HarnessDemo\ObjectMap\DemoClass.ObjectMap.xml
+ObjectMap load C:\AXE_Projects\HarnessDemo\ObjectMap\SystemClass.ObjectMap.xml
+ObjectMap load C:\AXE_Projects\HarnessDemo\ObjectMap\DemoXML.ObjectMap.xml
+ObjectMap load C:\AXE_Projects\HarnessDemo\ObjectMap\DemoService.ObjectMap.xml
+ObjectMap load C:\AXE_Projects\HarnessDemo\ObjectMap\DemoDB.ObjectMap.xml
+ActionMap load C:\Program Files (x86)\Odin Technology\Axe\ActionMap\Java.ActionMap.xml
+ActionMap load C:\AXE_Projects\HarnessDemo\ActionMap\DemoJava.ActionMap.xml
+
+Test:     HDWS001 (Workbook: C:\AXE_Projects\HarnessDemo\data\WebServiceTests.xml Worksheet: Tests)
+Sub-test: Add - lowNumbers (Workbook: C:\AXE_Projects\HarnessDemo\data\WebServiceTests.xml Worksheet: Add)
+
+Test:     HDWS002 (Workbook: C:\AXE_Projects\HarnessDemo\data\WebServiceTests.xml Worksheet: Tests)
+Sub-test: Add - invalidArgument (Workbook: C:\AXE_Projects\HarnessDemo\data\WebServiceTests.xml Worksheet: Add)
+
+Test:     HDWS101 (Workbook: C:\AXE_Projects\HarnessDemo\data\WebServiceTests.xml Worksheet: Tests)
+Sub-test: Register - newUser1 (Workbook: C:\AXE_Projects\HarnessDemo\data\WebServiceTests.xml Worksheet: Register)
+
+Test:     HDWS102 (Workbook: C:\AXE_Projects\HarnessDemo\data\WebServiceTests.xml Worksheet: Tests)
+Sub-test: Register - newUser2 (Workbook: C:\AXE_Projects\HarnessDemo\data\WebServiceTests.xml Worksheet: Register)
+
+Test:     HDWS201 (Workbook: C:\AXE_Projects\HarnessDemo\data\WebServiceTests.xml Worksheet: Tests)
+Sub-test: GetUserDetails - checkDetails (Workbook: C:\AXE_Projects\HarnessDemo\data\WebServiceTests.xml Worksheet: GetUserDetails)
+Build completed OK
+Errors: 0 Warnings: 0 Informational: 0
+5 test(s) built successfully
+2011/11/25 07:22:42 AM
+
+End

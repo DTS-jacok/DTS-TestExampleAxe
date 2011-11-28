@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Jaco</LastAuthor>
+  <Created>2001-04-09T15:03:06Z</Created>
+  <LastSaved>2011-11-28T05:14:39Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8835</WindowHeight>
+  <WindowWidth>15180</WindowWidth>
+  <WindowTopX>1245</WindowTopX>
+  <WindowTopY>1710</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="ActionMap">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Width="10.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="39"/>
+   <Column ss:Width="105.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="404.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="209.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="180"/>
+   <Row ss:StyleID="s62">
+    <Cell ss:Index="2"><Data ss:Type="String">class</Data></Cell>
+    <Cell><Data ss:Type="String">action</Data></Cell>
+    <Cell><Data ss:Type="String">command</Data></Cell>
+    <Cell><Data ss:Type="String">documentation</Data></Cell>
+    <Cell><Data ss:Type="String">comment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="117.75">
+    <Cell ss:Index="3"><Data ss:Type="String">__testinit</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">package axe;&#10;import objectmap.objectmap;&#10;import resources.axe.%TESTID%Helper;&#10;import com.jacob.activeX.ActiveXComponent;&#10;import com.jacob.com.Variant;&#10;import com.jacob.com.Dispatch;&#10;import com.rational.test.ft.*;&#10;import com.rational.test.ft.object.interfaces.*;&#10;import com.rational.test.ft.object.interfaces.SAP.*;&#10;import com.rational.test.ft.object.interfaces.WPF.*;&#10;import com.rational.test.ft.object.interfaces.dojo.*;&#10;import com.rational.test.ft.object.interfaces.siebel.*;&#10;import com.rational.test.ft.object.interfaces.flex.*;&#10;import com.rational.test.ft.object.interfaces.generichtmlsubdomain.*;&#10;import com.rational.test.ft.script.*;&#10;import com.rational.test.ft.value.*;&#10;import com.rational.test.ft.vp.*;&#10;import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:Index="3"><Data ss:Type="String">__testprefix</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">public class %TESTID% extends %TESTID%Helper&#10;&#10;{&#10;&#10;       public static void testMain(Object[] args)&#10;&#10;       {&#10;&#10;           objectmap map = new objectmap();         &#10;&#10;           axeInit(&quot;%^TESTPROJECT%&quot;, &quot;%TESTSUITE%&quot;);&#10; &#10;&#10;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

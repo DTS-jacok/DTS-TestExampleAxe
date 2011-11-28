@@ -13,9 +13,9 @@
 <action mapfile="AxeHarness" system="True" class="" action="_TESTEND(1)" type="System" count="1" documentation="False" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="" action="_TESTINIT" type="System" count="1" documentation="False" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="" action="_TESTPREFIX" type="System" count="1" documentation="False" overriden="False" documentation_overriden="False"/>
-<action mapfile="AxeHarness" system="True" class="" action="_TESTSTEPBEGIN(2)" type="System" count="16" documentation="False" overriden="False" documentation_overriden="False"/>
-<action mapfile="AxeHarness" system="True" class="" action="_TESTSTEPCHECK" type="RawSystem" count="10" documentation="False" overriden="False" documentation_overriden="False"/>
-<action mapfile="AxeHarness" system="True" class="" action="_TESTSTEPEND(1)" type="System" count="16" documentation="False" overriden="False" documentation_overriden="False"/>
+<action mapfile="AxeHarness" system="True" class="" action="_TESTSTEPBEGIN(2)" type="System" count="12" documentation="False" overriden="False" documentation_overriden="False"/>
+<action mapfile="AxeHarness" system="True" class="" action="_TESTSTEPCHECK" type="RawSystem" count="8" documentation="False" overriden="False" documentation_overriden="False"/>
+<action mapfile="AxeHarness" system="True" class="" action="_TESTSTEPEND(1)" type="System" count="12" documentation="False" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="" action="_TESTSUBTESTBEGIN(4)" type="System" count="1" documentation="False" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="" action="_TESTSUBTESTEND(1)" type="System" count="1" documentation="False" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="" action="_TESTSUFFIX" type="System" count="1" documentation="False" overriden="False" documentation_overriden="False"/>
@@ -28,7 +28,7 @@
 <action mapfile="AxeHarness" system="True" class="" action="SAVE(1)" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="" action="SAVE.DATA(1)" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="" action="SAVE.FILE(1)" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
-<action mapfile="AxeHarness" system="True" class="" action="VAL" type="Default" count="6" documentation="True" overriden="False" documentation_overriden="False"/>
+<action mapfile="AxeHarness" system="True" class="" action="VAL" type="Default" count="4" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="" action="VAL.CONTAINS" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="" action="VAL.FILE(1)" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="" action="VAL.NOTEQUAL" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
@@ -87,7 +87,7 @@
 <action mapfile="AxeHarness" system="True" class="WSOPERATION" action="INVOKE" type="Default" count="1" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="WSOPERATION" action="INVOKE.POST" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="WSOPERATION" action="SET" type="Default" count="1" documentation="True" overriden="False" documentation_overriden="False"/>
-<action mapfile="AxeHarness" system="True" class="WSOUTPARAMETER" action="GET" type="Default" count="6" documentation="True" overriden="False" documentation_overriden="False"/>
+<action mapfile="AxeHarness" system="True" class="WSOUTPARAMETER" action="GET" type="Default" count="4" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="WSOUTPARAMETER" action="GET(1)" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="WSOUTPARAMETER" action="GET.NODE(1)" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="AxeHarness" system="True" class="WSOUTPARAMETER" action="GET.XML" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>

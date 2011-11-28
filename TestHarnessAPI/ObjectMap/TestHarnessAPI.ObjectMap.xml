@@ -6,20 +6,17 @@
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Jaco</Author>
   <LastAuthor>Jaco</LastAuthor>
   <Created>2001-04-17T15:13:30Z</Created>
-  <LastSaved>2011-11-22T07:37:52Z</LastSaved>
+  <LastSaved>2011-11-25T12:46:31Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
- <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
-  <DownloadComponents/>
-  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
- </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
   <WindowHeight>7725</WindowHeight>
   <WindowWidth>13800</WindowWidth>
-  <WindowTopX>225</WindowTopX>
-  <WindowTopY>135</WindowTopY>
+  <WindowTopX>3720</WindowTopX>
+  <WindowTopY>2925</WindowTopY>
   <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -52,13 +49,13 @@
    <Borders/>
    <Interior/>
   </Style>
-  <Style ss:ID="s67">
-   <Interior/>
-  </Style>
-  <Style ss:ID="s69" ss:Parent="s62">
+  <Style ss:ID="s68" ss:Parent="s62">
    <Alignment ss:Vertical="Bottom"/>
    <Interior/>
    <Protection/>
+  </Style>
+  <Style ss:ID="s69">
+   <Interior/>
   </Style>
   <Style ss:ID="s70">
    <Borders/>
@@ -72,27 +69,28 @@
  <Worksheet ss:Name="ObjectMap">
   <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="19" x:FullColumns="1"
    x:FullRows="1">
-   <Column ss:StyleID="s63" ss:Width="189.75"/>
-   <Column ss:StyleID="s63" ss:Width="84.75"/>
-   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="62.25"/>
+   <Column ss:StyleID="s63" ss:Width="206.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="129.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="108"/>
    <Column ss:Width="83.25"/>
    <Column ss:Width="282"/>
-   <Column ss:AutoFitWidth="0" ss:Width="157.5"/>
-   <Row ss:StyleID="s65">
+   <Column ss:Width="143.25"/>
+   <Row>
     <Cell ss:StyleID="s64"><Data ss:Type="String">name</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">class</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">service</Data></Cell>
-    <Cell><Data ss:Type="String">operation</Data></Cell>
-    <Cell><Data ss:Type="String">namespace</Data></Cell>
-    <Cell><Data ss:Type="String">xpath</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">operation</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">namespace</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">xpath</Data></Cell>
    </Row>
-   <Row ss:StyleID="s67">
+   <Row>
     <Cell ss:StyleID="s66"><Data ss:Type="String">countryInfoByIana</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">WsOperation</Data></Cell>
+    <Cell><Data ss:Type="String">WsOperation</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">MobileFish</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">countryInfoByIana</Data></Cell>
-    <Cell ss:StyleID="s69" ss:HRef="http://www.mobilefish.com/services/web_service/countries.php"><Data
+    <Cell ss:StyleID="s68" ss:HRef="http://www.mobilefish.com/services/web_service/countries.php"><Data
       ss:Type="String">http://www.mobilefish.com/services/web_service/countries.php</Data></Cell>
+    <Cell ss:StyleID="s69"/>
    </Row>
    <Row>
     <Cell ss:StyleID="s66"><Data ss:Type="String">countryInfoByIana.ianacode</Data></Cell>
@@ -123,9 +121,9 @@
     <Cell><Data ss:Type="String">WsOperation</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">MobileFish</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">regionsInfoByIana</Data></Cell>
-    <Cell ss:StyleID="s69" ss:HRef="http://www.mobilefish.com/services/web_service/countries.php"><Data
+    <Cell ss:StyleID="s68" ss:HRef="http://www.mobilefish.com/services/web_service/countries.php"><Data
       ss:Type="String">http://www.mobilefish.com/services/web_service/countries.php</Data></Cell>
-    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s69"/>
    </Row>
    <Row>
     <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ianacode</Data></Cell>
@@ -195,8 +193,9 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>14</ActiveRow>
-     <ActiveCol>10</ActiveCol>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+     <RangeSelection>R14C2:R15C3</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

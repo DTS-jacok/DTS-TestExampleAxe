@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestProject>
+  <ProductVersion>3.3.0.340</ProductVersion>
+  <Name>TestHarnessAPI</Name>
+  <Description />
+  <ApplicationType>OTHER</ApplicationType>
+  <TestSuiteNamingScheme>%WORKBOOK%.%WORKSHEET%.%BUILDCONFIG%.%RUNCONFIG%.%DATE%</TestSuiteNamingScheme>
+</TestProject>

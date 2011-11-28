@@ -6,53 +6,53 @@
     <id>
     </id>
     <config file="C:\AXE_Projects\WebServiceTest\config\AxeHarness.BuildConfig.xml" name="AxeHarness" />
-    <buildtimestamp>2011/11/24 09:35:15 AM</buildtimestamp>
+    <buildtimestamp>2011/11/28 08:39:32 AM</buildtimestamp>
     <run_master>
       <test>
         <index>1</index>
-        <id>Test2</id>
-        <description>Get a multi return from regions</description>
-        <result>Fail</result>
-        <success>False</success>
-        <start>2011/11/24 09:35:15 AM</start>
-        <finish>2011/11/24 09:35:16 AM</finish>
-        <time>0.8900012</time>
+        <id>Test1</id>
+        <description>Get Country code details</description>
+        <result>Pass</result>
+        <success>True</success>
+        <start>2011/11/28 08:39:35 AM</start>
+        <finish>2011/11/28 08:39:36 AM</finish>
+        <time>0.7332013</time>
         <run>run1</run>
         <test_index>1</test_index>
       </test>
       <testcount>1</testcount>
-      <passcount>0</passcount>
-      <failcount>1</failcount>
+      <passcount>1</passcount>
+      <failcount>0</failcount>
       <notruncount>0</notruncount>
     </run_master>
     <run>
       <name>run1</name>
-      <start>2011/11/24 09:35:15 AM</start>
-      <finish>2011/11/24 09:35:16 AM</finish>
+      <start>2011/11/28 08:39:35 AM</start>
+      <finish>2011/11/28 08:39:36 AM</finish>
       <testcount>1</testcount>
-      <passcount>0</passcount>
-      <failcount>1</failcount>
-      <success>false</success>
+      <passcount>1</passcount>
+      <failcount>0</failcount>
+      <success>true</success>
       <test>
-        <id>Test2</id>
+        <id>Test1</id>
         <execution_id>
         </execution_id>
         <table name="Tests" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml" />
-        <description><![CDATA[Get a multi return from regions]]></description>
-        <start>2011/11/24 09:35:15 AM</start>
+        <description><![CDATA[Get Country code details]]></description>
+        <start>2011/11/28 08:39:35 AM</start>
         <subtest>
           <index>1</index>
-          <id>Test02</id>
-          <table name="regionsInfoByIana" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml" />
-          <description><![CDATA[Multi returns]]></description>
-          <start>2011/11/24 09:35:15 AM</start>
+          <id>Test01</id>
+          <table name="countryInfoByIana" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml" />
+          <description><![CDATA[Get country details]]></description>
+          <start>2011/11/28 08:39:35 AM</start>
           <step>
             <index>1</index>
-            <action>load.file(regionsInfoByIana.xml)</action>
-            <object>[]regionsInfoByIana</object>
+            <action>load.file(countryInfoByIana.xml)</action>
+            <object>[]countryInfoByIana</object>
             <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:15 AM</start>
-            <finish>2011/11/24 09:35:15 AM</finish>
+            <start>2011/11/28 08:39:35 AM</start>
+            <finish>2011/11/28 08:39:35 AM</finish>
             <time>0</time>
             <result>0</result>
             <success>True</success>
@@ -60,10 +60,10 @@
           <step>
             <index>2</index>
             <action>Set</action>
-            <object>[]regionsInfoByIana</object>
+            <object>[]countryInfoByIana</object>
             <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:15 AM</start>
-            <finish>2011/11/24 09:35:15 AM</finish>
+            <start>2011/11/28 08:39:35 AM</start>
+            <finish>2011/11/28 08:39:35 AM</finish>
             <time>0</time>
             <result>0</result>
             <success>True</success>
@@ -73,8 +73,8 @@
             <action>Set</action>
             <object>ianacode</object>
             <data><![CDATA[za]]></data>
-            <start>2011/11/24 09:35:15 AM</start>
-            <finish>2011/11/24 09:35:15 AM</finish>
+            <start>2011/11/28 08:39:35 AM</start>
+            <finish>2011/11/28 08:39:35 AM</finish>
             <time>0</time>
             <result>0</result>
             <success>True</success>
@@ -82,21 +82,21 @@
           <step>
             <index>4</index>
             <action>Invoke</action>
-            <object>[]regionsInfoByIana</object>
+            <object>[]countryInfoByIana</object>
             <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:15 AM</start>
-            <finish>2011/11/24 09:35:16 AM</finish>
-            <time>0.8750012</time>
+            <start>2011/11/28 08:39:35 AM</start>
+            <finish>2011/11/28 08:39:36 AM</finish>
+            <time>0.7332013</time>
             <result>0</result>
             <success>True</success>
           </step>
           <step>
             <index>5</index>
             <action>get</action>
-            <object>ListResponse</object>
+            <object>ianacodeResponse</object>
             <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <finish>2011/11/24 09:35:16 AM</finish>
+            <start>2011/11/28 08:39:36 AM</start>
+            <finish>2011/11/28 08:39:36 AM</finish>
             <time>0</time>
             <result>0</result>
             <success>True</success>
@@ -104,23 +104,23 @@
           <step>
             <index>6</index>
             <action>val</action>
-            <object>ListResponse</object>
-            <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <expected><![CDATA[]]></expected>
-            <actual><![CDATA[zaEastern Cape-32.10620926.463432zaFree State-28.67833127.060972zaGauteng-26.02838728.111942zaKwaZulu-Natal-28.94107830.823402zaLimpopo-23.72830829.221443zaMpumalanga-26.01263830.163225zaNorth-West-26.36932025.464561zaNorthern Cape-28.84496921.001511zaWestern Cape-32.63435720.980000]]></actual>
-            <finish>2011/11/24 09:35:16 AM</finish>
+            <object>ianacodeResponse</object>
+            <data><![CDATA[za]]></data>
+            <start>2011/11/28 08:39:36 AM</start>
+            <expected><![CDATA[za]]></expected>
+            <actual><![CDATA[za]]></actual>
+            <finish>2011/11/28 08:39:36 AM</finish>
             <time>0</time>
-            <result>1</result>
-            <success>False</success>
+            <result>0</result>
+            <success>True</success>
           </step>
           <step>
             <index>7</index>
             <action>get</action>
-            <object>ListResponseCount</object>
+            <object>countrynameResponse</object>
             <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <finish>2011/11/24 09:35:16 AM</finish>
+            <start>2011/11/28 08:39:36 AM</start>
+            <finish>2011/11/28 08:39:36 AM</finish>
             <time>0</time>
             <result>0</result>
             <success>True</success>
@@ -128,23 +128,23 @@
           <step>
             <index>8</index>
             <action>val</action>
-            <object>ListResponseCount</object>
-            <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <expected><![CDATA[]]></expected>
-            <actual><![CDATA[zaEastern Cape-32.10620926.463432]]></actual>
-            <finish>2011/11/24 09:35:16 AM</finish>
-            <time>0.005</time>
-            <result>1</result>
-            <success>False</success>
+            <object>countrynameResponse</object>
+            <data><![CDATA[South Africa]]></data>
+            <start>2011/11/28 08:39:36 AM</start>
+            <expected><![CDATA[South Africa]]></expected>
+            <actual><![CDATA[South Africa]]></actual>
+            <finish>2011/11/28 08:39:36 AM</finish>
+            <time>0</time>
+            <result>0</result>
+            <success>True</success>
           </step>
           <step>
             <index>9</index>
             <action>get</action>
-            <object>ListResponseItem_2</object>
+            <object>latitudeResponse</object>
             <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <finish>2011/11/24 09:35:16 AM</finish>
+            <start>2011/11/28 08:39:36 AM</start>
+            <finish>2011/11/28 08:39:36 AM</finish>
             <time>0</time>
             <result>0</result>
             <success>True</success>
@@ -152,23 +152,23 @@
           <step>
             <index>10</index>
             <action>val</action>
-            <object>ListResponseItem_2</object>
-            <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <expected><![CDATA[]]></expected>
-            <actual><![CDATA[zaFree State-28.67833127.060972]]></actual>
-            <finish>2011/11/24 09:35:16 AM</finish>
+            <object>latitudeResponse</object>
+            <data><![CDATA[-30.559483]]></data>
+            <start>2011/11/28 08:39:36 AM</start>
+            <expected><![CDATA[-30.559483]]></expected>
+            <actual><![CDATA[-30.559483]]></actual>
+            <finish>2011/11/28 08:39:36 AM</finish>
             <time>0</time>
-            <result>1</result>
-            <success>False</success>
+            <result>0</result>
+            <success>True</success>
           </step>
           <step>
             <index>11</index>
             <action>get</action>
-            <object>ListResponseItem_2_Code</object>
+            <object>longitudeResponse</object>
             <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <finish>2011/11/24 09:35:16 AM</finish>
+            <start>2011/11/28 08:39:36 AM</start>
+            <finish>2011/11/28 08:39:36 AM</finish>
             <time>0</time>
             <result>0</result>
             <success>True</success>
@@ -176,79 +176,31 @@
           <step>
             <index>12</index>
             <action>val</action>
-            <object>ListResponseItem_2_Code</object>
-            <data><![CDATA[za]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <expected><![CDATA[za]]></expected>
-            <actual><![CDATA[za]]></actual>
-            <finish>2011/11/24 09:35:16 AM</finish>
+            <object>longitudeResponse</object>
+            <data><![CDATA[22.937506]]></data>
+            <start>2011/11/28 08:39:36 AM</start>
+            <expected><![CDATA[22.937506]]></expected>
+            <actual><![CDATA[22.937506]]></actual>
+            <finish>2011/11/28 08:39:36 AM</finish>
             <time>0</time>
             <result>0</result>
             <success>True</success>
           </step>
-          <step>
-            <index>13</index>
-            <action>get</action>
-            <object>ListResponseItems</object>
-            <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <finish>2011/11/24 09:35:16 AM</finish>
-            <time>0</time>
-            <result>0</result>
-            <success>True</success>
-          </step>
-          <step>
-            <index>14</index>
-            <action>val</action>
-            <object>ListResponseItems</object>
-            <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <expected><![CDATA[]]></expected>
-            <actual><![CDATA[zaEastern Cape-32.10620926.463432]]></actual>
-            <finish>2011/11/24 09:35:16 AM</finish>
-            <time>0</time>
-            <result>1</result>
-            <success>False</success>
-          </step>
-          <step>
-            <index>15</index>
-            <action>get</action>
-            <object>ListResponseRegion</object>
-            <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <finish>2011/11/24 09:35:16 AM</finish>
-            <time>0</time>
-            <result>0</result>
-            <success>True</success>
-          </step>
-          <step>
-            <index>16</index>
-            <action>val</action>
-            <object>ListResponseRegion</object>
-            <data><![CDATA[]]></data>
-            <start>2011/11/24 09:35:16 AM</start>
-            <expected><![CDATA[]]></expected>
-            <actual><![CDATA[Eastern Cape]]></actual>
-            <finish>2011/11/24 09:35:16 AM</finish>
-            <time>0</time>
-            <result>1</result>
-            <success>False</success>
-          </step>
-          <finish>2011/11/24 09:35:16 AM</finish>
-          <time>0.8850012</time>
-          <result>Fail</result>
-          <success>False</success>
-          <testcount>16</testcount>
-          <passcount>11</passcount>
-          <failcount>5</failcount>
+          <finish>2011/11/28 08:39:36 AM</finish>
+          <time>0.7332013</time>
+          <result>Pass</result>
+          <success>True</success>
+          <testcount>12</testcount>
+          <passcount>12</passcount>
+          <failcount>0</failcount>
         </subtest>
-        <finish>2011/11/24 09:35:16 AM</finish>
-        <time>0.8900012</time>
-        <result>Fail</result>
-        <success>False</success>
+        <finish>2011/11/28 08:39:36 AM</finish>
+        <time>0.7332013</time>
+        <result>Pass</result>
+        <success>True</success>
         <testcount>1</testcount>
-        <passcount>0</passcount>
-        <failcount>1</failcount>
+        <passcount>1</passcount>
+        <failcount>0</failcount>
         <index>1</index>
       </test>
     </run>

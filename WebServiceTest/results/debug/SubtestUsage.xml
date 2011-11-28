@@ -3,5 +3,6 @@
 <project>WebServiceTest</project>
 <config file="C:\AXE_Projects\WebServiceTest\config\AxeHarness.BuildConfig.xml" name="AxeHarness.BuildConfig"/>
 <testsuite>debug</testsuite>
-<subtest><name>Tests:regionsInfoByIana:Test02</name><count>1</count></subtest>
+<subtest><name>Tests:countryInfoByIana:</name><count>0</count></subtest>
+<subtest><name>Tests:countryInfoByIana:Test01</name><count>1</count></subtest>
 </subtest_coverage>

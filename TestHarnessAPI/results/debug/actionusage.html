@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Axe Action Usage Statistics</title>  
+<script type="text/javascript">
+<!--   
+	function applyXSLT(showsysParam, sortParam)
+	{
+	    var objXML;
+	    var objXSLT;
+	    var objxsltTemplate;
+	    var objxsltProcessor;
+		var transformResults;
+
+		try
+		{ 
+			if(window.ActiveXObject)
+			{
+				objXML = new ActiveXObject("MSXML2.DOMDocument");
+				objXML.async = false;
+				objXML.validateOnParse = false;	   
+				objXSLT = new ActiveXObject("MSXML2.FreeThreadedDOMDocument");
+				objXSLT.async = false;
+				objXSLT.validateOnParse = false;
+		    
+				objXML.load("ActionUsage.xml");
+				objXSLT.load("ActionUsage.xsl");
+				 
+				objxsltTemplate = new ActiveXObject("MSXML2.XSLTemplate");
+				objxsltTemplate.stylesheet = objXSLT;
+				objxsltProcessor = objxsltTemplate.createProcessor();
+				objxsltProcessor.input = objXML;
+				objxsltProcessor.addParameter("showsys", showsysParam);
+				objxsltProcessor.addParameter("sort", sortParam);
+				objxsltProcessor.transform();
+				
+				transformResults = objxsltProcessor.output;
+			}
+			else if (document.implementation && document.implementation.createDocument)
+			{
+				var xmlhttp = new window.XMLHttpRequest();
+				xmlhttp.open("GET", "ActionUsage.xml", false);
+				xmlhttp.send(null);
+				objXML = xmlhttp.responseXML.documentElement;
+			
+				xmlhttp = new window.XMLHttpRequest();
+				xmlhttp.open("GET", "ActionUsage.xsl", false);
+				xmlhttp.send(null);
+				objXSLT = xmlhttp.responseXML.documentElement;
+				
+				objxsltProcessor = new XSLTProcessor();
+				objxsltProcessor.importStylesheet(objXSLT);
+				
+				objxsltProcessor.setParameter(null,"showsys", showsysParam);
+				objxsltProcessor.setParameter(null,"sort", sortParam);
+				
+				transformResults = new XMLSerializer().serializeToString(objxsltProcessor.transformToDocument(objXML).firstChild);
+			}
+		}
+		catch(e)
+		{
+			document.write("XSLT Error: " + e.message + "<br/>");
+		}
+		
+		return transformResults;
+	}
+	
+	function OpenSummary()
+	{
+		resultdiv.innerHTML = applyXSLT("False","");	
+	}
+	
+//-->
+</script>
+
+<link type="text/css" rel="stylesheet" href="axe.css"/>
+
+</head>
+<body class="main" onLoad="OpenSummary()">
+<div id="resultdiv"></div>
+<p class="copyright">Axe Test Automation Platform - <a href="http://www.odintech.com">Odin Technology</a> - <a href="http://www.odintech.com">www.odintech.com</a></p>
+</body>
+</html>

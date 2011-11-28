@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Build>
   <AxeVersion>3.3.0.340</AxeVersion>
-  <Project>C:\AXE_Projects\TestAxeProject\TestAxeProject.tpj</Project>
-  <Time>2011/11/25 02:40:25 PM</Time>
+  <Project>C:\AXE_Projects\TestHarnessAPI\TestHarnessAPI.tpj</Project>
+  <Time>2011/11/28 08:53:06 AM</Time>
   <MachineName>JACO-PC</MachineName>
   <UserName>Jaco</UserName>
   <Settings>
@@ -15,15 +15,16 @@
   <Configuration>
     <Tool>RFT</Tool>
     <ToolArguments>/javaarguments:"-rt.bring_up_logviewer false"</ToolArguments>
-    <ToolProjectDir>C:\RFT_Workspace\Test_Project</ToolProjectDir>
+    <ToolProjectDir>C:\RFT_Workspace\TestHarnessAPI</ToolProjectDir>
     <Encoding>Default</Encoding>
     <DriverEncoding>Default</DriverEncoding>
     <ActionMap Name="Java" Path="C:\Program Files (x86)\Odin Technology\Axe\ActionMap\Java.ActionMap.xml" />
     <ActionMap Name="RFT" Path="C:\Program Files (x86)\Odin Technology\Axe\ActionMap\RFT.ActionMap.xml" />
     <ActionMap Name="RFTNative" Path="C:\Program Files (x86)\Odin Technology\Axe\ActionMap\RFTNative.ActionMap.xml" />
-    <ActionMap Name="TestAxeProject" Path="C:\AXE_Projects\TestAxeProject\ActionMap\TestAxeProject.ActionMap.xml" />
-    <ObjectMap Name="ObjectMap" Path="C:\RFT_Workspace\Test_Project\resources\ObjectMap\ObjectMap.rftdef" />
-    <ScriptDir>C:\AXE_Projects\TestAxeProject\scripts\debug</ScriptDir>
+    <ActionMap Name="TestHarnessAPI" Path="C:\AXE_Projects\TestHarnessAPI\ActionMap\TestHarnessAPI.ActionMap.xml" />
+    <ObjectMap Name="TestHarnessAPI" Path="C:\AXE_Projects\TestHarnessAPI\ObjectMap\TestHarnessAPI.ObjectMap.xml" />
+    <ObjectMap Name="objectmap" Path="C:\RFT_Workspace\TestHarnessAPI\resources\objectmap\objectmap.rftdef" />
+    <ScriptDir>C:\AXE_Projects\TestHarnessAPI\scripts\debug</ScriptDir>
     <MapObjectReferences>False</MapObjectReferences>
   </Configuration>
 </Build>

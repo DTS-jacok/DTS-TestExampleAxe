@@ -1,0 +1,38 @@
+Axe Build Log
+=============
+
+Axe Version: 3.3.0.340
+
+2011/11/28 08:53:06 AM
+
+Test project:  C:\AXE_Projects\TestHarnessAPI\TestHarnessAPI.tpj
+Test Suite:    debug
+Configuration: RFT
+Workbook:      Tests
+Worksheet:     Tests
+Tests:         1 test(s)
+
+--------------------
+
+ObjectMap load C:\AXE_Projects\TestHarnessAPI\ObjectMap\TestHarnessAPI.ObjectMap.xml
+ObjectMap load C:\RFT_Workspace\TestHarnessAPI\resources\objectmap\objectmap.rftdef
+ActionMap load C:\Program Files (x86)\Odin Technology\Axe\ActionMap\Java.ActionMap.xml
+ActionMap load C:\Program Files (x86)\Odin Technology\Axe\ActionMap\RFT.ActionMap.xml
+INFO: Action value overridden -- ._TESTINIT.0
+INFO: Action value overridden -- ._TESTPREFIX.0
+INFO: Action value overridden -- ._TESTSTEPEND.1
+INFO: Action value overridden -- ._TESTSUBTESTEND.1
+INFO: Action value overridden -- ._TESTEND.1
+ActionMap load C:\Program Files (x86)\Odin Technology\Axe\ActionMap\RFTNative.ActionMap.xml
+ActionMap load C:\AXE_Projects\TestHarnessAPI\ActionMap\TestHarnessAPI.ActionMap.xml
+INFO: Action value overridden -- ._TESTINIT.0
+INFO: Action value overridden -- ._TESTPREFIX.0
+
+Test:     Test3 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: Tests)
+Sub-test: APITest - Test01 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: APITest)
+Build completed OK
+Errors: 0 Warnings: 0 Informational: 7
+1 test(s) built successfully
+2011/11/28 08:53:06 AM
+
+End

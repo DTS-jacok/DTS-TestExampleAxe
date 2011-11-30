@@ -8,7 +8,7 @@
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <LastAuthor>Jaco</LastAuthor>
   <Created>2001-04-09T15:03:06Z</Created>
-  <LastSaved>2011-11-28T05:14:39Z</LastSaved>
+  <LastSaved>2011-11-29T12:34:52Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
@@ -40,14 +40,20 @@
   <Style ss:ID="s64">
    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
   </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <NumberFormat/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="ActionMap">
-  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="3" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="28" x:FullColumns="1"
    x:FullRows="1">
    <Column ss:Width="10.5"/>
-   <Column ss:AutoFitWidth="0" ss:Width="39"/>
-   <Column ss:Width="105.75"/>
-   <Column ss:AutoFitWidth="0" ss:Width="404.25"/>
+   <Column ss:Width="81.75"/>
+   <Column ss:Width="115.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="431.25"/>
    <Column ss:AutoFitWidth="0" ss:Width="209.25"/>
    <Column ss:AutoFitWidth="0" ss:Width="180"/>
    <Row ss:StyleID="s62">
@@ -59,14 +65,27 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="117.75">
     <Cell ss:Index="3"><Data ss:Type="String">__testinit</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">package axe;&#10;import objectmap.objectmap;&#10;import resources.axe.%TESTID%Helper;&#10;import com.jacob.activeX.ActiveXComponent;&#10;import com.jacob.com.Variant;&#10;import com.jacob.com.Dispatch;&#10;import com.rational.test.ft.*;&#10;import com.rational.test.ft.object.interfaces.*;&#10;import com.rational.test.ft.object.interfaces.SAP.*;&#10;import com.rational.test.ft.object.interfaces.WPF.*;&#10;import com.rational.test.ft.object.interfaces.dojo.*;&#10;import com.rational.test.ft.object.interfaces.siebel.*;&#10;import com.rational.test.ft.object.interfaces.flex.*;&#10;import com.rational.test.ft.object.interfaces.generichtmlsubdomain.*;&#10;import com.rational.test.ft.script.*;&#10;import com.rational.test.ft.value.*;&#10;import com.rational.test.ft.vp.*;&#10;import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;&#10;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">package axe;&#10;import objectmap.objectmap;&#10;import resources.axe.Test2Helper;&#10;import com.jacob.activeX.ActiveXComponent;&#10;import com.jacob.com.Variant;&#10;import com.jacob.com.Dispatch;&#10;import com.rational.test.ft.*;&#10;import com.rational.test.ft.object.interfaces.*;&#10;import com.rational.test.ft.object.interfaces.SAP.*;&#10;import com.rational.test.ft.object.interfaces.WPF.*;&#10;import com.rational.test.ft.object.interfaces.dojo.*;&#10;import com.rational.test.ft.object.interfaces.siebel.*;&#10;import com.rational.test.ft.object.interfaces.flex.*;&#10;import com.rational.test.ft.object.interfaces.generichtmlsubdomain.*;&#10;import com.rational.test.ft.script.*;&#10;import com.rational.test.ft.value.*;&#10;import com.rational.test.ft.vp.*;&#10;import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;&#10;&#10;import java.io.IOException;&#10;import javax.xml.parsers.ParserConfigurationException;&#10;import org.w3c.dom.*;&#10;import java.io.File;&#10;import helpers.CustomLib;&#10;import java.io.BufferedWriter;&#10;import java.io.FileWriter;&#10;&#10;</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell ss:Index="3"><Data ss:Type="String">__testprefix</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">public class %TESTID% extends %TESTID%Helper&#10;&#10;{&#10;&#10;       public static void testMain(Object[] args)&#10;&#10;       {&#10;&#10;           objectmap map = new objectmap();         &#10;&#10;           axeInit(&quot;%^TESTPROJECT%&quot;, &quot;%TESTSUITE%&quot;);&#10; &#10;&#10;</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="122.25">
+    <Cell ss:Index="3"><Data ss:Type="String">get.nodecount</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">        try {&#10;            BufferedWriter out = new BufferedWriter(new FileWriter(&quot;test.txt&quot;));&#10;            out.write(Dispatch.get(axe, &quot;Value&quot;).toString());&#10;            out.close();&#10;        } catch (Exception e) {&#10;            System.out.println(e.getMessage());&#10;        }&#10;&#10;    CustomLib n = new CustomLib();&#10;    Dispatch.put(axe, &quot;ResultCode&quot;, Dispatch.call(axe,&quot;StepValidateNotEqual&quot;,&quot;&quot;,n.getTheCount()))          </Data></Cell>
+    <Cell><Data ss:Type="String">Counts the items</Data></Cell>
+   </Row>
+   <Row ss:Index="28">
+    <Cell ss:Index="4" ss:StyleID="s66"/>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
    <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
@@ -79,7 +98,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>8</ActiveRow>
+     <ActiveRow>9</ActiveRow>
      <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>

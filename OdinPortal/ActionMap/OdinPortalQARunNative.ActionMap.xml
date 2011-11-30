@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Sam Warwick</LastAuthor>
+  <Created>2001-04-09T15:03:06Z</Created>
+  <LastSaved>2008-01-10T14:53:33Z</LastSaved>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5955</WindowHeight>
+  <WindowWidth>13365</WindowWidth>
+  <WindowTopX>885</WindowTopX>
+  <WindowTopY>1965</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s23">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="ActionMap">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="13" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Width="10.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="67.5"/>
+   <Column ss:Width="128.25"/>
+   <Column ss:Width="370.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="171"/>
+   <Column ss:AutoFitWidth="0" ss:Width="180"/>
+   <Row ss:StyleID="s21">
+    <Cell ss:Index="2"><Data ss:Type="String">class</Data></Cell>
+    <Cell><Data ss:Type="String">action</Data></Cell>
+    <Cell><Data ss:Type="String">command</Data></Cell>
+    <Cell><Data ss:Type="String">documentation</Data></Cell>
+    <Cell><Data ss:Type="String">comment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s22"><Data ss:Type="String">__testInit</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Include &quot;AxeMain&quot;%NL%Include &quot;AxeWeb&quot;%NL%Include &quot;OdinPortalLib&quot;</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:Index="3"><Data ss:Type="String">BASESTATE.Home</Data></Cell>
+    <Cell><Data ss:Type="String">AxeWebBrowserBasestate(&quot;IE&quot;, AXEDIR + AxeGetRunCategoryOption(&quot;WebSite&quot;, &quot;Home&quot;), &quot;&quot;)</Data></Cell>
+    <Cell><Data ss:Type="String">Using an open Internet Explorer browser window, navigate to the OdinPortal Homepage (Can be achieved through the start menu, by selecting &quot;Axe &gt; Samples &gt; Odin Portal Website&quot;). If there are no browser sessions open, open a new one.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">BASESTATE.Restart.Home</Data></Cell>
+    <Cell><Data ss:Type="String">AxeWebBrowserBasestateRestart(&quot;IE&quot;, AXEDIR + AxeGetRunCategoryOption(&quot;WebSite&quot;, &quot;Home&quot;), &quot;&quot;)</Data></Cell>
+    <Cell><Data ss:Type="String">Close all open Internet Explorer browser windows. Re-open Internet Explorer and navigate to the OdinPortal Homepage (Can be achieved through the start menu, by selecting &quot;Axe &gt; Samples &gt; Odin Portal Website&quot;)</Data></Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell ss:Index="2" ss:StyleID="s23"><Data ss:Type="String">Radio</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">get</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">value = &quot;0&quot;; QARun does not support obtaining info from HTML Radio buttons</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Obtain the current value of the %object% radio button. (Record a value of &quot;1&quot; if it is selected or &quot;0&quot; if not selected)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s23"><Data ss:Type="String">CheckBox</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">get</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">value = &quot;0&quot;; QARun does not support obtaining info from HTML CheckBoxes</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Obtain the current value of the %object% checkbox. (Record a value of &quot;1&quot; if it is selected or &quot;0&quot; if not selected)</Data></Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell><Data ss:Type="String"># Documentation Samples</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">set.type</Data></Cell>
+    <Cell><Data ss:Type="String">rc = my_edit_set(&quot;@%window%.%object%&quot;,&quot;%data%&quot;)</Data></Cell>
+    <Cell><Data ss:Type="String">Type the key sequence %data% at the keyboard.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">get.exists</Data></Cell>
+    <Cell><Data ss:Type="String">value = my_obj_exists(&quot;%window%.%object%&quot;)</Data></Cell>
+    <Cell><Data ss:Type="String">Determine if the %object% object exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">val.length</Data></Cell>
+    <Cell><Data ss:Type="String">rc = MyValidateLength (&quot;%data%&quot;, value)</Data></Cell>
+    <Cell><Data ss:Type="String">Check that the length of %object% value is %data% characters</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-3</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

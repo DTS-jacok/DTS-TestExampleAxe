@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<link href="master.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="webfunc.js"></script>
+<title>Odin Portal - Login</title>
+</head>
+
+<body>
+
+<table class="Page" width="100%" cellspacing="0" cellpadding="5" border="1">
+
+<tr>
+<td class="Header" colspan="2">
+<h1>Odin Portal</h1>
+</td>
+</tr>
+
+<tr>
+
+<td class="Menu" width="15%" valign="top">
+<h2>&nbsp;</h2>
+<table>
+<tr><td><a href="index.html">Home</a></td></tr>
+<tr><td><a href="register.html">Register</a><td></tr>
+</table>
+</td>
+
+<td class="Content" valign="top">
+<h2>Login</h2>
+
+<form method="post" action="login.aspx">
+<table id="credentials">
+<tr><td>User ID</td><td><input name="TextBoxUserId" type="text" size="20" maxlength="20"> </td>
+<td><span id="TextBoxUserIdError" class="ErrorMessage"></span></td>
+</tr>
+<tr><td>Password</td><td><input name="TextBoxPassword" type="password" size="20" maxlength="10"></td>
+<td><span id="TextBoxPasswordError" class="ErrorMessage"></span></td>
+</tr>
+</table>
+<input type="button" onclick="login(TextBoxUserId.value, TextBoxPassword.value)" value="Login">
+</form>
+
+<!--
+<a href="index2.html">Login</a>
+-->
+
+<!--
+<form>
+<input type="button" onclick="document.write('xxx')" value="Test">
+</form>
+<form>
+<input type="button" onclick="document.write(Login.TextBoxUserId.value)" value="Test2">
+</form>
+-->
+
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

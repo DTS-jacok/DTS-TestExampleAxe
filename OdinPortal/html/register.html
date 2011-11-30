@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+<link href="master.css" type="text/css" rel="stylesheet">
+<title>Odin Portal - Register</title>
+</head>
+
+<body>
+<table class="Page" width="100%" cellspacing="0" cellpadding="5" border="1">
+<tr>
+<td class="Header" colspan="2">
+<h1>Odin Portal</h1>
+</td>
+</tr>
+
+<tr>
+
+<td class="Menu" width="15%" valign="top">
+<h2>&nbsp;</h2>
+<table>
+<tr><td><a href="index.html">Home</a></td></tr>
+<tr><td><a href="login.html">Login</a></td></tr>
+</table>
+</td>
+
+<td class="Content" valign="top">
+
+<h2>Register</h2>
+
+<p>
+To register to use this site please complete the information below.
+</p>
+
+<form method="post" action="register.aspx">
+<table>
+<tr>
+	<td>Title</td>
+	<td><select name="title"><option>Mr</option><option>Mrs</option><option>Miss</option></select></td>
+<tr>
+	<td>Name</td>
+	<td><input name="TextBoxName" type="text" size="30"></td>
+</tr>
+<tr>
+	<td>Sex</td>
+	<td>Male <input name="Sex" type=radio value="male"> Female <input name="Sex" type=radio value="female"></td>
+</tr>
+<tr>
+	<td>Date of Birth</td>
+	<td><input name="DOB" type="text" size="10" maxlength="10"></td>
+	<td>DD/MM/YYYY</td>
+</tr>
+<tr>
+	<td>Email Address</td>
+	<td><input name="email" type="text" size="20"></td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+        <td><font size="-1">Check this box if you do not want to receive information via email</font></td>
+	<td><input name="MailingList" type="checkbox"></td>
+</tr>
+</table>
+
+</form>
+
+<a href="registerok.html">Register</a>
+
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>

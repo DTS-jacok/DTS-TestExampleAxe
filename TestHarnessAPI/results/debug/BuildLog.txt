@@ -3,7 +3,7 @@ Axe Build Log
 
 Axe Version: 3.3.0.340
 
-2011/11/28 08:53:06 AM
+2011/11/30 12:56:03 PM
 
 Test project:  C:\AXE_Projects\TestHarnessAPI\TestHarnessAPI.tpj
 Test Suite:    debug
@@ -28,11 +28,11 @@ ActionMap load C:\AXE_Projects\TestHarnessAPI\ActionMap\TestHarnessAPI.ActionMap
 INFO: Action value overridden -- ._TESTINIT.0
 INFO: Action value overridden -- ._TESTPREFIX.0
 
-Test:     Test3 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: Tests)
-Sub-test: APITest - Test01 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: APITest)
+Test:     Test2 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: Tests)
+Sub-test: regionsInfoByIana - Test02 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: regionsInfoByIana)
 Build completed OK
 Errors: 0 Warnings: 0 Informational: 7
 1 test(s) built successfully
-2011/11/28 08:53:06 AM
+2011/11/30 12:56:03 PM
 
 End

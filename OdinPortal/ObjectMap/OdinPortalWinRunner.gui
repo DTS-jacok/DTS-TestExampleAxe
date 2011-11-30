@@ -1,0 +1,484 @@
+AccountDetails:
+{
+ class: window,
+ MSW_class: html_frame,
+ html_name: "!.* - Account Details"
+}
+{
+ rtree_state: open,
+ ltree_state: close
+}
+AccountDetails.DOB:
+{
+ class: cell,
+ table: Details,
+ row: 4,
+ col: 2
+}
+AccountDetails.Details:
+{
+ class: object,
+ MSW_class: html_table,
+ location: 2
+}
+AccountDetails.Email:
+{
+ class: cell,
+ table: Details,
+ row: 5,
+ col: 2
+}
+AccountDetails.Gender:
+{
+ class: cell,
+ table: Details,
+ label: Sex
+}
+AccountDetails.MenuHome:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Home
+}
+AccountDetails.MenuLinks:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Links
+}
+AccountDetails.MenuLogout:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Logout
+}
+AccountDetails.Name:
+{
+ class: cell,
+ table: Details,
+ row: 2,
+ col: 2
+}
+AccountDetails.Title:
+{
+ class: cell,
+ table: Details,
+ row: 1,
+ col: 2
+}
+Event:
+{
+ class: window,
+ MSW_class: html_frame,
+ html_name: "!.* - History - Event"
+}
+{
+ rtree_state: open,
+ ltree_state: close
+}
+Event.MenuAccountDetails:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: "Account Details"
+}
+Event.MenuHistory:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: History
+}
+Event.MenuHome:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Home
+}
+Event.MenuLinks:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Links
+}
+Event.MenuLogout:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Logout
+}
+History:
+{
+ class: window,
+ MSW_class: html_frame,
+ html_name: "!.* - History"
+}
+{
+ rtree_state: open,
+ ltree_state: close
+}
+History.Event:
+{
+ class: dynamic_link
+}
+History.MenuAccountDetails:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: "Account Details"
+}
+History.MenuHome:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Home
+}
+History.MenuLinks:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Links
+}
+History.MenuLogout:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Logout
+}
+Home:
+{
+ class: window,
+ MSW_class: html_frame,
+ html_name: "Odin Portal"
+}
+{
+ rtree_state: open,
+ ltree_state: close
+}
+Home.MenuAccountDetails:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: "!.*Account.*"
+}
+Home.MenuHistory:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: History
+}
+Home.MenuLinks:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Links
+}
+Home.MenuLogin:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Login
+}
+Home.MenuLogout:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Logout
+}
+Home.MenuRegister:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Register
+}
+Home.MenuUserDetails:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: "User Details"
+}
+Home.Role:
+{
+ class: object,
+ MSW_class: html_general_element,
+ html_id: role
+}
+Links:
+{
+ class: window,
+ MSW_class: html_frame,
+ html_name: "Odin Portal - Links"
+}
+{
+ rtree_state: open,
+ ltree_state: close
+}
+Links.AddNewLink:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: "!Add.*"
+}
+Links.Link:
+{
+ class: dynamic_link
+}
+Links.MenuAccountDetails:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: "Account Details"
+}
+Links.MenuHome:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Home
+}
+Links.MenuLogout:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Logout
+}
+Login:
+{
+ class: window,
+ MSW_class: html_frame,
+ html_name: "!.* - Login"
+}
+{
+ rtree_state: open,
+ ltree_state: close
+}
+Login.Credentials:
+{
+ class: object,
+ MSW_class: html_table,
+ location: 2
+}
+Login.Login:
+{
+ class: push_button,
+ MSW_class: html_push_button,
+ html_name: Login
+}
+Login.MenuHome:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Home
+}
+Login.MenuRegister:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Register
+}
+Login.Password:
+{
+ class: edit,
+ MSW_class: html_edit,
+ html_name: TextBoxPassword
+}
+Login.PasswordError:
+{
+ class: object,
+ MSW_class: html_general_element,
+ html_id: TextBoxPasswordError
+}
+Login.UserID:
+{
+ class: edit,
+ MSW_class: html_edit,
+ html_name: TextBoxUserId
+}
+Login.UserIDError:
+{
+ class: cell,
+ table: Credentials,
+ row: 1,
+ col: 3
+}
+Logout:
+{
+ class: window,
+ MSW_class: html_frame,
+ html_name: "Odin Portal - Logout"
+}
+{
+ rtree_state: open,
+ ltree_state: close
+}
+Logout.MenuHome:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Home
+}
+Register:
+{
+ class: window,
+ MSW_class: html_frame,
+ html_name: "!.* - Register"
+}
+{
+ rtree_state: open,
+ ltree_state: close
+}
+Register.DOB:
+{
+ class: edit,
+ MSW_class: html_edit,
+ html_name: DOB
+}
+Register.Email:
+{
+ class: edit,
+ MSW_class: html_edit,
+ html_name: email
+}
+Register.Female:
+{
+ class: radio_button,
+ MSW_class: html_radio_button,
+ html_name: Sex,
+ part_value: female
+}
+Register.MailingList:
+{
+ class: check_button,
+ MSW_class: html_check_button,
+ html_name: MailingList,
+ part_value: on
+}
+Register.Male:
+{
+ class: radio_button,
+ MSW_class: html_radio_button,
+ html_name: Sex,
+ part_value: male
+}
+Register.MenuHome:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Home
+}
+Register.MenuLogin:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Login
+}
+Register.Name:
+{
+ class: edit,
+ MSW_class: html_edit,
+ html_name: TextBoxName
+}
+Register.Register:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Register
+}
+Register.Title:
+{
+ class: list,
+ MSW_class: html_combobox,
+ html_name: title
+}
+RegisterSuccess:
+{
+ class: window,
+ MSW_class: html_frame,
+ html_name: "!.*- Register Success"
+}
+{
+ rtree_state: open,
+ ltree_state: close
+}
+RegisterSuccess.MenuHome:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Home
+}
+RegisterSuccess.MenuLogin:
+{
+ class: object,
+ MSW_class: html_text_link,
+ html_name: Login
+}
+RegisterSuccess.Password:
+{
+ class: object,
+ MSW_class: html_general_element,
+ html_id: password
+}
+UserDetails:
+{
+ class: window,
+ MSW_class: html_frame,
+ html_name: "Odin Portal - Users"
+}
+{
+ rtree_state: open,
+ ltree_state: close
+}
+UserDetails.DOB:
+{
+ class: cell,
+ table: UserTable,
+ row: 2,
+ col: 5
+}
+UserDetails.Gender:
+{
+ class: cell,
+ table: UserTable,
+ row: 2,
+ col: 4
+}
+UserDetails.Name:
+{
+ class: cell,
+ table: UserTable,
+ row: 2,
+ col: 3
+}
+UserDetails.Title:
+{
+ class: cell,
+ table: UserTable,
+ row: 2,
+ col: 2
+}
+UserDetails.Total:
+{
+ class: cell,
+ table: TotalTable,
+ row: 1,
+ col: 1,
+ text_before: "Total of ",
+ text_after: " users"
+}
+UserDetails.TotalTable:
+{
+ class: object,
+ MSW_class: html_table,
+ location: 3
+}
+UserDetails.UserId:
+{
+ class: cell,
+ table: UserTable,
+ row: 2,
+ col: 1
+}
+UserDetails.UserTable:
+{
+ class: object,
+ MSW_class: html_table,
+ location: 2
+}

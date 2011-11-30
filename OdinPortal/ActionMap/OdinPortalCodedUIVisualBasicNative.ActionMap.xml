@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Odin Technology</LastAuthor>
+  <Created>2001-04-09T15:03:06Z</Created>
+  <LastSaved>2010-02-25T03:32:11Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6450</WindowHeight>
+  <WindowWidth>18015</WindowWidth>
+  <WindowTopX>840</WindowTopX>
+  <WindowTopY>1305</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 13">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Normal 4">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64" ss:Name="Normal 5">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s69">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s70">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71" ss:Parent="s63">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s72" ss:Parent="s63">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s73">
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s74">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s77" ss:Parent="s64">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s79" ss:Parent="s62">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="ActionMap">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="14" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Width="10.5"/>
+   <Column ss:Width="102.75"/>
+   <Column ss:Width="128.25"/>
+   <Column ss:Width="1342.5"/>
+   <Column ss:Width="356.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="180"/>
+   <Row ss:StyleID="s65">
+    <Cell ss:Index="2"><Data ss:Type="String">class</Data></Cell>
+    <Cell><Data ss:Type="String">action</Data></Cell>
+    <Cell><Data ss:Type="String">command</Data></Cell>
+    <Cell><Data ss:Type="String">documentation</Data></Cell>
+    <Cell><Data ss:Type="String">comment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">BASESTATE.Home</Data></Cell>
+    <Cell><Data ss:Type="String">cuit.Browser.Basestate(Path.Combine(axe.GetEnv(&quot;AXEDIR&quot;), axe.GetRunCategoryOption(&quot;website&quot;, &quot;Home&quot;)))</Data></Cell>
+    <Cell><Data ss:Type="String">Make sure the browser is open at the OdinPortal home page.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s66"><Data ss:Type="String">BASESTATE.Restart.Home</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">cuit.Browser.Restart(Path.Combine(axe.GetEnv(&quot;AXEDIR&quot;), axe.GetRunCategoryOption(&quot;website&quot;, &quot;Home&quot;)))</Data></Cell>
+    <Cell><Data ss:Type="String">Restart the browser and load the OdinPortal home page.</Data></Cell>
+   </Row>
+   <Row ss:Index="5" ss:StyleID="s66">
+    <Cell ss:Index="2" ss:StyleID="s68"><Data ss:Type="String">HtmlEdit</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">get</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Try%NL%axe.Value = DirectCast(cuit.GetUIMap(&quot;&amp;@class&amp;,&amp;@assembly&amp;&quot;), &amp;@class&amp;).%REFERENCE%%OBJECT%.Text%NL%Catch ex as System.NotSupportedException%NL%axe.Value = &quot;&quot;%NL%End Try</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Obtain the text currently displayed in the %object% field.</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">HtmlEdit</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">set.type</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Keyboard.SendKeys(DirectCast(cuit.GetUIMap(&quot;&amp;@class&amp;,&amp;@assembly&amp;&quot;), &amp;@class&amp;).%REFERENCE%%OBJECT%, &quot;%DATA%&quot;)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Type the key sequence %data% at the keyboard.</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s74"><Data ss:Type="String">HtmlEdit</Data></Cell>
+    <Cell><Data ss:Type="String">get.exists</Data></Cell>
+    <Cell><Data ss:Type="String">axe.Value = Convert.ToString(DirectCast(cuit.GetUIMap(&quot;&amp;@class&amp;,&amp;@assembly&amp;&quot;), &amp;@class&amp;).%REFERENCE%%OBJECT%.Exists)</Data></Cell>
+    <Cell><Data ss:Type="String">Determine if the %object% object exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">val.length</Data></Cell>
+    <Cell><Data ss:Type="String">OdinPortalLib.MyValidateLength(axe, &quot;%DATA%&quot;, axe.Value)</Data></Cell>
+    <Cell><Data ss:Type="String">Check that the length of %object% value is %data% characters</Data></Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell ss:Index="2"><Data ss:Type="String">CustomHtmlButton</Data></Cell>
+    <Cell><Data ss:Type="String">set</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Mouse.Click((DirectCast(cuit.GetUIMap(&quot;&amp;@class&amp;,&amp;@assembly&amp;&quot;),&amp;@class&amp;)).%REFERENCE%%OBJECT%Button)    </Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Press the %object% button.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">CustomHtmlHyperlink</Data></Cell>
+    <Cell><Data ss:Type="String">set</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Mouse.Click((DirectCast(cuit.GetUIMap(&quot;&amp;@class&amp;,&amp;@assembly&amp;&quot;),&amp;@class&amp;)).%REFERENCE%%OBJECT%Hyperlink)    </Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Click on the %object% link.</Data></Cell>
+   </Row>
+   <Row ss:Index="14" ss:StyleID="s69">
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">CustomHtmlCell</Data></Cell>
+    <Cell><Data ss:Type="String">get</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">axe.Value = DirectCast(DirectCast(DirectCast(DirectCast(cuit.GetUIMap(&quot;&amp;@class&amp;,&amp;@assembly&amp;&quot;), &amp;@class&amp;).%REFERENCE%&amp;table&amp;.GetProperty(HtmlTable.PropertyNames.Rows), UITestControlCollection)(&amp;row&amp; - 1).GetProperty(HtmlRow.PropertyNames.Cells), UITestControlCollection)(&amp;column&amp; - 1).GetProperty(HtmlCell.PropertyNames.InnerText), string)</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Obtain the text displayed in the &amp;table&amp; table at row &amp;row&amp; column &amp;column&amp;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <LeftColumnVisible>3</LeftColumnVisible>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

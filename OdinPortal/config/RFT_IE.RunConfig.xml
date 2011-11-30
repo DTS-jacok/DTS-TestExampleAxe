@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Duncan Brigginshaw</LastAuthor>
+  <Created>2001-11-07T15:46:09Z</Created>
+  <LastSaved>2006-04-19T10:38:40Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5745</WindowHeight>
+  <WindowWidth>13395</WindowWidth>
+  <WindowTopX>210</WindowTopX>
+  <WindowTopY>1695</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Config">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="99"/>
+   <Column ss:StyleID="s62" ss:Width="168"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="221.25" ss:Span="1"/>
+   <Row ss:StyleID="s63">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">category</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">option</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Browser</Data></Cell>
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+    <Cell><Data ss:Type="String">IE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WebSite</Data></Cell>
+    <Cell><Data ss:Type="String">Home</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">samples\OdinPortal\html\index.html</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Option</Data></Cell>
+    <Cell><Data ss:Type="String">AdminUser</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">admin@testing.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Option</Data></Cell>
+    <Cell><Data ss:Type="String">AdminPassword</Data></Cell>
+    <Cell><Data ss:Type="String">Test123</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">RFT</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">MAXIMUM_FIND_OBJECT_TIME</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">RFT</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">MAXIMUM_WAIT_FOR_EXISTENCE</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

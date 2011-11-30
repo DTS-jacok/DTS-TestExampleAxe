@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Odin Technology</LastAuthor>
+  <Created>2001-04-17T15:13:30Z</Created>
+  <LastSaved>2010-03-04T01:26:12Z</LastSaved>
+  <Company>Odin Technology Ltd</Company>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7230</WindowHeight>
+  <WindowWidth>19200</WindowWidth>
+  <WindowTopX>915</WindowTopX>
+  <WindowTopY>2295</WindowTopY>
+  <RefModeR1C1/>
+  <AcceptLabelsInFormulas/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s24">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s25">
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s27">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="ObjectMap">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s24">
+   <Column ss:StyleID="s24" ss:Width="107.25"/>
+   <Column ss:StyleID="s24" ss:Width="101.25"/>
+   <Column ss:StyleID="s24" ss:Width="57.75"/>
+   <Column ss:StyleID="s24" ss:Width="23.25"/>
+   <Column ss:StyleID="s24" ss:Width="40.5"/>
+   <Row ss:StyleID="s27">
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">class</Data></Cell>
+    <Cell><Data ss:Type="String">table</Data></Cell>
+    <Cell><Data ss:Type="String">row</Data></Cell>
+    <Cell><Data ss:Type="String">column</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Login.Login</Data></Cell>
+    <Cell><Data ss:Type="String">CustomHtmlButton</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Register.Register</Data></Cell>
+    <Cell><Data ss:Type="String">CustomHtmlHyperlink</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">AccountDetails.DOB</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">CustomHtmlCell</Data></Cell>
+    <Cell><Data ss:Type="String">Details</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AccountDetails.Title</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">CustomHtmlCell</Data></Cell>
+    <Cell><Data ss:Type="String">Details</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AccountDetails.Name</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">CustomHtmlCell</Data></Cell>
+    <Cell><Data ss:Type="String">Details</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AccountDetails.Gender</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">CustomHtmlCell</Data></Cell>
+    <Cell><Data ss:Type="String">Details</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AccountDetails.Email</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">CustomHtmlCell</Data></Cell>
+    <Cell><Data ss:Type="String">Details</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>15</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -55,10 +55,10 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Config">
-  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="10" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="12" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s62">
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="141"/>
-   <Column ss:StyleID="s62" ss:Width="339.75"/>
+   <Column ss:StyleID="s62" ss:Width="558.75"/>
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="102"/>
    <Column ss:StyleID="s62" ss:Width="45"/>
    <Row ss:StyleID="s63">
@@ -110,6 +110,14 @@
     <Cell ss:StyleID="s65"><Data ss:Type="String">TOOLARGUMENTS</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">/javaarguments:&quot;-rt.bring_up_logviewer false&quot;</Data></Cell>
    </Row>
+   <Row>
+    <Cell><Data ss:Type="String">#POSTBUILDARGUMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">-classpath &quot;%CLASSPATH%;%LIBDIR%\CustomJavaLibTest.jar&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">#TOOLARGUMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">/classpath &quot;%CLASSPATH%;%LIBDIR%\CustomJavaLibTest.jar&quot;</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <Print>
@@ -122,8 +130,7 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>14</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>12</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

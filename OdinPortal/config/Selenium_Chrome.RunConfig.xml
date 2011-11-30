@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Odin Technology</LastAuthor>
+  <Created>2001-11-07T15:46:09Z</Created>
+  <LastSaved>2009-06-20T08:50:23Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5325</WindowHeight>
+  <WindowWidth>13695</WindowWidth>
+  <WindowTopX>1890</WindowTopX>
+  <WindowTopY>3675</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Borders/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Config">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64">
+   <Column ss:StyleID="s64" ss:Width="49.5"/>
+   <Column ss:StyleID="s64" ss:Width="76.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="187.5"/>
+   <Row ss:StyleID="s78">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">category</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">option</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WEBSITE</Data></Cell>
+    <Cell><Data ss:Type="String">Home</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">http://localhost/odinportal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Selenium</Data></Cell>
+    <Cell><Data ss:Type="String">Host</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">localhost</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Selenium</Data></Cell>
+    <Cell><Data ss:Type="String">Port</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4444</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Selenium</Data></Cell>
+    <Cell><Data ss:Type="String">Browser</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">*googlechrome</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Selenium</Data></Cell>
+    <Cell><Data ss:Type="String">BaseUrl</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">http://localhost/odinportal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Selenium</Data></Cell>
+    <Cell><Data ss:Type="String">Delay</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Selenium</Data></Cell>
+    <Cell><Data ss:Type="String">Timeout</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">15000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Option</Data></Cell>
+    <Cell><Data ss:Type="String">AdminUser</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">admin@testing.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Option</Data></Cell>
+    <Cell><Data ss:Type="String">AdminPassword</Data></Cell>
+    <Cell><Data ss:Type="String">Test123</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

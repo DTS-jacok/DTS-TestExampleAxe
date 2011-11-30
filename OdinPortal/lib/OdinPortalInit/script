@@ -1,0 +1,26 @@
+# Initialisation script for Odin Portal sample test system
+
+rc=load(AXEDIR & "/lib/WinRunner/" & "AxeMain", 1, 1);
+rc=load(AXEDIR & "/lib/WinRunner/" & "AxeWeb", 1, 1);
+#rc=load(AXEDIR & "/lib/WinRunner/" & "AxeWeb", 0, 0);
+
+rc=load("OdinPortalLib", 1, 1);
+
+rc = AxeObjectMapLoadList();
+
+AXE_SAVE_BITMAP = TRUE;			# enable WR bitmap capture
+AXE_SAVE_SCREEN = TRUE;			# enable Axe jpeg screen capture
+
+if(browser == "")
+	DEFAULT_BROWSER = IE;
+else
+	DEFAULT_BROWSER = browser;
+
+#DEFAULT_HOMEPAGE=AXEDIR & "/samples/OdinPortal/html/index.html";
+DEFAULT_HOMEPAGE= "file:///" & AxePathFormat(AxePathFormat(AXEDIR, "\\", "/"), " ", "%20") & "/samples/OdinPortal/html/index.html";
+
+setvar("timeout", 10);
+
+treturn;
+
+

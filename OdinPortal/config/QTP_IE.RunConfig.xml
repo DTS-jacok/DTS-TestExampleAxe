@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Sam Warwick</LastAuthor>
+  <Created>2001-11-07T15:46:09Z</Created>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5625</WindowHeight>
+  <WindowWidth>11700</WindowWidth>
+  <WindowTopX>2475</WindowTopX>
+  <WindowTopY>5970</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Config">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Width="46.5"/>
+   <Column ss:Width="139.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="178.5"/>
+   <Row ss:StyleID="s62">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">category</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">option</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Axe</Data></Cell>
+    <Cell><Data ss:Type="String">Tool</Data></Cell>
+    <Cell><Data ss:Type="String">QTP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Browser</Data></Cell>
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+    <Cell><Data ss:Type="String">IE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WebSite</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Home</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">samples\OdinPortal\html\index.html</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">QTP</Data></Cell>
+    <Cell><Data ss:Type="String">DefaultTimeout </Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">QTP</Data></Cell>
+    <Cell><Data ss:Type="String">WebTimeout </Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">QTP</Data></Cell>
+    <Cell><Data ss:Type="String">DisableReplayUsingAlgorithm </Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Option</Data></Cell>
+    <Cell><Data ss:Type="String">AdminUser</Data></Cell>
+    <Cell><Data ss:Type="String">admin@testing.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Option</Data></Cell>
+    <Cell><Data ss:Type="String">AdminPassword</Data></Cell>
+    <Cell><Data ss:Type="String">Test123</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestProject>
+  <ProductVersion>3.3</ProductVersion>
+  <Name>OdinPortal</Name>
+  <Description>Demonstrates the GUI web testing capabilities of Axe with all supported tool integrations.</Description>
+  <ApplicationType />
+  <ExcludeTestTables />
+  <TestSuiteNamingScheme>%WORKBOOK%.%WORKSHEET%.%BUILDCONFIG%.%RUNCONFIG%.%DATE%</TestSuiteNamingScheme>
+  <AxeManager>
+    <Options>
+      <Option name="AxeIdField" value="TS_USER_01" />
+      <Option name="AxeRunConfigField" value="CY_USER_01" />
+      <Option name="CompactSteps" value="False" />
+      <Option name="ImportScripts" value="False" />
+      <Option name="DefaultRunConfig" value="QTP_IE" />
+    </Options>
+  </AxeManager>
+</TestProject>

@@ -4,21 +4,21 @@
 <config file="C:\AXE_Projects\TestHarnessAPI\config\RFT.BuildConfig.xml" name="RFT.BuildConfig"/>
 <testsuite>debug</testsuite>
 <object_count>17</object_count>
-<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="countryInfoByIana" count="3" class="WsOperation"/>
+<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="countryInfoByIana" count="0" class="WsOperation"/>
 <object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="countryInfoByIana.countrynameResponse" count="0" class="WsOutParameter"/>
-<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="countryInfoByIana.ianacode" count="1" class="WsInParameter"/>
-<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="countryInfoByIana.ianacodeResponse" count="2" class="WsOutParameter"/>
+<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="countryInfoByIana.ianacode" count="0" class="WsInParameter"/>
+<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="countryInfoByIana.ianacodeResponse" count="0" class="WsOutParameter"/>
 <object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="countryInfoByIana.latitudeResponse" count="0" class="WsOutParameter"/>
 <object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="countryInfoByIana.longitudeResponse" count="0" class="WsOutParameter"/>
-<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana" count="0" class="WsOperation"/>
-<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ianacode" count="0" class="WsInParameter"/>
+<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana" count="6" class="WsOperation"/>
+<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ianacode" count="1" class="WsInParameter"/>
 <object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.latitudeResponse" count="0" class="WsOutParameter"/>
-<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponse" count="0" class="WsOutParameter"/>
+<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponse" count="4" class="WsOutParameter"/>
 <object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseCount" count="0" class="WsOutParameter"/>
-<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseItem_2" count="0" class="WsOutParameter"/>
-<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseItem_2_Code" count="0" class="WsOutParameter"/>
+<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseItem_2" count="2" class="WsOutParameter"/>
+<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseItem_2_Code" count="2" class="WsOutParameter"/>
 <object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseItems" count="0" class="WsOutParameter"/>
-<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseRegion" count="0" class="WsOutParameter"/>
+<object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.ListResponseRegion" count="2" class="WsOutParameter"/>
 <object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.longitudeResponse" count="0" class="WsOutParameter"/>
 <object mapfile="TestHarnessAPI.ObjectMap.xml" system="False" name="regionsInfoByIana.regionnameResponse" count="0" class="WsOutParameter"/>
 </object_coverage>

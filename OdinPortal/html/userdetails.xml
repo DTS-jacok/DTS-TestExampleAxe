@@ -1,0 +1,23 @@
+<table>
+  <record>
+    <UserId>fred@test.com</UserId>
+    <Title>Mr</Title>
+    <Name>Jones</Name>
+    <Gender>Male</Gender>
+    <DateOfBirth>01/04/1989</DateOfBirth>
+  </record>
+  <record>
+    <UserId>j.smith@testing.com</UserId>
+    <Title>Mr</Title>
+    <Name>Smith</Name>
+    <Gender>Male</Gender>
+    <DateOfBirth>03/12/1970</DateOfBirth>
+  </record>
+  <record>
+    <UserId>tanya@auto.com</UserId>
+    <Title>Miss</Title>
+    <Name>Tanya Blue</Name>
+    <Gender>Female</Gender>
+    <DateOfBirth>22/02/1984</DateOfBirth>
+  </record>
+</table>

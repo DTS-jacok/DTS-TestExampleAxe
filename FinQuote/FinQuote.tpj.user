@@ -19,5 +19,6 @@
     <InvokeOnly>False</InvokeOnly>
     <NoQuit>False</NoQuit>
     <CheckDependency>True</CheckDependency>
+    <UseTestSuiteNamingScheme>False</UseTestSuiteNamingScheme>
   </Settings>
 </ProjectSettings>

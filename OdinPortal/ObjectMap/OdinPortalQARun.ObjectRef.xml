@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<CompuwareDBRef>/tool QARun /dbconnstr "Provider=Microsoft.Jet.OLEDB.4.0;Persist Security Info=False;Jet OLEDB:Database Password=admin;Data Source=C:\\Program Files\\Odin Technology\\Axe\\samples\\Odinportal\\db\\QARun_OdinPortal.mdb</CompuwareDBRef>

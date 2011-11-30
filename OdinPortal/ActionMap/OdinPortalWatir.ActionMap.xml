@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Sam Warwick</LastAuthor>
+  <Created>2001-04-09T15:03:06Z</Created>
+  <LastSaved>2009-09-04T00:16:40Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///S:\OfficeXP\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6345</WindowHeight>
+  <WindowWidth>14595</WindowWidth>
+  <WindowTopX>195</WindowTopX>
+  <WindowTopY>570</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 4">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s66">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s62">
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="ActionMap">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Width="10.5"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="128.25"/>
+   <Column ss:Width="409.5"/>
+   <Column ss:Width="248.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="180"/>
+   <Row ss:StyleID="s63">
+    <Cell ss:Index="2"><Data ss:Type="String">class</Data></Cell>
+    <Cell><Data ss:Type="String">action</Data></Cell>
+    <Cell><Data ss:Type="String">command</Data></Cell>
+    <Cell><Data ss:Type="String">documentation</Data></Cell>
+    <Cell><Data ss:Type="String">comment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">BASESTATE.Home</Data></Cell>
+    <Cell><Data ss:Type="String">if(Watir::Browser.default == &quot;ie&quot;); Watir::IE.close_all; end%NL%browser = Watir::Browser.new%NL%browser.goto((&quot;file:///&quot; + axe.GetEnv(&quot;AXEDIR&quot;) + &quot;/&quot; + axe.GetRunCategoryOption(&quot;website&quot;, &quot;Home&quot;)).gsub(&quot;\\&quot;, &quot;/&quot;))</Data></Cell>
+    <Cell><Data ss:Type="String">Make sure the IE is open at the OdinPortal home page</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">BASESTATE.Restart.Home</Data></Cell>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="String">if(Watir::Browser.default == &quot;ie&quot;); Watir::IE.close_all; end%NL%browser = Watir::Browser.new%NL%browser.goto((&quot;file:///&quot; + axe.GetEnv(&quot;AXEDIR&quot;) + &quot;/&quot; + axe.GetRunCategoryOption(&quot;website&quot;, &quot;Home&quot;)).gsub(&quot;\\&quot;, &quot;/&quot;))</Data></Cell>
+    <Cell><Data ss:Type="String">Restart IE and load the OdinPortal home page</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell ss:Index="3"><Data ss:Type="String">val.length</Data></Cell>
+    <Cell><Data ss:Type="String">rc = axe.StepValidateEqual(&quot;%DATA%&quot;, value.length)</Data></Cell>
+    <Cell><Data ss:Type="String">Check that the length of %object% value is %data% characters</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s65"><Data ss:Type="String">TextField</Data></Cell>
+    <Cell><Data ss:Type="String">get.exists</Data></Cell>
+    <Cell><Data ss:Type="String">value = browser.text_field(:&amp;property_name&amp;, &quot;&amp;property_value&amp;&quot;).exist? ? &quot;True&quot;  : &quot;False&quot;</Data></Cell>
+    <Cell><Data ss:Type="String">Determine if the %object% object exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">TextField</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">set.type</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">browser.text_field(:&amp;property_name&amp;, &quot;&amp;property_value&amp;&quot;).set &quot;%DATA%&quot;</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Type the key sequence %data% at the keyboard.</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

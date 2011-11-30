@@ -1,0 +1,68 @@
+// (c)2005-2006 Odin Technology Ltd. All rights reserved.
+//
+// OdinPortalLib
+// Sample custom function library of Axe OdinPortal demo application
+
+
+Function op_edit_set(object, value):Var
+
+    Var rc
+
+    rc = EditText(objectname, "")
+    Type (value)
+
+    return 0
+
+End Function
+
+// Documentation samples
+
+Function my_edit_set(objectname,value):Var
+
+    Var rc
+    
+    rc = EditText( "@"+objectname, "")
+    Type (value)
+    
+    If rc = 1 Then
+        rc = 0
+    Else
+        rc = 1
+    EndIf    
+    
+    return rc
+    
+End Function
+
+
+Function my_obj_exists(objectname):Var
+
+    Var ret
+
+    ret = IsWindow(objectname,"exists")
+    
+    If ret = 1 Then
+        return "True"
+    Else
+        return "False"
+    EndIf
+    
+End Function
+
+
+Function MyValidateLength(expected,actual):Var
+
+    Var res
+    Var actual_length
+    
+    actual_length = Length(actual)
+    
+    If actual_length = Val(expected) Then
+        res = 0
+    Else
+        res = 1
+    EndIf
+    
+    return AxeStepValidate(expected, actual_length, res)
+
+End Function

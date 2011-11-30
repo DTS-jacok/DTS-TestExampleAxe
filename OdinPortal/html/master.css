@@ -1,0 +1,52 @@
+body
+{
+	FONT-SIZE: 11px; BACKGROUND: #003063; FONT-FAMILY: Verdana; margin: 0
+}
+
+h1 { color: #003063 }
+h2 { color: #003063 }
+
+.Page { width: 100%; height: 100%; margin: none; padding: 10px }
+
+.Header { BACKGROUND: #778899; HEIGHT: 10%; column-span: 2 }
+.Menu { BACKGROUND: #6495ed; WIDTH: 10%; font-weight: bold; text-align: top  }
+.Content { background: #d3d3d3 }
+
+
+.Content2 { background: #d373d3 }
+
+.ErrorMessage { color: red }
+
+table.data
+{
+	border: 0; 
+	background: #003063;
+background: #778899;
+}
+
+th.label
+{
+	font-weight:bold;
+	color:000066;
+	background:#E3E3E3;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+td.label
+{
+	font-weight:bold;
+	color:000066;
+	background:#E3E3E3;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+td.value
+{
+	color:black;
+	background:white;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align:left;
+}

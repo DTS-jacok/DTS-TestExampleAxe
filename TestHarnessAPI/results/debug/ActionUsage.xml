@@ -3,7 +3,7 @@
 <project>TestHarnessAPI</project>
 <config file="C:\AXE_Projects\TestHarnessAPI\config\RFT.BuildConfig.xml" name="RFT.BuildConfig"/>
 <testsuite>debug</testsuite>
-<action_count>152</action_count>
+<action_count>153</action_count>
 <action mapfile="Java" system="True" class="" action="_BASESTATEBEGIN(1)" type="System" count="0" documentation="False" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="_BASESTATECHECK" type="RawSystem" count="0" documentation="False" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="_BASESTATEEND" type="System" count="0" documentation="False" overriden="False" documentation_overriden="False"/>
@@ -22,15 +22,16 @@
 <action mapfile="RFT" system="True" class="" action="_TESTEND(1)" type="RawSystem" count="1" documentation="False" overriden="True" documentation_overriden="False"/>
 <action mapfile="TestHarnessAPI" system="False" class="" action="_TESTINIT" type="RawSystem" count="1" documentation="False" overriden="True" documentation_overriden="False"/>
 <action mapfile="TestHarnessAPI" system="False" class="" action="_TESTPREFIX" type="RawSystem" count="1" documentation="False" overriden="True" documentation_overriden="False"/>
-<action mapfile="Java" system="True" class="" action="_TESTSTEPBEGIN(2)" type="System" count="6" documentation="False" overriden="False" documentation_overriden="False"/>
-<action mapfile="Java" system="True" class="" action="_TESTSTEPCHECK" type="RawSystem" count="5" documentation="False" overriden="False" documentation_overriden="False"/>
-<action mapfile="RFT" system="True" class="" action="_TESTSTEPEND(1)" type="System" count="6" documentation="False" overriden="True" documentation_overriden="False"/>
+<action mapfile="Java" system="True" class="" action="_TESTSTEPBEGIN(2)" type="System" count="17" documentation="False" overriden="False" documentation_overriden="False"/>
+<action mapfile="Java" system="True" class="" action="_TESTSTEPCHECK" type="RawSystem" count="11" documentation="False" overriden="False" documentation_overriden="False"/>
+<action mapfile="RFT" system="True" class="" action="_TESTSTEPEND(1)" type="System" count="17" documentation="False" overriden="True" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="_TESTSUBTESTBEGIN(4)" type="System" count="1" documentation="False" overriden="False" documentation_overriden="False"/>
 <action mapfile="RFT" system="True" class="" action="_TESTSUBTESTEND(1)" type="System" count="1" documentation="False" overriden="True" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="_TESTSUFFIX" type="RawSystem" count="1" documentation="False" overriden="False" documentation_overriden="False"/>
 <action mapfile="RFT" system="True" class="" action="BASESTATE.BROWSERCLOSEALL" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="RFT" system="True" class="" action="BASESTATE.HOME" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="RFT" system="True" class="" action="BASESTATE.RESTART.HOME" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
+<action mapfile="TestHarnessAPI" system="False" class="" action="GET.NODECOUNT" type="Default" count="1" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="LOAD" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="LOAD(1)" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="LOAD.FILE(1)" type="Default" count="1" documentation="True" overriden="False" documentation_overriden="False"/>
@@ -45,7 +46,7 @@
 <action mapfile="Java" system="True" class="" action="SAVE.SCREEN(1)" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="TIMER.START(1)" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="TIMER.STOP(1)" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
-<action mapfile="Java" system="True" class="" action="VAL" type="Default" count="1" documentation="True" overriden="False" documentation_overriden="False"/>
+<action mapfile="Java" system="True" class="" action="VAL" type="Default" count="6" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="VAL.EQUAL" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="VAL.NOTEQUAL" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="" action="VAL.REGEXP" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
@@ -143,11 +144,11 @@
 <action mapfile="RFTNative" system="True" class="SYSTEM.WINDOWS.FORMS.TEXTBOX" action="SET" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="WSINPARAMETER" action="SET" type="Default" count="1" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="WSINPARAMETERENCODED" action="SET" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
-<action mapfile="Java" system="True" class="WSOPERATION" action="GET" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
+<action mapfile="Java" system="True" class="WSOPERATION" action="GET" type="Default" count="1" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="WSOPERATION" action="INVOKE" type="Default" count="1" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="WSOPERATION" action="INVOKE.POST" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="WSOPERATION" action="SET" type="Default" count="1" documentation="True" overriden="False" documentation_overriden="False"/>
-<action mapfile="Java" system="True" class="WSOUTPARAMETER" action="GET" type="Default" count="1" documentation="True" overriden="False" documentation_overriden="False"/>
+<action mapfile="Java" system="True" class="WSOUTPARAMETER" action="GET" type="Default" count="5" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="WSOUTPARAMETER" action="GET(1)" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="WSOUTPARAMETER" action="GET.XML" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>
 <action mapfile="Java" system="True" class="XMLDOCUMENT" action="GET" type="Default" count="0" documentation="True" overriden="False" documentation_overriden="False"/>

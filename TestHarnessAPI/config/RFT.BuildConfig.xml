@@ -58,7 +58,7 @@
   <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="12" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s62">
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="141"/>
-   <Column ss:StyleID="s62" ss:Width="558.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="380.25"/>
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="102"/>
    <Column ss:StyleID="s62" ss:Width="45"/>
    <Row ss:StyleID="s63">
@@ -130,7 +130,8 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>12</ActiveRow>
+     <ActiveRow>17</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

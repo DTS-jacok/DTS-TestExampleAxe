@@ -1,1 +1,0 @@
-"C:\Program Files\Odin Technology\Axe\AxeIntCW" /qarun /createobjectmap /oledb "Provider=Microsoft.Jet.OLEDB.4.0;Persist Security Info=False;Jet OLEDB:Database Password=admin;Data Source=C:\Program Files\Odin Technology\Axe\samples\Odinportal\db\QARun_OdinPortal.mdb" /dest "C:\Program Files\Odin Technology\Axe\samples\OdinPortal\ObjectMap\OdinPortalQARun.xml"

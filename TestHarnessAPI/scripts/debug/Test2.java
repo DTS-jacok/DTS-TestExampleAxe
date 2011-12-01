@@ -2,7 +2,7 @@
 // C:/AXE_Projects/TestHarnessAPI/data/Tests.xml:Tests Test2
 package axe;
 import objectmap.objectmap;
-import resources.axe.Test2Helper;
+import resources.axe.*;
 import com.jacob.activeX.ActiveXComponent;
 import com.jacob.com.Variant;
 import com.jacob.com.Dispatch;
@@ -68,8 +68,8 @@ public class Test2 extends Test2Helper
 				Dispatch.put(axe, "Value", Dispatch.call(harness, "WsResponse"));
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "[]regionsInfoByIana", "val", "");  Dispatch.put(axe, "ResultCode", 0);
-				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "", Dispatch.get(axe, "Value")));
+				Dispatch.call(axe, "StepBegin", "[]regionsInfoByIana", "val.notequal", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateNotEqual", "", Dispatch.get(axe, "Value")));
 				axeStepEnd();
 				Dispatch.call(axe, "StepBegin", "[]regionsInfoByIana", "get.nodecount", "");  Dispatch.put(axe, "ResultCode", 0);
 				        try {
@@ -88,36 +88,36 @@ public class Test2 extends Test2Helper
 				Dispatch.put(axe, "Value", Dispatch.call(harness, "WsGetResponseNodeText", "//allregionslist"));
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "ListResponse", "val", "");  Dispatch.put(axe, "ResultCode", 0);
-				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "", Dispatch.get(axe, "Value")));
+				Dispatch.call(axe, "StepBegin", "ListResponse", "val.notequal", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateNotEqual", "", Dispatch.get(axe, "Value")));
 				axeStepEnd();
 				Dispatch.call(axe, "StepBegin", "ListResponse", "get", "");  Dispatch.put(axe, "ResultCode", 0);
 				Dispatch.put(axe, "Value", Dispatch.call(harness, "WsGetResponseNodeText", "//allregionslist"));
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "ListResponse", "val", "");  Dispatch.put(axe, "ResultCode", 0);
-				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "", Dispatch.get(axe, "Value")));
+				Dispatch.call(axe, "StepBegin", "ListResponse", "val.notequal", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateNotEqual", "", Dispatch.get(axe, "Value")));
 				axeStepEnd();
 				Dispatch.call(axe, "StepBegin", "ListResponseItem_2", "get", "");  Dispatch.put(axe, "ResultCode", 0);
 				Dispatch.put(axe, "Value", Dispatch.call(harness, "WsGetResponseNodeText", "//allregionslist/item[2]"));
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "ListResponseItem_2", "val", "");  Dispatch.put(axe, "ResultCode", 0);
-				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "", Dispatch.get(axe, "Value")));
+				Dispatch.call(axe, "StepBegin", "ListResponseItem_2", "val.notequal", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateNotEqual", "", Dispatch.get(axe, "Value")));
 				axeStepEnd();
 				Dispatch.call(axe, "StepBegin", "ListResponseItem_2_Code", "get", "");  Dispatch.put(axe, "ResultCode", 0);
 				Dispatch.put(axe, "Value", Dispatch.call(harness, "WsGetResponseNodeText", "//allregionslist/item[2]/ianacode"));
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "ListResponseItem_2_Code", "val", "za");  Dispatch.put(axe, "ResultCode", 0);
-				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "za", Dispatch.get(axe, "Value")));
+				Dispatch.call(axe, "StepBegin", "ListResponseItem_2_Code", "val.notequal", "za1");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateNotEqual", "za1", Dispatch.get(axe, "Value")));
 				axeStepEnd();
 				Dispatch.call(axe, "StepBegin", "ListResponseRegion", "get", "");  Dispatch.put(axe, "ResultCode", 0);
 				Dispatch.put(axe, "Value", Dispatch.call(harness, "WsGetResponseNodeText", "//allregionslist/item/regionname"));
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "ListResponseRegion", "val", "");  Dispatch.put(axe, "ResultCode", 0);
-				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "", Dispatch.get(axe, "Value")));
+				Dispatch.call(axe, "StepBegin", "ListResponseRegion", "val", "Eastern Cape");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "Eastern Cape", Dispatch.get(axe, "Value")));
 				axeStepEnd();
 				axeSubtestEnd();
 // 

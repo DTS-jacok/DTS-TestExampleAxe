@@ -6,7 +6,9 @@
     <Workbook>Tests</Workbook>
     <Worksheet>Tests</Worksheet>
     <Tests>
+      <Test>Test1</Test>
       <Test>Test2</Test>
+      <Test>Test3</Test>
     </Tests>
     <BuildFromTestList>False</BuildFromTestList>
     <TestList>%PROJECTDIR%\testlist.xml</TestList>
@@ -14,7 +16,9 @@
     <RunConfiguration>Generic</RunConfiguration>
     <RunName />
     <RunTests>
+      <Test>Test1</Test>
       <Test>Test2</Test>
+      <Test>Test3</Test>
     </RunTests>
     <InvokeOnly>False</InvokeOnly>
     <NoQuit>False</NoQuit>

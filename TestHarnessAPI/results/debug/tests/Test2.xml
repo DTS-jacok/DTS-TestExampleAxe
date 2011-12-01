@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<test><projectname>TestHarnessAPI</projectname><configuration>RFT</configuration><buildtimestamp>2011/11/30 12:56:03 PM</buildtimestamp><id>Test2</id><table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml</resultfile><description>Get a multi return from regions</description> 
+<test><projectname>TestHarnessAPI</projectname><configuration>RFT</configuration><buildtimestamp>2011/12/01 06:55:40 AM</buildtimestamp><id>Test2</id><table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml</resultfile><description>Get a multi return from regions</description> 
 <subtest><id>Test02</id><table name="regionsInfoByIana" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><description>Multi returns</description> 
 <step type="Load"><object>[]regionsInfoByIana</object><action>load.file(regionsInfoByIana.xml)</action><data></data><description>
 Load contents of file regionsInfoByIana.xml
@@ -16,8 +16,8 @@ Invoke the &quot;regionsInfoByIana&quot; web service
 <step type="Get"><object>[]regionsInfoByIana</object><action>get</action><data></data><description>
 Get contents of the &quot;regionsInfoByIana&quot; SOAP response
 </description></step>
-<step type="Val"><object>[]regionsInfoByIana</object><action>val</action><data></data><description>
-Check the obtained value matches the expected value
+<step type="Val"><object>[]regionsInfoByIana</object><action>val.notequal</action><data></data><description>
+Check the obtained value is not equal to the expected value
 </description></step>
 <step type="Get"><object>[]regionsInfoByIana</object><action>get.nodecount</action><data></data><description>
 Counts the items
@@ -25,31 +25,31 @@ Counts the items
 <step type="Get"><object>ListResponse</object><action>get</action><data></data><description>
 Get the &quot;ListResponse&quot; response node, xpath=//allregionslist
 </description></step>
-<step type="Val"><object>ListResponse</object><action>val</action><data></data><description>
-Check the obtained value matches the expected value
+<step type="Val"><object>ListResponse</object><action>val.notequal</action><data></data><description>
+Check the obtained value is not equal to the expected value
 </description></step>
 <step type="Get"><object>ListResponse</object><action>get</action><data></data><description>
 Get the &quot;ListResponse&quot; response node, xpath=//allregionslist
 </description></step>
-<step type="Val"><object>ListResponse</object><action>val</action><data></data><description>
-Check the obtained value matches the expected value
+<step type="Val"><object>ListResponse</object><action>val.notequal</action><data></data><description>
+Check the obtained value is not equal to the expected value
 </description></step>
 <step type="Get"><object>ListResponseItem_2</object><action>get</action><data></data><description>
 Get the &quot;ListResponseItem_2&quot; response node, xpath=//allregionslist/item[2]
 </description></step>
-<step type="Val"><object>ListResponseItem_2</object><action>val</action><data></data><description>
-Check the obtained value matches the expected value
+<step type="Val"><object>ListResponseItem_2</object><action>val.notequal</action><data></data><description>
+Check the obtained value is not equal to the expected value
 </description></step>
 <step type="Get"><object>ListResponseItem_2_Code</object><action>get</action><data></data><description>
 Get the &quot;ListResponseItem_2_Code&quot; response node, xpath=//allregionslist/item[2]/ianacode
 </description></step>
-<step type="Val"><object>ListResponseItem_2_Code</object><action>val</action><data>za</data><description>
-Check the obtained value matches the expected value
+<step type="Val"><object>ListResponseItem_2_Code</object><action>val.notequal</action><data>za1</data><description>
+Check the obtained value is not equal to the expected value
 </description></step>
 <step type="Get"><object>ListResponseRegion</object><action>get</action><data></data><description>
 Get the &quot;ListResponseRegion&quot; response node, xpath=//allregionslist/item/regionname
 </description></step>
-<step type="Val"><object>ListResponseRegion</object><action>val</action><data></data><description>
+<step type="Val"><object>ListResponseRegion</object><action>val</action><data>Eastern Cape</data><description>
 Check the obtained value matches the expected value
 </description></step>
 </subtest>

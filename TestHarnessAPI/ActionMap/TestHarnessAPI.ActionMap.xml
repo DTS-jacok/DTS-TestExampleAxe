@@ -65,7 +65,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="117.75">
     <Cell ss:Index="3"><Data ss:Type="String">__testinit</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">package axe;&#10;import objectmap.objectmap;&#10;import resources.axe.Test2Helper;&#10;import com.jacob.activeX.ActiveXComponent;&#10;import com.jacob.com.Variant;&#10;import com.jacob.com.Dispatch;&#10;import com.rational.test.ft.*;&#10;import com.rational.test.ft.object.interfaces.*;&#10;import com.rational.test.ft.object.interfaces.SAP.*;&#10;import com.rational.test.ft.object.interfaces.WPF.*;&#10;import com.rational.test.ft.object.interfaces.dojo.*;&#10;import com.rational.test.ft.object.interfaces.siebel.*;&#10;import com.rational.test.ft.object.interfaces.flex.*;&#10;import com.rational.test.ft.object.interfaces.generichtmlsubdomain.*;&#10;import com.rational.test.ft.script.*;&#10;import com.rational.test.ft.value.*;&#10;import com.rational.test.ft.vp.*;&#10;import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;&#10;&#10;import java.io.IOException;&#10;import javax.xml.parsers.ParserConfigurationException;&#10;import org.w3c.dom.*;&#10;import java.io.File;&#10;import helpers.CustomLib;&#10;import java.io.BufferedWriter;&#10;import java.io.FileWriter;&#10;&#10;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">package axe;&#10;import objectmap.objectmap;&#10;import resources.axe.*;&#10;import com.jacob.activeX.ActiveXComponent;&#10;import com.jacob.com.Variant;&#10;import com.jacob.com.Dispatch;&#10;import com.rational.test.ft.*;&#10;import com.rational.test.ft.object.interfaces.*;&#10;import com.rational.test.ft.object.interfaces.SAP.*;&#10;import com.rational.test.ft.object.interfaces.WPF.*;&#10;import com.rational.test.ft.object.interfaces.dojo.*;&#10;import com.rational.test.ft.object.interfaces.siebel.*;&#10;import com.rational.test.ft.object.interfaces.flex.*;&#10;import com.rational.test.ft.object.interfaces.generichtmlsubdomain.*;&#10;import com.rational.test.ft.script.*;&#10;import com.rational.test.ft.value.*;&#10;import com.rational.test.ft.vp.*;&#10;import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;&#10;&#10;import java.io.IOException;&#10;import javax.xml.parsers.ParserConfigurationException;&#10;import org.w3c.dom.*;&#10;import java.io.File;&#10;import helpers.CustomLib;&#10;import java.io.BufferedWriter;&#10;import java.io.FileWriter;&#10;&#10;</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell ss:Index="3"><Data ss:Type="String">__testprefix</Data></Cell>
@@ -98,7 +98,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>9</ActiveRow>
+     <ActiveRow>7</ActiveRow>
      <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>

@@ -1,1 +1,0 @@
-"C:\Program Files\Odin Technology\Axe\AxeIntCW" /testpartner /createobjectmap /odbc "DSN=TP_OdinPortal;Uid=Admin;Pwd=admin" /dest "C:\Program Files\Odin Technology\Axe\samples\OdinPortal\ObjectMap\OdinPortalTP.xml"

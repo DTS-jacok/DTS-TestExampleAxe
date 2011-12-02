@@ -3,7 +3,7 @@ Axe Build Log
 
 Axe Version: 3.3.0.340
 
-2011/11/28 08:39:32 AM
+2011/12/01 11:00:49 AM
 
 Test project:  C:\AXE_Projects\WebServiceTest\WebServiceTest.tpj
 Test Suite:    debug
@@ -22,6 +22,6 @@ Sub-test: countryInfoByIana - Test01 (Workbook: C:\AXE_Projects\WebServiceTest\d
 Build completed OK
 Errors: 0 Warnings: 0 Informational: 0
 1 test(s) built successfully
-2011/11/28 08:39:32 AM
+2011/12/01 11:00:49 AM
 
 End

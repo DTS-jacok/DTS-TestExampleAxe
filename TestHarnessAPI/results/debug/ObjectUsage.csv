@@ -1,6 +1,6 @@
-C:\AXE_Projects\TestHarnessAPI\ObjectMap\TestHarnessAPI.ObjectMap.xml,countryInfoByIana,8,WsOperation
+C:\AXE_Projects\TestHarnessAPI\ObjectMap\TestHarnessAPI.ObjectMap.xml,countryInfoByIana,10,WsOperation
 C:\AXE_Projects\TestHarnessAPI\ObjectMap\TestHarnessAPI.ObjectMap.xml,countryInfoByIana.countrynameResponse,2,WsOutParameter
-C:\AXE_Projects\TestHarnessAPI\ObjectMap\TestHarnessAPI.ObjectMap.xml,countryInfoByIana.ianacode,2,WsInParameter
+C:\AXE_Projects\TestHarnessAPI\ObjectMap\TestHarnessAPI.ObjectMap.xml,countryInfoByIana.ianacode,3,WsInParameter
 C:\AXE_Projects\TestHarnessAPI\ObjectMap\TestHarnessAPI.ObjectMap.xml,countryInfoByIana.ianacodeResponse,4,WsOutParameter
 C:\AXE_Projects\TestHarnessAPI\ObjectMap\TestHarnessAPI.ObjectMap.xml,countryInfoByIana.latitudeResponse,2,WsOutParameter
 C:\AXE_Projects\TestHarnessAPI\ObjectMap\TestHarnessAPI.ObjectMap.xml,countryInfoByIana.longitudeResponse,2,WsOutParameter

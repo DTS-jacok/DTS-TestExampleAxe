@@ -1,95 +1,95 @@
-<?xml version="1.0" ?><test><id>Test1</id><execution_id></execution_id><table name="Tests" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><description><![CDATA[Get Country code details]]></description><start>2011/11/28 08:39:35 AM</start>
-<subtest><index>1</index><id>Test01</id><table name="countryInfoByIana" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><description><![CDATA[Get country details]]></description><start>2011/11/28 08:39:35 AM</start>
-<step><index>1</index><action>load.file(countryInfoByIana.xml)</action><object>[]countryInfoByIana</object><data><![CDATA[]]></data><start>2011/11/28 08:39:35 AM</start>
-<finish>2011/11/28 08:39:35 AM</finish>
+<?xml version="1.0" ?><test><id>Test1</id><execution_id></execution_id><table name="Tests" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><description><![CDATA[Get Country code details]]></description><start>2011/12/01 11:00:50 AM</start>
+<subtest><index>1</index><id>Test01</id><table name="countryInfoByIana" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><description><![CDATA[Get country details]]></description><start>2011/12/01 11:00:50 AM</start>
+<step><index>1</index><action>load.file(countryInfoByIana.xml)</action><object>[]countryInfoByIana</object><data><![CDATA[]]></data><start>2011/12/01 11:00:50 AM</start>
+<finish>2011/12/01 11:00:50 AM</finish>
 <time>0</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>2</index><action>Set</action><object>[]countryInfoByIana</object><data><![CDATA[]]></data><start>2011/11/28 08:39:35 AM</start>
-<finish>2011/11/28 08:39:35 AM</finish>
+<step><index>2</index><action>Set</action><object>[]countryInfoByIana</object><data><![CDATA[]]></data><start>2011/12/01 11:00:50 AM</start>
+<finish>2011/12/01 11:00:50 AM</finish>
+<time>0.001</time>
+<result>0</result>
+<success>True</success>
+</step>
+<step><index>3</index><action>Set</action><object>ianacode</object><data><![CDATA[za]]></data><start>2011/12/01 11:00:50 AM</start>
+<finish>2011/12/01 11:00:50 AM</finish>
 <time>0</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>3</index><action>Set</action><object>ianacode</object><data><![CDATA[za]]></data><start>2011/11/28 08:39:35 AM</start>
-<finish>2011/11/28 08:39:35 AM</finish>
+<step><index>4</index><action>Invoke</action><object>[]countryInfoByIana</object><data><![CDATA[]]></data><start>2011/12/01 11:00:50 AM</start>
+<finish>2011/12/01 11:00:51 AM</finish>
+<time>1.4560833</time>
+<result>0</result>
+<success>True</success>
+</step>
+<step><index>5</index><action>get</action><object>ianacodeResponse</object><data><![CDATA[]]></data><start>2011/12/01 11:00:51 AM</start>
+<finish>2011/12/01 11:00:51 AM</finish>
 <time>0</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>4</index><action>Invoke</action><object>[]countryInfoByIana</object><data><![CDATA[]]></data><start>2011/11/28 08:39:35 AM</start>
-<finish>2011/11/28 08:39:36 AM</finish>
-<time>0.7332013</time>
-<result>0</result>
-<success>True</success>
-</step>
-<step><index>5</index><action>get</action><object>ianacodeResponse</object><data><![CDATA[]]></data><start>2011/11/28 08:39:36 AM</start>
-<finish>2011/11/28 08:39:36 AM</finish>
-<time>0</time>
-<result>0</result>
-<success>True</success>
-</step>
-<step><index>6</index><action>val</action><object>ianacodeResponse</object><data><![CDATA[za]]></data><start>2011/11/28 08:39:36 AM</start>
+<step><index>6</index><action>val</action><object>ianacodeResponse</object><data><![CDATA[za]]></data><start>2011/12/01 11:00:51 AM</start>
 <expected><![CDATA[za]]></expected>
 <actual><![CDATA[za]]></actual>
-<finish>2011/11/28 08:39:36 AM</finish>
+<finish>2011/12/01 11:00:51 AM</finish>
+<time>0.0010001</time>
+<result>0</result>
+<success>True</success>
+</step>
+<step><index>7</index><action>get</action><object>countrynameResponse</object><data><![CDATA[]]></data><start>2011/12/01 11:00:51 AM</start>
+<finish>2011/12/01 11:00:51 AM</finish>
 <time>0</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>7</index><action>get</action><object>countrynameResponse</object><data><![CDATA[]]></data><start>2011/11/28 08:39:36 AM</start>
-<finish>2011/11/28 08:39:36 AM</finish>
-<time>0</time>
-<result>0</result>
-<success>True</success>
-</step>
-<step><index>8</index><action>val</action><object>countrynameResponse</object><data><![CDATA[South Africa]]></data><start>2011/11/28 08:39:36 AM</start>
+<step><index>8</index><action>val</action><object>countrynameResponse</object><data><![CDATA[South Africa]]></data><start>2011/12/01 11:00:51 AM</start>
 <expected><![CDATA[South Africa]]></expected>
 <actual><![CDATA[South Africa]]></actual>
-<finish>2011/11/28 08:39:36 AM</finish>
+<finish>2011/12/01 11:00:51 AM</finish>
 <time>0</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>9</index><action>get</action><object>latitudeResponse</object><data><![CDATA[]]></data><start>2011/11/28 08:39:36 AM</start>
-<finish>2011/11/28 08:39:36 AM</finish>
+<step><index>9</index><action>get</action><object>latitudeResponse</object><data><![CDATA[]]></data><start>2011/12/01 11:00:51 AM</start>
+<finish>2011/12/01 11:00:51 AM</finish>
 <time>0</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>10</index><action>val</action><object>latitudeResponse</object><data><![CDATA[-30.559483]]></data><start>2011/11/28 08:39:36 AM</start>
+<step><index>10</index><action>val</action><object>latitudeResponse</object><data><![CDATA[-30.559483]]></data><start>2011/12/01 11:00:51 AM</start>
 <expected><![CDATA[-30.559483]]></expected>
 <actual><![CDATA[-30.559483]]></actual>
-<finish>2011/11/28 08:39:36 AM</finish>
+<finish>2011/12/01 11:00:51 AM</finish>
 <time>0</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>11</index><action>get</action><object>longitudeResponse</object><data><![CDATA[]]></data><start>2011/11/28 08:39:36 AM</start>
-<finish>2011/11/28 08:39:36 AM</finish>
+<step><index>11</index><action>get</action><object>longitudeResponse</object><data><![CDATA[]]></data><start>2011/12/01 11:00:51 AM</start>
+<finish>2011/12/01 11:00:51 AM</finish>
 <time>0</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>12</index><action>val</action><object>longitudeResponse</object><data><![CDATA[22.937506]]></data><start>2011/11/28 08:39:36 AM</start>
+<step><index>12</index><action>val</action><object>longitudeResponse</object><data><![CDATA[22.937506]]></data><start>2011/12/01 11:00:51 AM</start>
 <expected><![CDATA[22.937506]]></expected>
 <actual><![CDATA[22.937506]]></actual>
-<finish>2011/11/28 08:39:36 AM</finish>
+<finish>2011/12/01 11:00:51 AM</finish>
 <time>0</time>
 <result>0</result>
 <success>True</success>
 </step>
-<finish>2011/11/28 08:39:36 AM</finish>
-<time>0.7332013</time>
+<finish>2011/12/01 11:00:51 AM</finish>
+<time>1.4610836</time>
 <result>Pass</result>
 <success>True</success>
 <testcount>12</testcount>
 <passcount>12</passcount>
 <failcount>0</failcount>
 </subtest>
-<finish>2011/11/28 08:39:36 AM</finish>
-<time>0.7332013</time>
+<finish>2011/12/01 11:00:51 AM</finish>
+<time>1.4640837</time>
 <result>Pass</result>
 <success>True</success>
 <testcount>1</testcount>

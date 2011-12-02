@@ -4,10 +4,8 @@
     <Suite>debug</Suite>
     <BuildConfiguration>AxeHarness</BuildConfiguration>
     <Workbook>Tests</Workbook>
-    <Worksheet>Tests</Worksheet>
-    <Tests>
-      <Test>Test1</Test>
-    </Tests>
+    <Worksheet />
+    <Tests />
     <BuildFromTestList>False</BuildFromTestList>
     <TestList>%PROJECTDIR%\testlist.xml</TestList>
     <BuildFromRunList>False</BuildFromRunList>

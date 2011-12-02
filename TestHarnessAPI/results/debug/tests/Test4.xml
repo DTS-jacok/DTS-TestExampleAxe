@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<test><projectname>TestHarnessAPI</projectname><configuration>RFT</configuration><buildtimestamp>2011/12/02 07:24:37 AM</buildtimestamp><id>Test4</id><table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml</resultfile><description>Dynamic date</description> 
+<subtest><id>Test02</id><table name="APITest" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><description>Dynamic date</description> 
+<step type="Load"><object>[]countryInfoByIana</object><action>load.file(countryInfoByIana.xml)</action><data></data><description>
+Load contents of file countryInfoByIana.xml
+</description></step>
+<step type="Set"><object>[]countryInfoByIana</object><action>Set</action><data></data><description>
+Set content of the &quot;countryInfoByIana&quot; SOAP request
+</description></step>
+<step type="Unknown"><object>ianacode</object><action>dynamicdate</action><data></data><description>
+
+</description></step>
+</subtest>
+</test>

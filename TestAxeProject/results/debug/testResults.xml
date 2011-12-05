@@ -1,0 +1,15 @@
+<?xml version="1.0" ?><test><id>Test1</id><execution_id></execution_id><table name="Tests" file="C:/AXE_Projects/TestAxeProject/data/Tests.xml"/><description><![CDATA[Jaco Test Description logon]]></description><start>2011/12/02 11:05:48 AM</start>
+<basestate>  <index>1</index>  <action>Home.siebel</action>  <start>2011/12/02 11:05:48 AM</start>
+<info><![CDATA[Browser not found.]]></info>
+ <success>False</success>  <result>1</result>  <finish>2011/12/02 11:06:17 AM</finish>  <time>28.1816119</time>
+  <error_no><![CDATA[1]]></error_no>
+  <error_msg><![CDATA[]]></error_msg>
+</basestate>
+<finish>2011/12/02 11:06:17 AM</finish>
+<time>28.287618</time>
+<result>Basestate</result>
+<success>False</success>
+<testcount>0</testcount>
+<passcount>0</passcount>
+<failcount>0</failcount>
+</test>

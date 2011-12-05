@@ -1,8 +1,8 @@
 <datastore>
   <system>
     <data>
-      <key>Test3.Result</key>
-      <value>Aborted</value>
+      <key>Test4.Result</key>
+      <value>Fail</value>
     </data>
   </system>
   <local />

@@ -33,7 +33,7 @@ public class Test1 extends Test1Helper
  
 
 
-			Dispatch.call(axe, "TestBegin", "Test1" ,"My Test Description logon", "C:/AXE_Projects/TestAxeProject/data/Tests.xml", "Tests", "C:/AXE_Projects/TestAxeProject/results/debug/results.xml","");
+			Dispatch.call(axe, "TestBegin", "Test1" ,"Jaco Test Description logon", "C:/AXE_Projects/TestAxeProject/data/Tests.xml", "Tests", "C:/AXE_Projects/TestAxeProject/results/debug/results.xml","");
 			try
 			{
 				Dispatch.call(axe, "BasestateBegin", "Home.siebel");

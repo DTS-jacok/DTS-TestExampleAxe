@@ -6,9 +6,6 @@
     <Workbook>Tests</Workbook>
     <Worksheet>Tests</Worksheet>
     <Tests>
-      <Test>Test1</Test>
-      <Test>Test2</Test>
-      <Test>Test3</Test>
       <Test>Test4</Test>
     </Tests>
     <BuildFromTestList>False</BuildFromTestList>
@@ -16,7 +13,9 @@
     <BuildFromRunList>False</BuildFromRunList>
     <RunConfiguration>Generic</RunConfiguration>
     <RunName />
-    <RunTests />
+    <RunTests>
+      <Test>Test4</Test>
+    </RunTests>
     <InvokeOnly>False</InvokeOnly>
     <NoQuit>False</NoQuit>
     <CheckDependency>True</CheckDependency>

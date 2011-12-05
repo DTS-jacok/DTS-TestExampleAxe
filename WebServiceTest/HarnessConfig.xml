@@ -11,6 +11,6 @@
 	<namespace prefix="soap" uri="http://schemas.xmlsoap.org/soap/envelope/" />
     </namespaces>
     <connections>
-	
+            <connection name="mytestconnection" Provider= "ODBC" string="server=localhost;User ID=root;Password=123456;database=test;Connection Reset=FALSE"/>
     </connections>
 </configuration>

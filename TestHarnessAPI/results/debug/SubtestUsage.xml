@@ -3,8 +3,5 @@
 <project>TestHarnessAPI</project>
 <config file="C:\AXE_Projects\TestHarnessAPI\config\RFT.BuildConfig.xml" name="RFT.BuildConfig"/>
 <testsuite>debug</testsuite>
-<subtest><name>Tests:APITest:Test01</name><count>1</count></subtest>
-<subtest><name>Tests:APITest:Test02</name><count>1</count></subtest>
-<subtest><name>Tests:countryInfoByIana:Test01</name><count>1</count></subtest>
-<subtest><name>Tests:regionsInfoByIana:Test02</name><count>1</count></subtest>
+<subtest><name>Tests:SQLUser:Test01</name><count>1</count></subtest>
 </subtest_coverage>

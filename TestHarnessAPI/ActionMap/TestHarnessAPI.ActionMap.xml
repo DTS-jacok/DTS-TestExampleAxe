@@ -48,7 +48,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="ActionMap">
-  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="28" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="27" x:FullColumns="1"
    x:FullRows="1">
    <Column ss:Width="10.5"/>
    <Column ss:Width="81.75"/>
@@ -76,11 +76,7 @@
     <Cell ss:StyleID="s65"><Data ss:Type="String">        try {&#10;            BufferedWriter out = new BufferedWriter(new FileWriter(&quot;test.txt&quot;));&#10;            out.write(Dispatch.get(axe, &quot;Value&quot;).toString());&#10;            out.close();&#10;        } catch (Exception e) {&#10;            System.out.println(e.getMessage());&#10;        }&#10;&#10;    CustomLib n = new CustomLib();&#10;    Dispatch.put(axe, &quot;ResultCode&quot;, Dispatch.call(axe,&quot;StepValidateNotEqual&quot;,&quot;&quot;,n.getTheCount()))          </Data></Cell>
     <Cell><Data ss:Type="String">Counts the items</Data></Cell>
    </Row>
-   <Row>
-    <Cell ss:Index="3"><Data ss:Type="String">dynamicdate</Data></Cell>
-    <Cell><Data ss:Type="String">date = new SimpleDateFormat(&quot;dd/MM/yyyy hh:mm a&quot;).format(Calendar.getInstance().getTime())</Data></Cell>
-   </Row>
-   <Row ss:Index="28">
+   <Row ss:Index="27">
     <Cell ss:Index="4" ss:StyleID="s66"/>
    </Row>
   </Table>
@@ -102,7 +98,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>10</ActiveRow>
+     <ActiveRow>3</ActiveRow>
      <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>

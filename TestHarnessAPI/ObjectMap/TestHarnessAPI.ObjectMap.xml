@@ -65,19 +65,35 @@
   <Style ss:ID="s71">
    <Font ss:FontName="Arial" x:Family="Swiss"/>
   </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Color="#000000"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="ObjectMap">
-  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="25" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="27" x:FullColumns="1"
    x:FullRows="1">
    <Column ss:StyleID="s63" ss:Width="206.25"/>
-   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="129.75"/>
-   <Column ss:AutoFitWidth="0" ss:Width="108"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="129.75" ss:Span="2"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="108"/>
    <Column ss:Width="83.25"/>
    <Column ss:Width="282"/>
    <Column ss:Width="143.25"/>
    <Row>
     <Cell ss:StyleID="s64"><Data ss:Type="String">name</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">class</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">connection</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">type</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">service</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">operation</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">namespace</Data></Cell>
@@ -86,7 +102,7 @@
    <Row>
     <Cell ss:StyleID="s66"><Data ss:Type="String">countryInfoByIana</Data></Cell>
     <Cell><Data ss:Type="String">WsOperation</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">MobileFish</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">MobileFish</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">countryInfoByIana</Data></Cell>
     <Cell ss:StyleID="s68" ss:HRef="http://www.mobilefish.com/services/web_service/countries.php"><Data
       ss:Type="String">http://www.mobilefish.com/services/web_service/countries.php</Data></Cell>
@@ -99,27 +115,27 @@
    <Row>
     <Cell ss:StyleID="s66"><Data ss:Type="String">countryInfoByIana.ianacodeResponse</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6"><Data ss:Type="String">//ianacode</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">//ianacode</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s66"><Data ss:Type="String">countryInfoByIana.countrynameResponse</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6"><Data ss:Type="String">//countryname</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">//countryname</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s66"><Data ss:Type="String">countryInfoByIana.latitudeResponse</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6"><Data ss:Type="String">//latitude</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">//latitude</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s66"><Data ss:Type="String">countryInfoByIana.longitudeResponse</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6"><Data ss:Type="String">//longitude</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">//longitude</Data></Cell>
    </Row>
    <Row ss:Index="9">
     <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana</Data></Cell>
     <Cell><Data ss:Type="String">WsOperation</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">MobileFish</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">MobileFish</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="String">regionsInfoByIana</Data></Cell>
     <Cell ss:StyleID="s68" ss:HRef="http://www.mobilefish.com/services/web_service/countries.php"><Data
       ss:Type="String">http://www.mobilefish.com/services/web_service/countries.php</Data></Cell>
@@ -132,65 +148,118 @@
    <Row>
     <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.regionnameResponse</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//regionname</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">//regionname</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.latitudeResponse</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6"><Data ss:Type="String">//latitude</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">//latitude</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.longitudeResponse</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6"><Data ss:Type="String">//longitude</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">//longitude</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ListResponse</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//allregionslist</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">//allregionslist</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ListResponseCount</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ListResponseItem_2</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item[2]</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item[2]</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ListResponseItem_2_Code</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item[2]/ianacode</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item[2]/ianacode</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ListResponseItems</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s70"><Data ss:Type="String">regionsInfoByIana.ListResponseRegion</Data></Cell>
     <Cell><Data ss:Type="String">WsOutParameter</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item/regionname</Data></Cell>
-   </Row>
-   <Row ss:Index="22">
-    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">//allregionslist/item/regionname</Data></Cell>
    </Row>
    <Row>
-    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
    </Row>
    <Row>
-    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">SQLUser</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">DbQuery</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">MySqlLocal</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">System.Data.DataSet</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
    </Row>
    <Row>
-    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">SQLUser.Id</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">DbQueryParameter</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">SQLUser.ReturnValue</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">DbQueryResult</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">System.Data.DataSet</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">SQLUser.Surname</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">DbResultNode</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">//Surname</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
@@ -205,8 +274,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>21</ActiveRow>
-     <ActiveCol>5</ActiveCol>
+     <ActiveRow>27</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

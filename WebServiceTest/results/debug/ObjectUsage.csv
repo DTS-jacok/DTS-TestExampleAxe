@@ -1,9 +1,9 @@
-C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana,3,WsOperation
-C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana.countrynameResponse,2,WsOutParameter
-C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana.ianacode,1,WsInParameter
-C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana.ianacodeResponse,2,WsOutParameter
-C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana.latitudeResponse,2,WsOutParameter
-C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana.longitudeResponse,2,WsOutParameter
+C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana,0,WsOperation
+C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana.countrynameResponse,0,WsOutParameter
+C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana.ianacode,0,WsInParameter
+C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana.ianacodeResponse,0,WsOutParameter
+C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana.latitudeResponse,0,WsOutParameter
+C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,countryInfoByIana.longitudeResponse,0,WsOutParameter
 C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,regionsInfoByIana,0,WsOperation
 C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,regionsInfoByIana.ianacode,0,WsInParameter
 C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,regionsInfoByIana.latitudeResponse,0,WsOutParameter
@@ -15,3 +15,7 @@ C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,regionsInf
 C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,regionsInfoByIana.ListResponseRegion,0,WsOutParameter
 C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,regionsInfoByIana.longitudeResponse,0,WsOutParameter
 C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,regionsInfoByIana.regionnameResponse,0,WsOutParameter
+C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,SQLUser,2,DbQuery
+C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,SQLUser.Id,0,DbQueryParameter
+C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,SQLUser.ReturnValue,2,DbQueryResult
+C:\AXE_Projects\WebServiceTest\ObjectMap\WebServiceTest.ObjectMap.xml,SQLUser.Surname,0,DbResultNode

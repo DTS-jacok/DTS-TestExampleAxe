@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RunSettings>
   <Option Name="CheckDependency" Value="True" />
-  <Option Name="RunConfiguration" Value="C:\AXE_Projects\WebServiceTest\config\Generic.RunConfig.xml" />
+  <Option Name="RunConfiguration" Value="C:\AXE_Projects\TestAxeProject\config\Generic.RunConfig.xml" />
   <Option Name="RunName" Value="" />
   <Tests>
-    <Test>Test3</Test>
+    <Test>Test1</Test>
   </Tests>
 </RunSettings>

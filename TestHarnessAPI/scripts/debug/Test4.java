@@ -42,24 +42,34 @@ public class Test4 extends Test4Helper
  
 
 
-			Dispatch.call(axe, "TestBegin", "Test4" ,"Dynamic date", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
+			Dispatch.call(axe, "TestBegin", "Test4" ,"Try Database", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
 			try
 			{
 // 
-// C:/AXE_Projects/TestHarnessAPI/data/Tests.xml:APITest Test02
-				Dispatch.call(axe, "SubtestBegin", "Test02", "Dynamic date", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "APITest");
-				Dispatch.call(axe, "StepBegin", "[]countryInfoByIana", "load.file(countryInfoByIana.xml)", "");  Dispatch.put(axe, "ResultCode", 0);
-				Dispatch.put(axe, "Data",  Dispatch.call(axe, "LoadFile", "countryInfoByIana.xml").toString());
+// C:/AXE_Projects/TestHarnessAPI/data/Tests.xml:SQLUser Test01
+				Dispatch.call(axe, "SubtestBegin", "Test01", "", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "SQLUser");
+				Dispatch.call(axe, "StepBegin", "[]SQLUser", "set", "select * from accounts where Id in (1,2)");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.call(harness, "DbInitialiseQuery", Dispatch.call(axe, "GetRunCategoryOption", "connection", "MySqlLocal"),  Dispatch.call(axe, "GetRunCategoryOptionProperty", "connection", "MySqlLocal", "provider"), "select * from accounts where Id in (1,2)", "System.Data.DataSet");
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "[]countryInfoByIana", "Set", "");  Dispatch.put(axe, "ResultCode", 0);
-				Dispatch.call(harness, "WsInitialise", Dispatch.call(axe, "GetRunCategoryOption", "webservice", "MobileFish"),  "countryInfoByIana", "http://www.mobilefish.com/services/web_service/countries.php", Dispatch.get(axe, "Data").toString(), Dispatch.call(axe, "GetRunCategoryOptions", "namespace"), Dispatch.call(axe, "GetRunCategoryOptionProperty", "webservice", "MobileFish", "username"), Dispatch.call(axe, "GetRunCategoryOptionProperty", "webservice", "MobileFish", "password"));
+				Dispatch.call(axe, "StepBegin", "[]SQLUser", "Invoke", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.call(harness, "DbInvoke");
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "ianacode", "dynamicdate", "");  Dispatch.put(axe, "ResultCode", 0);
-				date = new SimpleDateFormat("dd/MM/yyyy hh:mm a").format(Calendar.getInstance().getTime());
+				Dispatch.call(axe, "StepBegin", "Surname", "get", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "Value",  Dispatch.call(harness, "DbGetResultNodeText", "//Surname", false));
 				axeStepEnd();
 
+				Dispatch.call(axe, "StepBegin", "Surname", "val", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "", Dispatch.get(axe, "Value")));
+				axeStepEnd();
+				Dispatch.call(axe, "StepBegin", "ReturnValue", "get", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "Value",  Dispatch.call(harness, "DbGetResult"));
+				axeStepEnd();
+
+				Dispatch.call(axe, "StepBegin", "ReturnValue", "val", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "", Dispatch.get(axe, "Value")));
+				axeStepEnd();
 				axeSubtestEnd();
 // 
 // 

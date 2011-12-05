@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+<id>Test3</id><execution_id></execution_id><table name="Tests" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><description><![CDATA[try DB]]></description>
+<subtest><id>Test01</id><table name="SQLUser" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><description><![CDATA[my database test]]></description> 
+<step><object>[]SQLUser</object><action>set</action><data><![CDATA[select * from accounts where Id = 1]]></data>
+<command action="InitialiseDbQuery" connection="mytestconnection" >"select * from accounts where Id = 1"</command>
+</step>
+<step check="true" />
+<step><object>[]SQLUser</object><action>Invoke</action><data><![CDATA[]]></data>
+<command action="InvokeDbCommand"  type="System.Data.DataSet" />
+</step>
+<step check="true" />
+<step><object>ReturnValue</object><action>get</action><data><![CDATA[]]></data>
+<command action="GetClsMethodResult" type="System.Data.DataSet" />
+</step>
+<step check="true" />
+<step><object>ReturnValue</object><action>val</action><data><![CDATA[]]></data>
+<command action="ValidateEqual"><![CDATA[""]]></command>
+</step>
+</subtest>
+
+</test>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<test><projectname>WebServiceTest</projectname><configuration>AxeHarness</configuration><buildtimestamp>2011/12/05 12:04:56 PM</buildtimestamp><id>Test3</id><table name="Tests" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><resultfile>C:/AXE_Projects/WebServiceTest/results/debug/results.xml</resultfile><description>try DB</description> 
+<subtest><id>Test01</id><table name="SQLUser" file="C:/AXE_Projects/WebServiceTest/data/Tests.xml"/><description>my database test</description> 
+<step type="Set"><object>[]SQLUser</object><action>set</action><data>select * from accounts where Id = 1</data><description>
+Set content of the &quot;SQLUser&quot; SQL query to &quot;select * from accounts where Id = 1&quot;
+</description></step>
+<step type="Unknown"><object>[]SQLUser</object><action>Invoke</action><data></data><description>
+Execute the &quot;SQLUser&quot; query
+</description></step>
+<step type="Get"><object>ReturnValue</object><action>get</action><data></data><description>
+Get result of SQLUser query
+</description></step>
+<step type="Val"><object>ReturnValue</object><action>val</action><data></data><description>
+Check the obtained value matches the expected value
+</description></step>
+</subtest>
+</test>

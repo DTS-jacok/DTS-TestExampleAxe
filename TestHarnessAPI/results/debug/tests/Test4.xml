@@ -1,14 +1,23 @@
 <?xml version="1.0"?>
-<test><projectname>TestHarnessAPI</projectname><configuration>RFT</configuration><buildtimestamp>2011/12/02 07:24:37 AM</buildtimestamp><id>Test4</id><table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml</resultfile><description>Dynamic date</description> 
-<subtest><id>Test02</id><table name="APITest" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><description>Dynamic date</description> 
-<step type="Load"><object>[]countryInfoByIana</object><action>load.file(countryInfoByIana.xml)</action><data></data><description>
-Load contents of file countryInfoByIana.xml
+<test><projectname>TestHarnessAPI</projectname><configuration>RFT</configuration><buildtimestamp>2011/12/05 12:43:28 PM</buildtimestamp><id>Test4</id><table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml</resultfile><description>Try Database</description> 
+<subtest><id>Test01</id><table name="SQLUser" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><description></description> 
+<step type="Set"><object>[]SQLUser</object><action>set</action><data>select * from accounts where Id in (1,2)</data><description>
+Set content of the &quot;SQLUser&quot; SQL query to &quot;select * from accounts where Id in (1,2)&quot;
 </description></step>
-<step type="Set"><object>[]countryInfoByIana</object><action>Set</action><data></data><description>
-Set content of the &quot;countryInfoByIana&quot; SOAP request
+<step type="Unknown"><object>[]SQLUser</object><action>Invoke</action><data></data><description>
+Execute the &quot;SQLUser&quot; query
 </description></step>
-<step type="Unknown"><object>ianacode</object><action>dynamicdate</action><data></data><description>
-
+<step type="Get"><object>Surname</object><action>get</action><data></data><description>
+Get result of the &quot;Surname&quot; query, xpath=//Surname
+</description></step>
+<step type="Val"><object>Surname</object><action>val</action><data></data><description>
+Check the obtained value matches the expected value
+</description></step>
+<step type="Get"><object>ReturnValue</object><action>get</action><data></data><description>
+Get result of SQLUser query
+</description></step>
+<step type="Val"><object>ReturnValue</object><action>val</action><data></data><description>
+Check the obtained value matches the expected value
 </description></step>
 </subtest>
 </test>

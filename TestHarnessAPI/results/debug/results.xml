@@ -6,54 +6,687 @@
     <id>
     </id>
     <config file="C:\AXE_Projects\TestHarnessAPI\config\RFT.BuildConfig.xml" name="RFT" />
-    <buildtimestamp>2011/12/05 12:43:28 PM</buildtimestamp>
+    <buildtimestamp>2011/12/05 02:25:47 PM</buildtimestamp>
     <run_master>
       <test>
         <index>1</index>
+        <id>Test1</id>
+        <description>Get Country code details</description>
+        <result>Pass</result>
+        <success>True</success>
+        <start>2011/12/05 02:26:19 PM</start>
+        <finish>2011/12/05 02:26:20 PM</finish>
+        <time>0.9490543</time>
+        <run>run1</run>
+        <test_index>1</test_index>
+      </test>
+      <test>
+        <index>2</index>
+        <id>Test2</id>
+        <description>Get a multi return from regions</description>
+        <result>Pass</result>
+        <success>True</success>
+        <start>2011/12/05 02:26:23 PM</start>
+        <finish>2011/12/05 02:26:24 PM</finish>
+        <time>1.0790618</time>
+        <run>run1</run>
+        <test_index>2</test_index>
+      </test>
+      <test>
+        <index>3</index>
+        <id>Test3</id>
+        <description>Try this</description>
+        <result>Pass</result>
+        <success>True</success>
+        <start>2011/12/05 02:26:28 PM</start>
+        <finish>2011/12/05 02:26:29 PM</finish>
+        <time>0.8090463</time>
+        <run>run1</run>
+        <test_index>3</test_index>
+      </test>
+      <test>
+        <index>4</index>
         <id>Test4</id>
         <description>Try Database</description>
         <result>Fail</result>
         <success>False</success>
-        <start>2011/12/05 12:43:35 PM</start>
-        <finish>2011/12/05 12:43:35 PM</finish>
-        <time>0.0780002</time>
+        <start>2011/12/05 02:26:32 PM</start>
+        <finish>2011/12/05 02:26:33 PM</finish>
+        <time>0.1410081</time>
         <run>run1</run>
-        <test_index>1</test_index>
+        <test_index>4</test_index>
       </test>
-      <testcount>1</testcount>
-      <passcount>0</passcount>
+      <testcount>4</testcount>
+      <passcount>3</passcount>
       <failcount>1</failcount>
       <notruncount>0</notruncount>
     </run_master>
     <run>
       <name>run1</name>
-      <start>2011/12/05 12:43:35 PM</start>
-      <finish>2011/12/05 12:43:35 PM</finish>
-      <testcount>1</testcount>
-      <passcount>0</passcount>
+      <start>2011/12/05 02:26:19 PM</start>
+      <finish>2011/12/05 02:26:33 PM</finish>
+      <testcount>4</testcount>
+      <passcount>3</passcount>
       <failcount>1</failcount>
       <success>false</success>
+      <test>
+        <id>Test1</id>
+        <execution_id>
+        </execution_id>
+        <table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml" />
+        <description><![CDATA[Get Country code details]]></description>
+        <start>2011/12/05 02:26:19 PM</start>
+        <subtest>
+          <index>1</index>
+          <id>Test01</id>
+          <table name="countryInfoByIana" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml" />
+          <description><![CDATA[Get country details]]></description>
+          <start>2011/12/05 02:26:19 PM</start>
+          <step>
+            <index>1</index>
+            <object><![CDATA[[]countryInfoByIana]]></object>
+            <action><![CDATA[load.file(countryInfoByIana.xml)]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:19 PM</start>
+            <finish>2011/12/05 02:26:19 PM</finish>
+            <time>0.0040002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>2</index>
+            <object><![CDATA[[]countryInfoByIana]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:19 PM</start>
+            <finish>2011/12/05 02:26:19 PM</finish>
+            <time>0.0040002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>3</index>
+            <object><![CDATA[ianacode]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[za]]></data>
+            <start>2011/12/05 02:26:19 PM</start>
+            <finish>2011/12/05 02:26:19 PM</finish>
+            <time>0.0020002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>4</index>
+            <object><![CDATA[[]countryInfoByIana]]></object>
+            <action><![CDATA[Invoke]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:19 PM</start>
+            <finish>2011/12/05 02:26:20 PM</finish>
+            <time>0.8420482</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>5</index>
+            <object><![CDATA[[]countryInfoByIana]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:20 PM</start>
+            <finish>2011/12/05 02:26:20 PM</finish>
+            <time>0.0030002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>6</index>
+            <object><![CDATA[[]countryInfoByIana]]></object>
+            <action><![CDATA[val.notequal]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:20 PM</start>
+            <expected><![CDATA[]]></expected>
+            <actual><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:countryInfoByIanaResponse>
+<return>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<countryname xsi:type="xsd:string">South Africa</countryname>
+<latitude xsi:type="xsd:float">-30.559483</latitude>
+<longitude xsi:type="xsd:float">22.937506</longitude></return></SOAP-ENV:countryInfoByIanaResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+]]></actual>
+            <finish>2011/12/05 02:26:20 PM</finish>
+            <time>0.0060003</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>7</index>
+            <object><![CDATA[ianacodeResponse]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:20 PM</start>
+            <finish>2011/12/05 02:26:20 PM</finish>
+            <time>0.0030002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>8</index>
+            <object><![CDATA[ianacodeResponse]]></object>
+            <action><![CDATA[val]]></action>
+            <data><![CDATA[za]]></data>
+            <start>2011/12/05 02:26:20 PM</start>
+            <expected><![CDATA[za]]></expected>
+            <actual><![CDATA[za]]></actual>
+            <finish>2011/12/05 02:26:20 PM</finish>
+            <time>0.0050003</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>9</index>
+            <object><![CDATA[countrynameResponse]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:20 PM</start>
+            <finish>2011/12/05 02:26:20 PM</finish>
+            <time>0.0030001</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>10</index>
+            <object><![CDATA[countrynameResponse]]></object>
+            <action><![CDATA[val]]></action>
+            <data><![CDATA[South Africa]]></data>
+            <start>2011/12/05 02:26:20 PM</start>
+            <expected><![CDATA[South Africa]]></expected>
+            <actual><![CDATA[South Africa]]></actual>
+            <finish>2011/12/05 02:26:20 PM</finish>
+            <time>0.0050002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>11</index>
+            <object><![CDATA[latitudeResponse]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:20 PM</start>
+            <finish>2011/12/05 02:26:20 PM</finish>
+            <time>0.0020001</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>12</index>
+            <object><![CDATA[latitudeResponse]]></object>
+            <action><![CDATA[val]]></action>
+            <data><![CDATA[-30.559483]]></data>
+            <start>2011/12/05 02:26:20 PM</start>
+            <expected><![CDATA[-30.559483]]></expected>
+            <actual><![CDATA[-30.559483]]></actual>
+            <finish>2011/12/05 02:26:20 PM</finish>
+            <time>0.0030002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>13</index>
+            <object><![CDATA[longitudeResponse]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:20 PM</start>
+            <finish>2011/12/05 02:26:20 PM</finish>
+            <time>0.0020001</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>14</index>
+            <object><![CDATA[longitudeResponse]]></object>
+            <action><![CDATA[val]]></action>
+            <data><![CDATA[22.937506]]></data>
+            <start>2011/12/05 02:26:20 PM</start>
+            <expected><![CDATA[22.937506]]></expected>
+            <actual><![CDATA[22.937506]]></actual>
+            <finish>2011/12/05 02:26:20 PM</finish>
+            <time>0.0040002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <finish>2011/12/05 02:26:20 PM</finish>
+          <time>0.9250529</time>
+          <result>Pass</result>
+          <success>True</success>
+          <testcount>14</testcount>
+          <passcount>14</passcount>
+          <failcount>0</failcount>
+        </subtest>
+        <finish>2011/12/05 02:26:20 PM</finish>
+        <time>0.9490543</time>
+        <result>Pass</result>
+        <success>True</success>
+        <testcount>1</testcount>
+        <passcount>1</passcount>
+        <failcount>0</failcount>
+        <index>1</index>
+      </test>
+      <test>
+        <id>Test2</id>
+        <execution_id>
+        </execution_id>
+        <table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml" />
+        <description><![CDATA[Get a multi return from regions]]></description>
+        <start>2011/12/05 02:26:23 PM</start>
+        <subtest>
+          <index>1</index>
+          <id>Test02</id>
+          <table name="regionsInfoByIana" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml" />
+          <description><![CDATA[Multi returns]]></description>
+          <start>2011/12/05 02:26:23 PM</start>
+          <step>
+            <index>1</index>
+            <object><![CDATA[[]regionsInfoByIana]]></object>
+            <action><![CDATA[load.file(regionsInfoByIana.xml)]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:23 PM</start>
+            <finish>2011/12/05 02:26:23 PM</finish>
+            <time>0.0030002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>2</index>
+            <object><![CDATA[[]regionsInfoByIana]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:23 PM</start>
+            <finish>2011/12/05 02:26:23 PM</finish>
+            <time>0.0030001</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>3</index>
+            <object><![CDATA[ianacode]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[za]]></data>
+            <start>2011/12/05 02:26:23 PM</start>
+            <finish>2011/12/05 02:26:23 PM</finish>
+            <time>0.0020001</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>4</index>
+            <object><![CDATA[[]regionsInfoByIana]]></object>
+            <action><![CDATA[Invoke]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:23 PM</start>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.9080519</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>5</index>
+            <object><![CDATA[[]regionsInfoByIana]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0040002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>6</index>
+            <object><![CDATA[[]regionsInfoByIana]]></object>
+            <action><![CDATA[val.notequal]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <expected><![CDATA[]]></expected>
+            <actual><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:ns4="urn:countries.webservice.mobilefish.com"
+ SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:regionsInfoByIanaResponse>
+<allregionslist xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="ns4:RegionsData[9]">
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Eastern Cape</regionname>
+<latitude xsi:type="xsd:float">-32.106209</latitude>
+<longitude xsi:type="xsd:float">26.463432</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Free State</regionname>
+<latitude xsi:type="xsd:float">-28.678331</latitude>
+<longitude xsi:type="xsd:float">27.060972</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Gauteng</regionname>
+<latitude xsi:type="xsd:float">-26.028387</latitude>
+<longitude xsi:type="xsd:float">28.111942</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">KwaZulu-Natal</regionname>
+<latitude xsi:type="xsd:float">-28.941078</latitude>
+<longitude xsi:type="xsd:float">30.823402</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Limpopo</regionname>
+<latitude xsi:type="xsd:float">-23.728308</latitude>
+<longitude xsi:type="xsd:float">29.221443</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Mpumalanga</regionname>
+<latitude xsi:type="xsd:float">-26.012638</latitude>
+<longitude xsi:type="xsd:float">30.163225</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">North-West</regionname>
+<latitude xsi:type="xsd:float">-26.369320</latitude>
+<longitude xsi:type="xsd:float">25.464561</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Northern Cape</regionname>
+<latitude xsi:type="xsd:float">-28.844969</latitude>
+<longitude xsi:type="xsd:float">21.001511</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Western Cape</regionname>
+<latitude xsi:type="xsd:float">-32.634357</latitude>
+<longitude xsi:type="xsd:float">20.980000</longitude></item></allregionslist></SOAP-ENV:regionsInfoByIanaResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+]]></actual>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0060003</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>7</index>
+            <object><![CDATA[[]regionsInfoByIana]]></object>
+            <action><![CDATA[get.nodecount]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <expected><![CDATA[]]></expected>
+            <actual><![CDATA[9]]></actual>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0730042</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>8</index>
+            <object><![CDATA[ListResponse]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0020001</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>9</index>
+            <object><![CDATA[ListResponse]]></object>
+            <action><![CDATA[val.notequal]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <expected><![CDATA[]]></expected>
+            <actual><![CDATA[zaEastern Cape-32.10620926.463432zaFree State-28.67833127.060972zaGauteng-26.02838728.111942zaKwaZulu-Natal-28.94107830.823402zaLimpopo-23.72830829.221443zaMpumalanga-26.01263830.163225zaNorth-West-26.36932025.464561zaNorthern Cape-28.84496921.001511zaWestern Cape-32.63435720.980000]]></actual>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0040003</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>10</index>
+            <object><![CDATA[ListResponse]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0020001</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>11</index>
+            <object><![CDATA[ListResponse]]></object>
+            <action><![CDATA[val.notequal]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <expected><![CDATA[]]></expected>
+            <actual><![CDATA[zaEastern Cape-32.10620926.463432zaFree State-28.67833127.060972zaGauteng-26.02838728.111942zaKwaZulu-Natal-28.94107830.823402zaLimpopo-23.72830829.221443zaMpumalanga-26.01263830.163225zaNorth-West-26.36932025.464561zaNorthern Cape-28.84496921.001511zaWestern Cape-32.63435720.980000]]></actual>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0060004</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>12</index>
+            <object><![CDATA[ListResponseItem_2]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.001</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>13</index>
+            <object><![CDATA[ListResponseItem_2]]></object>
+            <action><![CDATA[val.notequal]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <expected><![CDATA[]]></expected>
+            <actual><![CDATA[zaFree State-28.67833127.060972]]></actual>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0030002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>14</index>
+            <object><![CDATA[ListResponseItem_2_Code]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0020001</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>15</index>
+            <object><![CDATA[ListResponseItem_2_Code]]></object>
+            <action><![CDATA[val.notequal]]></action>
+            <data><![CDATA[za1]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <expected><![CDATA[za1]]></expected>
+            <actual><![CDATA[za]]></actual>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0030002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>16</index>
+            <object><![CDATA[ListResponseRegion]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0020001</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>17</index>
+            <object><![CDATA[ListResponseRegion]]></object>
+            <action><![CDATA[val]]></action>
+            <data><![CDATA[Eastern Cape]]></data>
+            <start>2011/12/05 02:26:24 PM</start>
+            <expected><![CDATA[Eastern Cape]]></expected>
+            <actual><![CDATA[Eastern Cape]]></actual>
+            <finish>2011/12/05 02:26:24 PM</finish>
+            <time>0.0040002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <finish>2011/12/05 02:26:24 PM</finish>
+          <time>1.0550603</time>
+          <result>Pass</result>
+          <success>True</success>
+          <testcount>17</testcount>
+          <passcount>17</passcount>
+          <failcount>0</failcount>
+        </subtest>
+        <finish>2011/12/05 02:26:24 PM</finish>
+        <time>1.0790618</time>
+        <result>Pass</result>
+        <success>True</success>
+        <testcount>1</testcount>
+        <passcount>1</passcount>
+        <failcount>0</failcount>
+        <index>2</index>
+      </test>
+      <test>
+        <id>Test3</id>
+        <execution_id>
+        </execution_id>
+        <table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml" />
+        <description><![CDATA[Try this]]></description>
+        <start>2011/12/05 02:26:28 PM</start>
+        <subtest>
+          <index>1</index>
+          <id>Test01</id>
+          <table name="APITest" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml" />
+          <description><![CDATA[My test]]></description>
+          <start>2011/12/05 02:26:28 PM</start>
+          <step>
+            <index>1</index>
+            <object><![CDATA[[]countryInfoByIana]]></object>
+            <action><![CDATA[load.file(countryInfoByIana.xml)]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:28 PM</start>
+            <finish>2011/12/05 02:26:28 PM</finish>
+            <time>0.0040002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>2</index>
+            <object><![CDATA[[]countryInfoByIana]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:28 PM</start>
+            <finish>2011/12/05 02:26:28 PM</finish>
+            <time>0.0050002</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>3</index>
+            <object><![CDATA[ianacode]]></object>
+            <action><![CDATA[Set]]></action>
+            <data><![CDATA[za]]></data>
+            <start>2011/12/05 02:26:28 PM</start>
+            <finish>2011/12/05 02:26:28 PM</finish>
+            <time>0.0020001</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>4</index>
+            <object><![CDATA[[]countryInfoByIana]]></object>
+            <action><![CDATA[Invoke]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:28 PM</start>
+            <finish>2011/12/05 02:26:29 PM</finish>
+            <time>0.7360421</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>5</index>
+            <object><![CDATA[ianacodeResponse]]></object>
+            <action><![CDATA[get]]></action>
+            <data><![CDATA[]]></data>
+            <start>2011/12/05 02:26:29 PM</start>
+            <finish>2011/12/05 02:26:29 PM</finish>
+            <time>0.0040003</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <step>
+            <index>6</index>
+            <object><![CDATA[ianacodeResponse]]></object>
+            <action><![CDATA[val]]></action>
+            <data><![CDATA[za]]></data>
+            <start>2011/12/05 02:26:29 PM</start>
+            <expected><![CDATA[za]]></expected>
+            <actual><![CDATA[za]]></actual>
+            <finish>2011/12/05 02:26:29 PM</finish>
+            <time>0.0090005</time>
+            <result>0</result>
+            <success>True</success>
+          </step>
+          <finish>2011/12/05 02:26:29 PM</finish>
+          <time>0.7810447</time>
+          <result>Pass</result>
+          <success>True</success>
+          <testcount>6</testcount>
+          <passcount>6</passcount>
+          <failcount>0</failcount>
+        </subtest>
+        <finish>2011/12/05 02:26:29 PM</finish>
+        <time>0.8090463</time>
+        <result>Pass</result>
+        <success>True</success>
+        <testcount>1</testcount>
+        <passcount>1</passcount>
+        <failcount>0</failcount>
+        <index>3</index>
+      </test>
       <test>
         <id>Test4</id>
         <execution_id>
         </execution_id>
         <table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml" />
         <description><![CDATA[Try Database]]></description>
-        <start>2011/12/05 12:43:35 PM</start>
+        <start>2011/12/05 02:26:32 PM</start>
         <subtest>
           <index>1</index>
           <id>Test01</id>
           <table name="SQLUser" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml" />
           <description><![CDATA[]]></description>
-          <start>2011/12/05 12:43:35 PM</start>
+          <start>2011/12/05 02:26:32 PM</start>
           <step>
             <index>1</index>
             <object><![CDATA[[]SQLUser]]></object>
             <action><![CDATA[set]]></action>
             <data><![CDATA[select * from accounts where Id in (1,2)]]></data>
-            <start>2011/12/05 12:43:35 PM</start>
-            <finish>2011/12/05 12:43:35 PM</finish>
-            <time>0.0312</time>
+            <start>2011/12/05 02:26:32 PM</start>
+            <finish>2011/12/05 02:26:33 PM</finish>
+            <time>0.0450026</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -62,9 +695,9 @@
             <object><![CDATA[[]SQLUser]]></object>
             <action><![CDATA[Invoke]]></action>
             <data><![CDATA[]]></data>
-            <start>2011/12/05 12:43:35 PM</start>
-            <finish>2011/12/05 12:43:35 PM</finish>
-            <time>0</time>
+            <start>2011/12/05 02:26:33 PM</start>
+            <finish>2011/12/05 02:26:33 PM</finish>
+            <time>0.0100006</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -73,9 +706,9 @@
             <object><![CDATA[Surname]]></object>
             <action><![CDATA[get]]></action>
             <data><![CDATA[]]></data>
-            <start>2011/12/05 12:43:35 PM</start>
-            <finish>2011/12/05 12:43:35 PM</finish>
-            <time>0.0156</time>
+            <start>2011/12/05 02:26:33 PM</start>
+            <finish>2011/12/05 02:26:33 PM</finish>
+            <time>0.0030001</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -84,11 +717,11 @@
             <object><![CDATA[Surname]]></object>
             <action><![CDATA[val]]></action>
             <data><![CDATA[]]></data>
-            <start>2011/12/05 12:43:35 PM</start>
+            <start>2011/12/05 02:26:33 PM</start>
             <expected><![CDATA[]]></expected>
             <actual><![CDATA[Kok]]></actual>
-            <finish>2011/12/05 12:43:35 PM</finish>
-            <time>0</time>
+            <finish>2011/12/05 02:26:33 PM</finish>
+            <time>0.0030001</time>
             <result>1</result>
             <success>False</success>
             <error_no>1</error_no>
@@ -99,9 +732,9 @@
             <object><![CDATA[ReturnValue]]></object>
             <action><![CDATA[get]]></action>
             <data><![CDATA[]]></data>
-            <start>2011/12/05 12:43:35 PM</start>
-            <finish>2011/12/05 12:43:35 PM</finish>
-            <time>0</time>
+            <start>2011/12/05 02:26:33 PM</start>
+            <finish>2011/12/05 02:26:33 PM</finish>
+            <time>0.0030002</time>
             <result>0</result>
             <success>True</success>
           </step>
@@ -110,32 +743,32 @@
             <object><![CDATA[ReturnValue]]></object>
             <action><![CDATA[val]]></action>
             <data><![CDATA[]]></data>
-            <start>2011/12/05 12:43:35 PM</start>
+            <start>2011/12/05 02:26:33 PM</start>
             <expected><![CDATA[]]></expected>
             <actual><![CDATA[<NewDataSet><Table><Id>1</Id><Name>Jaco</Name><Surname>Kok</Surname></Table><Table><Id>2</Id><Name>Koos</Name><Surname>Van Der Merwe</Surname></Table></NewDataSet>]]></actual>
-            <finish>2011/12/05 12:43:35 PM</finish>
-            <time>0</time>
+            <finish>2011/12/05 02:26:33 PM</finish>
+            <time>0.0030002</time>
             <result>1</result>
             <success>False</success>
             <error_no>1</error_no>
             <error_msg><![CDATA[]]></error_msg>
           </step>
-          <finish>2011/12/05 12:43:35 PM</finish>
-          <time>0.0624001</time>
+          <finish>2011/12/05 02:26:33 PM</finish>
+          <time>0.1180068</time>
           <result>Fail</result>
           <success>False</success>
           <testcount>6</testcount>
           <passcount>4</passcount>
           <failcount>2</failcount>
         </subtest>
-        <finish>2011/12/05 12:43:35 PM</finish>
-        <time>0.0780002</time>
+        <finish>2011/12/05 02:26:33 PM</finish>
+        <time>0.1410081</time>
         <result>Fail</result>
         <success>False</success>
         <testcount>1</testcount>
         <passcount>0</passcount>
         <failcount>1</failcount>
-        <index>1</index>
+        <index>4</index>
       </test>
     </run>
   </build>

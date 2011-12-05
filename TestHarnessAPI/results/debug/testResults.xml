@@ -1,59 +1,59 @@
-<?xml version="1.0" ?><test><id>Test4</id><execution_id></execution_id><table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><description><![CDATA[Try Database]]></description><start>2011/12/05 12:43:35 PM</start>
-<subtest><index>1</index><id>Test01</id><table name="SQLUser" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><description><![CDATA[]]></description><start>2011/12/05 12:43:35 PM</start>
-<step><index>1</index><object><![CDATA[[]SQLUser]]></object><action><![CDATA[set]]></action><data><![CDATA[select * from accounts where Id in (1,2)]]></data><start>2011/12/05 12:43:35 PM</start>
-<finish>2011/12/05 12:43:35 PM</finish>
-<time>0.0312</time>
+<?xml version="1.0" ?><test><id>Test4</id><execution_id></execution_id><table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><description><![CDATA[Try Database]]></description><start>2011/12/05 02:26:32 PM</start>
+<subtest><index>1</index><id>Test01</id><table name="SQLUser" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><description><![CDATA[]]></description><start>2011/12/05 02:26:32 PM</start>
+<step><index>1</index><object><![CDATA[[]SQLUser]]></object><action><![CDATA[set]]></action><data><![CDATA[select * from accounts where Id in (1,2)]]></data><start>2011/12/05 02:26:32 PM</start>
+<finish>2011/12/05 02:26:33 PM</finish>
+<time>0.0450026</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>2</index><object><![CDATA[[]SQLUser]]></object><action><![CDATA[Invoke]]></action><data><![CDATA[]]></data><start>2011/12/05 12:43:35 PM</start>
-<finish>2011/12/05 12:43:35 PM</finish>
-<time>0</time>
+<step><index>2</index><object><![CDATA[[]SQLUser]]></object><action><![CDATA[Invoke]]></action><data><![CDATA[]]></data><start>2011/12/05 02:26:33 PM</start>
+<finish>2011/12/05 02:26:33 PM</finish>
+<time>0.0100006</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>3</index><object><![CDATA[Surname]]></object><action><![CDATA[get]]></action><data><![CDATA[]]></data><start>2011/12/05 12:43:35 PM</start>
-<finish>2011/12/05 12:43:35 PM</finish>
-<time>0.0156</time>
+<step><index>3</index><object><![CDATA[Surname]]></object><action><![CDATA[get]]></action><data><![CDATA[]]></data><start>2011/12/05 02:26:33 PM</start>
+<finish>2011/12/05 02:26:33 PM</finish>
+<time>0.0030001</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>4</index><object><![CDATA[Surname]]></object><action><![CDATA[val]]></action><data><![CDATA[]]></data><start>2011/12/05 12:43:35 PM</start>
+<step><index>4</index><object><![CDATA[Surname]]></object><action><![CDATA[val]]></action><data><![CDATA[]]></data><start>2011/12/05 02:26:33 PM</start>
 <expected><![CDATA[]]></expected>
 <actual><![CDATA[Kok]]></actual>
-<finish>2011/12/05 12:43:35 PM</finish>
-<time>0</time>
+<finish>2011/12/05 02:26:33 PM</finish>
+<time>0.0030001</time>
 <result>1</result>
 <success>False</success>
 <error_no>1</error_no>
 <error_msg><![CDATA[]]></error_msg>
 </step>
-<step><index>5</index><object><![CDATA[ReturnValue]]></object><action><![CDATA[get]]></action><data><![CDATA[]]></data><start>2011/12/05 12:43:35 PM</start>
-<finish>2011/12/05 12:43:35 PM</finish>
-<time>0</time>
+<step><index>5</index><object><![CDATA[ReturnValue]]></object><action><![CDATA[get]]></action><data><![CDATA[]]></data><start>2011/12/05 02:26:33 PM</start>
+<finish>2011/12/05 02:26:33 PM</finish>
+<time>0.0030002</time>
 <result>0</result>
 <success>True</success>
 </step>
-<step><index>6</index><object><![CDATA[ReturnValue]]></object><action><![CDATA[val]]></action><data><![CDATA[]]></data><start>2011/12/05 12:43:35 PM</start>
+<step><index>6</index><object><![CDATA[ReturnValue]]></object><action><![CDATA[val]]></action><data><![CDATA[]]></data><start>2011/12/05 02:26:33 PM</start>
 <expected><![CDATA[]]></expected>
 <actual><![CDATA[<NewDataSet><Table><Id>1</Id><Name>Jaco</Name><Surname>Kok</Surname></Table><Table><Id>2</Id><Name>Koos</Name><Surname>Van Der Merwe</Surname></Table></NewDataSet>]]></actual>
-<finish>2011/12/05 12:43:35 PM</finish>
-<time>0</time>
+<finish>2011/12/05 02:26:33 PM</finish>
+<time>0.0030002</time>
 <result>1</result>
 <success>False</success>
 <error_no>1</error_no>
 <error_msg><![CDATA[]]></error_msg>
 </step>
-<finish>2011/12/05 12:43:35 PM</finish>
-<time>0.0624001</time>
+<finish>2011/12/05 02:26:33 PM</finish>
+<time>0.1180068</time>
 <result>Fail</result>
 <success>False</success>
 <testcount>6</testcount>
 <passcount>4</passcount>
 <failcount>2</failcount>
 </subtest>
-<finish>2011/12/05 12:43:35 PM</finish>
-<time>0.0780002</time>
+<finish>2011/12/05 02:26:33 PM</finish>
+<time>0.1410081</time>
 <result>Fail</result>
 <success>False</success>
 <testcount>1</testcount>

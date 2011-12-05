@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:ns4="urn:countries.webservice.mobilefish.com"
+ SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:regionsInfoByIanaResponse>
+<allregionslist xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="ns4:RegionsData[9]">
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Eastern Cape</regionname>
+<latitude xsi:type="xsd:float">-32.106209</latitude>
+<longitude xsi:type="xsd:float">26.463432</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Free State</regionname>
+<latitude xsi:type="xsd:float">-28.678331</latitude>
+<longitude xsi:type="xsd:float">27.060972</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Gauteng</regionname>
+<latitude xsi:type="xsd:float">-26.028387</latitude>
+<longitude xsi:type="xsd:float">28.111942</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">KwaZulu-Natal</regionname>
+<latitude xsi:type="xsd:float">-28.941078</latitude>
+<longitude xsi:type="xsd:float">30.823402</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Limpopo</regionname>
+<latitude xsi:type="xsd:float">-23.728308</latitude>
+<longitude xsi:type="xsd:float">29.221443</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Mpumalanga</regionname>
+<latitude xsi:type="xsd:float">-26.012638</latitude>
+<longitude xsi:type="xsd:float">30.163225</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">North-West</regionname>
+<latitude xsi:type="xsd:float">-26.369320</latitude>
+<longitude xsi:type="xsd:float">25.464561</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Northern Cape</regionname>
+<latitude xsi:type="xsd:float">-28.844969</latitude>
+<longitude xsi:type="xsd:float">21.001511</longitude></item>
+<item>
+<ianacode xsi:type="xsd:string">za</ianacode>
+<regionname xsi:type="xsd:string">Western Cape</regionname>
+<latitude xsi:type="xsd:float">-32.634357</latitude>
+<longitude xsi:type="xsd:float">20.980000</longitude></item></allregionslist></SOAP-ENV:regionsInfoByIanaResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

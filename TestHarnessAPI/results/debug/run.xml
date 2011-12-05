@@ -4,6 +4,9 @@
   <Option Name="RunConfiguration" Value="C:\AXE_Projects\TestHarnessAPI\config\Generic.RunConfig.xml" />
   <Option Name="RunName" Value="" />
   <Tests>
+    <Test>Test1</Test>
+    <Test>Test2</Test>
+    <Test>Test3</Test>
     <Test>Test4</Test>
   </Tests>
 </RunSettings>

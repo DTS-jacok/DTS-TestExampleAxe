@@ -3,14 +3,14 @@ Axe Build Log
 
 Axe Version: 3.3.0.340
 
-2011/12/05 12:43:28 PM
+2011/12/05 02:25:47 PM
 
 Test project:  C:\AXE_Projects\TestHarnessAPI\TestHarnessAPI.tpj
 Test Suite:    debug
 Configuration: RFT
 Workbook:      Tests
 Worksheet:     Tests
-Tests:         1 test(s)
+Tests:         4 test(s)
 
 --------------------
 
@@ -28,11 +28,20 @@ ActionMap load C:\AXE_Projects\TestHarnessAPI\ActionMap\TestHarnessAPI.ActionMap
 INFO: Action value overridden -- ._TESTINIT.0
 INFO: Action value overridden -- ._TESTPREFIX.0
 
+Test:     Test1 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: Tests)
+Sub-test: countryInfoByIana - Test01 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: countryInfoByIana)
+
+Test:     Test2 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: Tests)
+Sub-test: regionsInfoByIana - Test02 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: regionsInfoByIana)
+
+Test:     Test3 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: Tests)
+Sub-test: APITest - Test01 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: APITest)
+
 Test:     Test4 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: Tests)
 Sub-test: SQLUser - Test01 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.xml Worksheet: SQLUser)
 Build completed OK
 Errors: 0 Warnings: 0 Informational: 7
-1 test(s) built successfully
-2011/12/05 12:43:28 PM
+4 test(s) built successfully
+2011/12/05 02:25:47 PM
 
 End

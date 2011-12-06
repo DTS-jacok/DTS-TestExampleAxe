@@ -1,5 +1,5 @@
-// Test4
-// C:/AXE_Projects/TestHarnessAPI/data/Tests.xml:Tests Test4
+// Test5
+// C:/AXE_Projects/TestHarnessAPI/data/Tests.xml:Tests Test5
 package axe;
 import objectmap.objectmap;
 import resources.axe.*;
@@ -28,7 +28,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 
 
-public class Test4 extends Test4Helper
+public class Test5 extends Test5Helper
 
 {
 
@@ -42,14 +42,18 @@ public class Test4 extends Test4Helper
  
 
 
-			Dispatch.call(axe, "TestBegin", "Test4" ,"Try Database connect 1 - jaco", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
+			Dispatch.call(axe, "TestBegin", "Test5" ,"Try Database connect 2 - jaco", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
 			try
 			{
 // 
-// C:/AXE_Projects/TestHarnessAPI/data/Tests.xml:SQLUser Test01
-				Dispatch.call(axe, "SubtestBegin", "Test01", "", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "SQLUser");
-				Dispatch.call(axe, "StepBegin", "[]SQLUser", "set", "select * from accounts where Id in (1,2)");  Dispatch.put(axe, "ResultCode", 0);
-				Dispatch.call(harness, "DbInitialiseQuery", Dispatch.call(axe, "GetRunCategoryOption", "connection", "MySqlLocal"),  Dispatch.call(axe, "GetRunCategoryOptionProperty", "connection", "MySqlLocal", "provider"), "select * from accounts where Id in (1,2)", "System.Data.DataSet");
+// C:/AXE_Projects/TestHarnessAPI/data/Tests.xml:SQLUser Test02
+				Dispatch.call(axe, "SubtestBegin", "Test02", "", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "SQLUser");
+				Dispatch.call(axe, "StepBegin", "[]SQLUser", "set", "select * from accounts where Id = %Id%");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.call(harness, "DbInitialiseQuery", Dispatch.call(axe, "GetRunCategoryOption", "connection", "MySqlLocal"),  Dispatch.call(axe, "GetRunCategoryOptionProperty", "connection", "MySqlLocal", "provider"), "select * from accounts where Id = %Id%", "System.Data.DataSet");
+				axeStepEnd();
+
+				Dispatch.call(axe, "StepBegin", "Id", "set", "2");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.call(harness, "DbSetParameter", "Id", "2");
 				axeStepEnd();
 
 				Dispatch.call(axe, "StepBegin", "[]SQLUser", "Invoke", "");  Dispatch.put(axe, "ResultCode", 0);
@@ -60,8 +64,8 @@ public class Test4 extends Test4Helper
 				Dispatch.put(axe, "Value",  Dispatch.call(harness, "DbGetResultNodeText", "//Surname", false));
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "Surname", "val", "");  Dispatch.put(axe, "ResultCode", 0);
-				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "", Dispatch.get(axe, "Value")));
+				Dispatch.call(axe, "StepBegin", "Surname", "val", "Kok");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "Kok", Dispatch.get(axe, "Value")));
 				axeStepEnd();
 				Dispatch.call(axe, "StepBegin", "ReturnValue", "get", "");  Dispatch.put(axe, "ResultCode", 0);
 				Dispatch.put(axe, "Value",  Dispatch.call(harness, "DbGetResult"));

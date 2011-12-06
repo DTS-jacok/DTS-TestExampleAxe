@@ -3,7 +3,7 @@ Axe Build Log
 
 Axe Version: 3.3.0.340
 
-2011/12/06 09:02:41 AM
+2011/12/06 09:46:51 AM
 
 Test project:  C:\AXE_Projects\TestHarnessAPI\TestHarnessAPI.tpj
 Test Suite:    debug
@@ -45,6 +45,6 @@ Sub-test: SQLUser - Test02 (Workbook: C:\AXE_Projects\TestHarnessAPI\data\Tests.
 Build completed OK
 Errors: 0 Warnings: 0 Informational: 7
 5 test(s) built successfully
-2011/12/06 09:02:41 AM
+2011/12/06 09:46:51 AM
 
 End

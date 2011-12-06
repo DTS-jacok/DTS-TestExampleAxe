@@ -6,12 +6,12 @@
     <id>
     </id>
     <config file="C:\AXE_Projects\TestHarnessAPI\config\RFT.BuildConfig.xml" name="RFT" />
-    <buildtimestamp>2011/12/06 09:02:41 AM</buildtimestamp>
+    <buildtimestamp>2011/12/06 09:46:51 AM</buildtimestamp>
     <run_master>
       <test>
         <index>1</index>
         <id>Test1</id>
-        <description>Get Country code details</description>
+        <description>Get Country code details - huh</description>
         <result>NotRun</result>
       </test>
       <test>

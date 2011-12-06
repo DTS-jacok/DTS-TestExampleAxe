@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<test><projectname>TestHarnessAPI</projectname><configuration>RFT</configuration><buildtimestamp>2011/12/06 09:02:41 AM</buildtimestamp><id>Test5</id><table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml</resultfile><description>Try Database connect 2</description> 
+<test><projectname>TestHarnessAPI</projectname><configuration>RFT</configuration><buildtimestamp>2011/12/06 09:46:51 AM</buildtimestamp><id>Test5</id><table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml</resultfile><description>Try Database connect 2</description> 
 <subtest><id>Test02</id><table name="SQLUser" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><description></description> 
 <step type="Set"><object>[]SQLUser</object><action>set</action><data>select * from accounts where Id = %Id%</data><description>
 Set content of the &quot;SQLUser&quot; SQL query to &quot;select * from accounts where Id = %Id%&quot;

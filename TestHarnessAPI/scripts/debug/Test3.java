@@ -42,7 +42,7 @@ public class Test3 extends Test3Helper
  
 
 
-			Dispatch.call(axe, "TestBegin", "Test3" ,"Try this - jaco", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
+			Dispatch.call(axe, "TestBegin", "Test3" ,"Try this", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
 			try
 			{
 // 

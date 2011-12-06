@@ -6,36 +6,36 @@
     <id>
     </id>
     <config file="C:\AXE_Projects\TestHarnessAPI\config\RFT.BuildConfig.xml" name="RFT" />
-    <buildtimestamp>2011/12/06 08:53:28 AM</buildtimestamp>
+    <buildtimestamp>2011/12/06 09:02:41 AM</buildtimestamp>
     <run_master>
       <test>
         <index>1</index>
         <id>Test1</id>
-        <description>Get Country code details - jaco</description>
+        <description>Get Country code details</description>
         <result>NotRun</result>
       </test>
       <test>
         <index>2</index>
         <id>Test2</id>
-        <description>Get a multi return from regions - jaco</description>
+        <description>Get a multi return from regions</description>
         <result>NotRun</result>
       </test>
       <test>
         <index>3</index>
         <id>Test3</id>
-        <description>Try this - jaco</description>
+        <description>Try this</description>
         <result>NotRun</result>
       </test>
       <test>
         <index>4</index>
         <id>Test4</id>
-        <description>Try Database connect 1 - jaco</description>
+        <description>Try Database connect 1</description>
         <result>NotRun</result>
       </test>
       <test>
         <index>5</index>
         <id>Test5</id>
-        <description>Try Database connect 2 - jaco</description>
+        <description>Try Database connect 2</description>
         <result>NotRun</result>
       </test>
       <testcount>5</testcount>

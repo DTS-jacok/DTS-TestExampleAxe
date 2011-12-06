@@ -42,7 +42,7 @@ public class Test2 extends Test2Helper
  
 
 
-			Dispatch.call(axe, "TestBegin", "Test2" ,"Get a multi return from regions - jaco", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
+			Dispatch.call(axe, "TestBegin", "Test2" ,"Get a multi return from regions", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
 			try
 			{
 // 

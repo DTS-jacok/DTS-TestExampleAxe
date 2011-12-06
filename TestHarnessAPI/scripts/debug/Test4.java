@@ -42,7 +42,7 @@ public class Test4 extends Test4Helper
  
 
 
-			Dispatch.call(axe, "TestBegin", "Test4" ,"Try Database connect 1 - jaco", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
+			Dispatch.call(axe, "TestBegin", "Test4" ,"Try Database connect 1", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
 			try
 			{
 // 

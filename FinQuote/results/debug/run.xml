@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<RunSettings>
-  <Option Name="CheckDependency" Value="True" />
-  <Option Name="RunConfiguration" Value="C:\AXE_Projects\FinQuote\config\Generic.RunConfig.xml" />
-  <Option Name="RunName" Value="" />
-  <Tests>
-    <Test>Test</Test>
-  </Tests>
-</RunSettings>

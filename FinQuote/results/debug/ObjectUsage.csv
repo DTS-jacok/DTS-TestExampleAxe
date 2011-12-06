@@ -1,9 +1,0 @@
-C:\RFT_Workspace\FinQuote\resources\ObjectMap\ObjectMap.rftdef,FinQuoteHome,3,Html.HtmlDocument
-C:\RFT_Workspace\FinQuote\resources\ObjectMap\ObjectMap.rftdef,FinQuoteHome.btncalculatebutton,1,Html.INPUT.button
-C:\RFT_Workspace\FinQuote\resources\ObjectMap\ObjectMap.rftdef,FinQuoteHome.btnclearForm,1,Html.INPUT.button
-C:\RFT_Workspace\FinQuote\resources\ObjectMap\ObjectMap.rftdef,FinQuoteHome.btnOkButton,1,.Pushbutton
-C:\RFT_Workspace\FinQuote\resources\ObjectMap\ObjectMap.rftdef,FinQuoteHome.msgErrorwindow,1,WinError
-C:\RFT_Workspace\FinQuote\resources\ObjectMap\ObjectMap.rftdef,FinQuoteHome.txtDeposit,1,Html.INPUT.text
-C:\RFT_Workspace\FinQuote\resources\ObjectMap\ObjectMap.rftdef,FinQuoteHome.txtFinAmount,2,Html.INPUT.text
-C:\RFT_Workspace\FinQuote\resources\ObjectMap\ObjectMap.rftdef,FinQuoteHome.txtPurPrice,1,Html.INPUT.text
-C:\RFT_Workspace\FinQuote\resources\ObjectMap\ObjectMap.rftdef,FinQuoteHome.txtValExtras,2,Html.INPUT.text

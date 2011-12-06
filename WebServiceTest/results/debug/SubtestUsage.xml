@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<subtest_coverage>
-<project>WebServiceTest</project>
-<config file="C:\AXE_Projects\WebServiceTest\config\AxeHarness.BuildConfig.xml" name="AxeHarness.BuildConfig"/>
-<testsuite>debug</testsuite>
-<subtest><name>Tests:SQLUser:Test01</name><count>1</count></subtest>
-</subtest_coverage>

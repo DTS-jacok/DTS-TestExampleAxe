@@ -237,10 +237,12 @@
     <Cell ss:StyleID="s72"><Data ss:Type="String">//Surname</Data></Cell>
    </Row>
    <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">SQLUser.IdReturn</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">DbResultNode</Data></Cell>
     <Cell ss:Index="5" ss:StyleID="s63"/>
     <Cell ss:StyleID="s63"/>
     <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">//Id</Data></Cell>
    </Row>
    <Row>
     <Cell ss:Index="5" ss:StyleID="s63"/>
@@ -263,6 +265,7 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
+   <LeftColumnVisible>1</LeftColumnVisible>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -275,7 +278,7 @@
     <Pane>
      <Number>2</Number>
      <ActiveRow>27</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveCol>7</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

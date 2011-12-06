@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<test><projectname>TestHarnessAPI</projectname><configuration>RFT</configuration><buildtimestamp>2011/12/05 02:25:47 PM</buildtimestamp><id>Test4</id><table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml</resultfile><description>Try Database</description> 
+<test><projectname>TestHarnessAPI</projectname><configuration>RFT</configuration><buildtimestamp>2011/12/06 07:55:22 AM</buildtimestamp><id>Test4</id><table name="Tests" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><resultfile>C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml</resultfile><description>Try Database connect 1</description> 
 <subtest><id>Test01</id><table name="SQLUser" file="C:/AXE_Projects/TestHarnessAPI/data/Tests.xml"/><description></description> 
 <step type="Set"><object>[]SQLUser</object><action>set</action><data>select * from accounts where Id in (1,2)</data><description>
 Set content of the &quot;SQLUser&quot; SQL query to &quot;select * from accounts where Id in (1,2)&quot;
@@ -19,5 +19,13 @@ Get result of SQLUser query
 <step type="Val"><object>ReturnValue</object><action>val</action><data></data><description>
 Check the obtained value matches the expected value
 </description></step>
+<step type="Get"><object>IdReturn</object><action>get</action><data></data><description>
+Get result of the &quot;IdReturn&quot; query, xpath=//Id$
+</description></step>
+<step type="Val"><object>IdReturn</object><action>val</action><data></data><description>
+Check the obtained value matches the expected value
+</description></step>
+<step type="Get"><object>IdReturn[]</object><action>get</action><data></data><description>
+<step type="Val"><object>IdReturn[]</object><action>val</action><data></data><description>
 </subtest>
 </test>

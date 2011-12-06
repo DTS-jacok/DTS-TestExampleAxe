@@ -42,7 +42,7 @@ public class Test4 extends Test4Helper
  
 
 
-			Dispatch.call(axe, "TestBegin", "Test4" ,"Try Database", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
+			Dispatch.call(axe, "TestBegin", "Test4" ,"Try Database connect 1", "C:/AXE_Projects/TestHarnessAPI/data/Tests.xml", "Tests", "C:/AXE_Projects/TestHarnessAPI/results/debug/results.xml","");
 			try
 			{
 // 
@@ -70,6 +70,15 @@ public class Test4 extends Test4Helper
 				Dispatch.call(axe, "StepBegin", "ReturnValue", "val", "");  Dispatch.put(axe, "ResultCode", 0);
 				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "", Dispatch.get(axe, "Value")));
 				axeStepEnd();
+				Dispatch.call(axe, "StepBegin", "IdReturn", "get", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "Value",  Dispatch.call(harness, "DbGetResultNodeText", "//Id$", false));
+				axeStepEnd();
+
+				Dispatch.call(axe, "StepBegin", "IdReturn", "val", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.put(axe, "ResultCode", Dispatch.call(axe, "StepValidateEqual", "", Dispatch.get(axe, "Value")));
+				axeStepEnd();
+				Dispatch.call(axe, "StepBegin", "IdReturn[]", "get", "");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.call(axe, "StepBegin", "IdReturn[]", "val", "");  Dispatch.put(axe, "ResultCode", 0);
 				axeSubtestEnd();
 // 
 // 

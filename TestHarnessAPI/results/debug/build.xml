@@ -2,7 +2,7 @@
 <Build>
   <AxeVersion>3.3.0.340</AxeVersion>
   <Project>C:\AXE_Projects\TestHarnessAPI\TestHarnessAPI.tpj</Project>
-  <Time>2011/12/05 02:25:47 PM</Time>
+  <Time>2011/12/06 07:55:22 AM</Time>
   <MachineName>JACO-PC</MachineName>
   <UserName>Jaco</UserName>
   <Settings>
@@ -10,7 +10,7 @@
     <TestSuite>debug</TestSuite>
     <Workbook>Tests</Workbook>
     <Worksheet>Tests</Worksheet>
-    <Tests>4</Tests>
+    <Tests>1</Tests>
   </Settings>
   <Configuration>
     <Tool>RFT</Tool>

@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
 <driver>
-<test>Test1</test>
-<test>Test2</test>
-<test>Test3</test>
 <test>Test4</test>
 </driver>
